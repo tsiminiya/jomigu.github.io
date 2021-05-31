@@ -1,0 +1,35 @@
+:root {
+    --jomigu-color-1: #0cc;
+    --jomigu-color-2: #f6c;
+}
+
+@font-face {
+    font-family: SourceCodePro, monospace;
+    src: url(~assets/fonts/SourceCodePro-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Happy Monkey', monospace;
+    src: url(~assets/fonts/HappyMonkey-Regular.ttf);
+}
+
+header {
+    margin: 0;
+}
+
+.bg-jomigu {
+    background: var(--jomigu-color-2);
+}
+
+.banner {
+    width: 100%;
+}
+
+.title {
+    font-family: 'Happy Monkey', monospace;
+}
+
+.greetings {
+    font-family: SourceCodePro, monospace;
+    color: var(--jomigu-color-2);
+}
