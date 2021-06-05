@@ -34,7 +34,7 @@ export default {
             { property: 'og:type', content: 'page' },
             { property: 'og:title', content: 'Jomigu Online Shop' },
             { property: 'og:description', content: 'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.' },
-            { property: 'og:image', content: featured },
+            { property: 'og:image', content: `https://shop.jomigu.com${featured}` },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
