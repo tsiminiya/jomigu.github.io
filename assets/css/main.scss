@@ -1,6 +1,6 @@
 :root {
-    --jomigu-color-1: #0cc;
-    --jomigu-color-2: #f6c;
+    --jomigu-color-1: #f6c;
+    --jomigu-color-2: #0cc;
 }
 
 @font-face {
@@ -18,11 +18,19 @@ header {
 }
 
 .bg-jomigu {
+    background: var(--jomigu-color-1);
+}
+
+.bg-jomigu-2 {
     background: var(--jomigu-color-2);
 }
 
-.banner {
+.banner, .banner-stretched {
     width: 100%;
+}
+
+.banner-stretched {
+    height: 100%;
 }
 
 .title {
@@ -31,5 +39,26 @@ header {
 
 .greetings {
     font-family: SourceCodePro, monospace;
-    color: var(--jomigu-color-2);
+    color: var(--jomigu-color-1);
+}
+
+.shops, .sites {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+ul.shops > li, ul.sites > li {
+    display: inline-block;
+    padding: 10px 10px 0;
+}
+
+ul.shops > li > span,
+ul.sites > li > span {
+    font-weight: bold;
+}
+
+ul.shops > li > p > a,
+ul.sites > li > p > a {
+    color: #000;
 }

@@ -1,7 +1,7 @@
 <template>
     <div>
         <ul>
-            <li v-for="product in products" :key="product.title">
+            <li v-for="product in products" :key="product.id">
                 {{ product.title }}
             </li>
         </ul>
