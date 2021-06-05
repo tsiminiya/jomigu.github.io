@@ -21,5 +21,22 @@
 </template>
 
 <script>
-export default {}
+import featured from '../assets/images/banners/featuring-the-bible-in-52-weeks.png';
+
+export default {
+    head: {
+        title: 'Jomigu Online Shop',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: '' },
+            { property: 'og:url', content: 'https://shop.jomigu.com' },
+            { property: 'og:type', content: 'page' },
+            { property: 'og:title', content: 'Jomigu Online Shop' },
+            { property: 'og:description', content: 'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.' },
+            { property: 'og:image', content: featured },
+        ],
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
+}
 </script>
