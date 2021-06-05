@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="container mt-3">
-            <div class="bg-light rounded">
-                <h1 class="title pt-4 px-4">Hello There!</h1>
-                <p class="greetings pb-4 px-4">Welcome to Jomigu!</p>
+            <div class="bg-light rounded text-center">
+                <h1 class="title pt-3 px-3">Hello There!</h1>
+                <p class="greetings pb-3 px-3">Welcome to Jomigu!</p>
             </div>
             <div class="row">
                 <div class="col-md-8 mb-2">

@@ -6,17 +6,17 @@
                 <li v-for="shop in shops" :key="shop.id">
                     <p>
                         <a :href="shop.url">
-                            <img :src="shop.image" />
+                            <img :src="require(`~/assets/images/shops/${shop.image}`)" />
                         </a>
                     </p>
                 </li>
             </ul>
             <ul class="sites">
                 <li v-for="site in sites" :key="site.id">
-                    <span>{{ site.name }}</span>
                     <p>
                         <a :href="site.url">
-                            {{ site.url }}
+                            <i :class="`bi-${site.icon}`"></i>
+                            <span>{{ site.name }}</span>
                         </a>
                     </p>
                 </li>

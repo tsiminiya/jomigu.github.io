@@ -1,3 +1,5 @@
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
 :root {
     --jomigu-color-1: #f6c;
     --jomigu-color-2: #0cc;
@@ -45,6 +47,7 @@ header {
 .shops, .sites {
     list-style: none;
     text-align: center;
+    float: center;
     padding-left: 0;
 }
 
@@ -61,4 +64,12 @@ ul.sites > li > span {
 ul.shops > li > p > a,
 ul.sites > li > p > a {
     color: #000;
+}
+
+ul.shops > li > p > a > img {
+    width: 70%;
+}
+
+ul.sites > li > p {
+    font-size: larger;
 }
