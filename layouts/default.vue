@@ -1,9 +1,9 @@
 <template>
-    <main>
-        <Header />
-        <Nuxt />
-        <Footer />
-    </main>
+  <main>
+    <Header />
+    <Nuxt />
+    <Footer />
+  </main>
 </template>
 
 <script>

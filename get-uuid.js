@@ -1,2 +1,2 @@
-const uuid = require('uuid');
-console.log(uuid.v4());
+const uuid = require('uuid')
+process.stdout.write(uuid.v4())

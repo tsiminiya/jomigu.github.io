@@ -5,6 +5,10 @@
     --jomigu-color-2: #0cc;
 }
 
+html {
+    background-color: var(--jomigu-color-1);
+}
+
 @font-face {
     font-family: SourceCodePro, monospace;
     src: url(~assets/fonts/SourceCodePro-Italic.ttf);
