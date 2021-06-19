@@ -27,50 +27,63 @@
 import featured from '../assets/images/banners/featuring-the-bible-in-52-weeks.png'
 
 export default {
-  metaInfo: {
-    title: 'Jomigu Online Shop',
-    meta: [
-      {
-        charset: 'utf-8',
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
-      },
-      {
-        hid: 'og:url',
-        property: 'og:url',
-        content: 'https://shop.jomigu.com',
-      },
-      {
-        hid: 'og:type',
-        property: 'og:type',
-        content: 'page',
-      },
-      {
-        hid: 'og:title',
-        property: 'og:title',
-        content: 'Jomigu Online Shop',
-      },
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content:
-          'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
-      },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: `https://shop.jomigu.com${featured}`,
-      },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  head() {
+    return {
+      title: 'Jomigu Online Shop',
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      meta: [
+        {
+          charset: 'utf-8',
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1',
+        },
+        {
+          vmid: 'description',
+          hid: 'description',
+          name: 'description',
+          content:
+            'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+        },
+        {
+          vmid: 'og:url',
+          hid: 'og:url',
+          name: 'og:url',
+          property: 'og:url',
+          content: 'https://shop.jomigu.com',
+        },
+        {
+          vmid: 'og:type',
+          hid: 'og:type',
+          name: 'og:type',
+          property: 'og:type',
+          content: 'page',
+        },
+        {
+          vmid: 'og:title',
+          hid: 'og:title',
+          name: 'og:title',
+          property: 'og:title',
+          content: 'Jomigu Online Shop',
+        },
+        {
+          vmid: 'og:description',
+          hid: 'og:description',
+          name: 'og:description',
+          property: 'og:description',
+          content:
+            'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+        },
+        {
+          vmid: 'og:image',
+          hid: 'og:image',
+          name: 'og:image',
+          property: 'og:image',
+          content: `https://shop.jomigu.com${featured}`,
+        },
+      ],
+    }
   },
 }
 </script>
