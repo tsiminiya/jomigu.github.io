@@ -8,14 +8,30 @@
         <span class="title">Online Shop</span>
       </li>
       <li class="header-follow-link">
-        <span>Follow us @</span>
-        <a href="https://www.facebook.com/jomiguonlineshop" class="facebook">
-          <i class="bi-facebook"></i>
-        </a>
-        <a href="https://instagram.com/jomiguonlineshop" class="instagram">
-          <i class="bi-instagram"></i>
+        <span class="follow-us-at">Follow us @</span>
+        <a
+          v-for="site in sites"
+          :key="site.id"
+          :href="site.url"
+          :class="site.style"
+        >
+          <i :class="`bi-${site.icon}`"></i>
         </a>
       </li>
     </ul>
   </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      sites: [],
+    }
+  },
+
+  async fetch() {
+    this.sites = await this.$content('social-media').fetch()
+  },
+}
+</script>

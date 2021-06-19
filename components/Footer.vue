@@ -15,7 +15,7 @@
         <li v-for="site in sites" :key="site.id">
           <p>
             <a :href="site.url">
-              <i :class="`bi-${site.icon}`"></i>
+              <i :class="`bi-${site.icon} ${site.style}`"></i>
               <span>{{ site.name }}</span>
             </a>
           </p>

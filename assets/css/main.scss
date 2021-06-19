@@ -40,6 +40,26 @@ html {
     color: var(--jomigu-color-1);
 }
 
+ul.categories {
+    padding: 18px 5px 15px;
+    text-align: center;
+    background-color: #ccc;
+
+    li {
+        display: inline-block;
+        list-style: none;
+
+        a {
+            font-size: xx-small;
+            color: #000;
+
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+
 ul.shops {
     list-style: none;
     text-align: center;
@@ -91,6 +111,16 @@ ul.sites {
                 img {
                     width: 70%;
                 }
+
+                i {
+                    &.facebook {
+                        color: #00f;
+                    }
+
+                    &.instagram {
+                        color: #f00;
+                    }
+                }
             }
         }
     }
@@ -118,7 +148,7 @@ header {
             &.logo-container {
                 .logo {
                     float: left;
-                    width: 50px;
+                    width: 60px;
                 }       
             }
 
@@ -126,12 +156,20 @@ header {
                 margin-right: 5px;
                 float: right;
 
-                .facebook {
-                    color: #00f;
+                .follow-us-at {
+                    font-stretch: condensed;
                 }
 
-                .instagram {
-                    color: #f00;
+                a {
+                    margin-left: 5px;
+
+                    &.facebook {
+                        color: #00f;
+                    }
+    
+                    &.instagram {
+                        color: #f00;
+                    }
                 }
             }
         }

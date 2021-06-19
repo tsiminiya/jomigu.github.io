@@ -1,26 +1,13 @@
 <template>
   <div>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-md-8 mb-2">
-          <img src="~/assets/images/banners/jomigu-6.6.png" class="banner" />
-        </div>
-        <div class="col-md-4 mb-2">
-          <a href="https://s.lazada.com.ph/s.2l1kU">
-            <img
-              src="~/assets/images/banners/featuring-the-bible-in-52-weeks.png"
-              class="banner-stretched"
-            />
-          </a>
-        </div>
-      </div>
-      <AllProducts />
-    </div>
+    <Banners />
+    <Categories />
+    <AllProducts />
   </div>
 </template>
 
 <script>
-import featured from '../assets/images/banners/featuring-the-bible-in-52-weeks.png'
+import featured from '../assets/images/sharing/facebook-sharing-image-june-2021.png'
 
 export default {
   head() {
