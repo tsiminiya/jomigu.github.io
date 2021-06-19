@@ -28,8 +28,10 @@ import featured from '../assets/images/banners/featuring-the-bible-in-52-weeks.p
 
 export default {
   head() {
+    console.log('Hello!')
+
     return {
-      title: 'Jomigu Online Shop',
+      title: 'Jomigu Online Shop v2',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
         {
