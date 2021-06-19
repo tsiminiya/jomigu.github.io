@@ -1,3 +1,13 @@
 id: d1fa669b-1e6d-4ca5-adee-81e1eb35e93b
-title: 'The Bible in 52 Weeks: A Yearlong Journey'
+name: 'The Bible in 52 Weeks: A Yearlong Journey'
 featured: 'true'
+price: '₱1,090.00'
+stock:
+  lazada: 6
+  shopee: 0
+categories:
+  - 579ea7c4-8a93-4797-89c2-35744ffec3b6
+images:
+  - bible-in-52-weeks/bible-in-52-weeks_01.png
+  - bible-in-52-weeks/bible-in-52-weeks_02.png
+  - bible-in-52-weeks/bible-in-52-weeks_03.png

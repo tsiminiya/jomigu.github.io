@@ -3,6 +3,8 @@
 :root {
     --jomigu-color-1: #f6c;
     --jomigu-color-2: #0cc;
+    --jomigu-page-background: #ccc;
+    --jomigu-card-background: #fff;
 }
 
 html {
@@ -40,17 +42,43 @@ html {
     color: var(--jomigu-color-1);
 }
 
+ul.products {
+    padding-left: 0;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        list-style: none;
+        vertical-align: top;
+        width: 48%;
+        padding: 1px;
+        margin: 2px;
+        background-color: var(--jomigu-card-background);
+        border-radius: 5%;
+
+        a {
+            font-size: small;
+            color: #000;
+
+            img {
+                width: 100%;
+                border-radius: 5%;
+            }
+        }
+    }
+}
+
 ul.categories {
     padding: 18px 5px 15px;
     text-align: center;
-    background-color: #ccc;
+    background-color: #fff;
 
     li {
         display: inline-block;
         list-style: none;
 
         a {
-            font-size: xx-small;
+            font-size: x-small;
             color: #000;
 
             img {
@@ -174,6 +202,10 @@ header {
             }
         }
     }
+}
+
+main {
+    background-color: var(--jomigu-page-background);
 }
 
 .content-wrapper {
