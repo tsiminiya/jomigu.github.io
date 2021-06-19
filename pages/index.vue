@@ -47,6 +47,13 @@ export default {
             'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
         },
         {
+          vmid: 'fb:app_id',
+          hid: 'fb:app_id',
+          name: 'fb:app_id',
+          property: 'fb:app_id',
+          content: '1476032742574888',
+        },
+        {
           vmid: 'og:url',
           hid: 'og:url',
           name: 'og:url',
