@@ -40,52 +40,39 @@ export default {
           content: 'width=device-width, initial-scale=1',
         },
         {
-          vmid: 'description',
-          hid: 'description',
-          name: 'description',
-          content:
-            'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
-        },
-        {
-          vmid: 'fb:app_id',
-          hid: 'fb:app_id',
-          name: 'fb:app_id',
-          property: 'fb:app_id',
-          content: '1476032742574888',
-        },
-        {
-          vmid: 'og:url',
-          hid: 'og:url',
-          name: 'og:url',
-          property: 'og:url',
-          content: 'https://shop.jomigu.com',
-        },
-        {
-          vmid: 'og:type',
-          hid: 'og:type',
-          name: 'og:type',
-          property: 'og:type',
-          content: 'page',
-        },
-        {
-          vmid: 'og:title',
-          hid: 'og:title',
-          name: 'og:title',
-          property: 'og:title',
-          content: 'Jomigu Online Shop',
-        },
-        {
-          vmid: 'og:description',
           hid: 'og:description',
-          name: 'og:description',
           property: 'og:description',
           content:
             'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
         },
         {
-          vmid: 'og:image',
+          hid: 'fb:app_id',
+          property: 'fb:app_id',
+          content: '1476032742574888',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://shop.jomigu.com',
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'page',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Jomigu Online Shop',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+        },
+        {
           hid: 'og:image',
-          name: 'og:image',
           property: 'og:image',
           content: `https://shop.jomigu.com${featured}`,
         },
