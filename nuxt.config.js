@@ -13,12 +13,50 @@ export default {
   head: {
     title: 'Jomigu Online Shop',
     meta: [
-      { charset: 'utf-8' },
+      {
+        charset: 'utf-8',
+      },
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1',
       },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+      },
+      {
+        hid: 'fb:app_id',
+        property: 'fb:app_id',
+        content: '1476032742574888',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://shop.jomigu.com',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'page',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Jomigu Online Shop',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Jomigu Online Shop',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
