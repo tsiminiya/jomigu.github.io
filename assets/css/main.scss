@@ -19,10 +19,6 @@ html {
     src: url(~assets/fonts/HappyMonkey-Regular.ttf);
 }
 
-header {
-    margin: 0;
-}
-
 .bg-jomigu {
     background: var(--jomigu-color-1);
 }
@@ -40,40 +36,109 @@ header {
 }
 
 .title {
-    font-family: 'Happy Monkey', monospace;
-}
-
-.greetings {
     font-family: SourceCodePro, monospace;
     color: var(--jomigu-color-1);
 }
 
-.shops, .sites {
+ul.shops {
     list-style: none;
     text-align: center;
     float: center;
     padding-left: 0;
+
+    li {
+        display: inline-block;
+        padding: 10px 10px 0;
+
+        span {
+            font-weight: bold;
+        }
+
+        p {
+            font-size: larger;
+
+            a {
+                color: #000;
+
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
 }
 
-ul.shops > li, ul.sites > li {
-    display: inline-block;
-    padding: 10px 10px 0;
+ul.sites {
+    list-style: none;
+    text-align: center;
+    float: center;
+    padding-left: 0;
+
+    li {
+        display: inline-block;
+        padding: 10px 10px 0;
+
+        span {
+            font-weight: bold;
+        }
+
+        p {
+            font-size: larger;
+
+            a {
+                color: #000;
+
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
 }
 
-ul.shops > li > span,
-ul.sites > li > span {
-    font-weight: bold;
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    height: 35px;
+    margin: 0;
+    background-color: #fff;
+
+    ul.header-details {
+        position: absolute;
+        width: 100%;
+        padding: 5px;
+
+        li {
+            display: inline;
+            list-style: none;
+
+            &.logo-container {
+                .logo {
+                    float: left;
+                    width: 50px;
+                }       
+            }
+
+            &.header-follow-link {
+                margin-right: 5px;
+                float: right;
+
+                .facebook {
+                    color: #00f;
+                }
+
+                .instagram {
+                    color: #f00;
+                }
+            }
+        }
+    }
 }
 
-ul.shops > li > p > a,
-ul.sites > li > p > a {
-    color: #000;
-}
-
-ul.shops > li > p > a > img {
-    width: 70%;
-}
-
-ul.sites > li > p {
-    font-size: larger;
+.content-wrapper {
+    margin-top: 40px;
+    padding-top: 3px;
 }

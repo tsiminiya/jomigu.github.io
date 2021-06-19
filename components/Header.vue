@@ -1,7 +1,21 @@
 <template>
   <header>
-    <div class="px-4 py-1 bg-jomigu fw-bold text-white text-center">
-      <span>Jomigu Online Shop</span>
-    </div>
+    <ul class="header-details">
+      <li class="logo-container">
+        <img src="~/assets/images/logo.png" class="logo" />
+      </li>
+      <li>
+        <span class="title">Online Shop</span>
+      </li>
+      <li class="header-follow-link">
+        <span>Follow us @</span>
+        <a href="https://www.facebook.com/jomiguonlineshop" class="facebook">
+          <i class="bi-facebook"></i>
+        </a>
+        <a href="https://instagram.com/jomiguonlineshop" class="instagram">
+          <i class="bi-instagram"></i>
+        </a>
+      </li>
+    </ul>
   </header>
 </template>
