@@ -2,10 +2,14 @@
   <header>
     <ul class="header-details">
       <li class="logo-container">
-        <img src="~/assets/images/logo.png" class="logo" />
+        <a href="/">
+          <img src="~/assets/images/logo.png" class="logo" />
+        </a>
       </li>
       <li>
-        <span class="title">Online Shop</span>
+        <a href="/">
+          <span class="title">Online Shop</span>
+        </a>
       </li>
       <li class="header-follow-link">
         <span class="follow-us-at">Follow us @</span>

@@ -1,10 +1,35 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="product in products" :key="product.id">
-        {{ product.title }}
-      </li>
-    </ul>
+  <div class="container">
+    <div class="product bg-white p-4">
+      <p class="name">{{ name }}</p>
+      <div class="row">
+        <div class="col-12">
+          <div>
+            <b-carousel
+              id="carousel-1"
+              :interval="4000"
+              controls
+              indicators
+              background="#ababab"
+              img-width="1024"
+              img-height="480"
+              style="text-shadow: 1px 1px 2px #333"
+            >
+              <b-carousel-slide
+                v-for="(image, index) in images"
+                :key="index"
+                :img-src="require(`~/assets/images/products/${image}`)"
+              ></b-carousel-slide>
+            </b-carousel>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          {{ description }}
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -12,11 +37,22 @@
 export default {
   async asyncData({ $content, params }) {
     const products = await $content('products').fetch()
+
     if (!params.id) {
-      return { products }
+      return { product: null }
     }
+
+    const filtered = products.filter((product) => product.id === params.id)
+    if (!filtered.length) {
+      return { product: null }
+    }
+
+    const product = filtered[0]
+
     return {
-      products: products.filter((product) => product.id === params.id),
+      name: product.name,
+      images: product.images,
+      description: product.description,
     }
   },
 }
