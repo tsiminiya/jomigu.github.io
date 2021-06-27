@@ -29,9 +29,14 @@
               :key="shopStock.key"
               class="text-center"
             >
-              <a class="btn btn-primary btn-sm" :href="shopStock.link">
+              <a
+                v-if="shopStock.stock"
+                class="btn btn-primary btn-sm"
+                :href="shopStock.link"
+              >
                 Buy at {{ shopStock.name }}
               </a>
+              <span v-else>Not available at {{ shopStock.name }}</span>
             </td>
           </tr>
         </tbody>
