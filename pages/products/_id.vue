@@ -50,7 +50,7 @@ export default {
     return {
       id: product.id,
       name: product.name,
-      mainImage: product.images[0],
+      sharingImage: product.sharing_image || product.images[0],
       images: product.images,
       description: product.description,
       price: product.price,
@@ -84,7 +84,7 @@ export default {
           property: 'og:image',
           content:
             process.env.baseUrl +
-            require(`~/assets/images/products/${this.mainImage}`),
+            require(`~/assets/images/products/${this.sharingImage}`),
         },
       ],
     }

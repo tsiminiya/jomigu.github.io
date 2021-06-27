@@ -57,6 +57,16 @@ export default {
         content:
           'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
       },
+      {
+        hid: 'og:image:width',
+        property: 'og:image:width',
+        content: '1200',
+      },
+      {
+        hid: 'og:image:height',
+        property: 'og:image:height',
+        content: '630',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
