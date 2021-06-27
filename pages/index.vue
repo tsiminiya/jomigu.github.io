@@ -18,7 +18,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `https://shop.jomigu.com${featured}`,
+          content: `${process.env.baseUrl + featured}`,
         },
       ],
     }

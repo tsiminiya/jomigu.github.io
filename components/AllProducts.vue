@@ -13,7 +13,7 @@
           />
           <p class="mt-1">{{ product.name }}</p>
           <p class="mb-2">
-            <span class="price">{{ product.price }}</span>
+            <span class="price">{{ product.price | peso_currency }}</span>
             <span> | </span>
             <small>Stock: {{ product.stock }}</small>
           </p>

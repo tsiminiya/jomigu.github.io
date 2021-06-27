@@ -65,7 +65,10 @@ export default {
   css: ['~/assets/css/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    // Peso Currency Filter
+    '@/plugins/peso-currency.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -108,5 +111,9 @@ export default {
 
   server: {
     port: 4000,
+  },
+
+  env: {
+    baseUrl: process.env.BASE_URL || 'https://shop.jomigu.com',
   },
 }

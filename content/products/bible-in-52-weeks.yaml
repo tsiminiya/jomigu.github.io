@@ -1,17 +1,20 @@
 id: d1fa669b-1e6d-4ca5-adee-81e1eb35e93b
 name: 'The Bible in 52 Weeks: A Yearlong Journey'
 featured: 'true'
-price: '₱1,090.00'
+price: 1090.00
 stock:
   lazada: 6
   shopee: 0
+link:
+  lazada: https://s.lazada.com.ph/s.2yuq5
+  shopee: https://shopee.ph/product/131641645/3981288410?smtt=0.134284870-1624795072.9
 categories:
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 images:
   - bible-in-52-weeks/bible-in-52-weeks_01.png
   - bible-in-52-weeks/bible-in-52-weeks_02.png
   - bible-in-52-weeks/bible-in-52-weeks_03.png
-description: |+
+description: |+ 
   A 52-week plan for Women on studying the Bible in one book.
 
   Written by Dr. Kimberly D. Moore, pastor from South Carolina, the book illustrates how to reflect on the teachings of the Bible and to apply these teachings in daily life.

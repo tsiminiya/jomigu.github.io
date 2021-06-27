@@ -1,31 +1,31 @@
 <template>
-  <div class="container">
-    <div class="product bg-white p-4">
-      <p class="name">{{ name }}</p>
-      <div class="row">
-        <div class="col-md-6">
-          <div>
-            <b-carousel
-              id="carousel-1"
-              :interval="4000"
-              controls
-              indicators
-              background="#ababab"
-              img-width="1024"
-              img-height="480"
-              style="text-shadow: 1px 1px 2px #333"
-            >
-              <b-carousel-slide
-                v-for="(image, index) in images"
-                :key="index"
-                :img-src="require(`~/assets/images/products/${image}`)"
-              ></b-carousel-slide>
-            </b-carousel>
-          </div>
-        </div>
-        <div class="col-md-6">
-          {{ description }}
-        </div>
+  <div class="container product-details bg-white p-4">
+    <p class="name">{{ name }}</p>
+    <div class="row">
+      <div class="col-md-6">
+        <b-carousel
+          id="carousel-1"
+          :interval="4000"
+          controls
+          indicators
+          background="#ababab"
+          img-width="1024"
+          img-height="480"
+          style="text-shadow: 1px 1px 2px #333"
+        >
+          <b-carousel-slide
+            v-for="(image, index) in images"
+            :key="index"
+            :img-src="require(`~/assets/images/products/${image}`)"
+          ></b-carousel-slide>
+        </b-carousel>
+      </div>
+      <div class="col-md-6 pt-3">
+        <PriceDetails :price="price" :stock="stock" :link="link" />
+      </div>
+      <div class="col-md-12 pt-2">
+        <strong>Description: </strong>
+        <p class="description mt-2">{{ description }}</p>
       </div>
     </div>
   </div>
@@ -49,8 +49,28 @@ export default {
 
     return {
       name: product.name,
+      mainImage: product.images[0],
       images: product.images,
       description: product.description,
+      price: product.price,
+      stock: product.stock,
+      link: product.link,
+    }
+  },
+
+  head() {
+    return {
+      title: this.name,
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      meta: [
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content:
+            process.env.baseUrl +
+            require(`~/assets/images/products/${this.mainImage}`),
+        },
+      ],
     }
   },
 }

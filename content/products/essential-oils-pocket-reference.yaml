@@ -1,10 +1,13 @@
 id: c42d3317-993b-4da3-92b0-a25a66e30a10
 name: Essential Oils Pocket Reference
 featured: 'true'
-price: '₱2,370.00'
+price: 2370.00
 stock:
   lazada: 4
   shopee: 3
+link:
+  lazada: https://s.lazada.com.ph/s.2yEgI
+  shopee: https://shopee.ph/product/131641645/8616904127?smtt=0.134284870-1624794724.9&fbclid=IwAR2LPHk-nQcy6QMfTIG8lIWUudLseApNPyfrbKbzyvjPO5-QpC4eoWYvtLM
 categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
 images:
