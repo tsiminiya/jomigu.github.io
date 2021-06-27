@@ -1,21 +1,23 @@
 <template>
   <div class="container">
-    <ul class="products">
-      <li v-for="product in products" :key="product.id">
-        <div>
-          <a :href="`/products/${product.id}`">
-            <img
-              :src="require(`~/assets/images/products/${product.mainImage}`)"
-              class="category"
-            />
-            <p>{{ product.name }}</p>
-            <p>
-              <span class="price">{{ product.price }}</span>
-              <span> | </span>
-              <small>Stock: {{ product.stock }}</small>
-            </p>
-          </a>
-        </div>
+    <ul class="row products narrow-padding">
+      <li
+        v-for="product in products"
+        :key="product.id"
+        class="col-6 col-sd-4 col-md-3 col-lg-2"
+      >
+        <a :href="`/products/${product.id}`">
+          <img
+            :src="require(`~/assets/images/products/${product.mainImage}`)"
+            class="category"
+          />
+          <p class="mt-1">{{ product.name }}</p>
+          <p class="mb-2">
+            <span class="price">{{ product.price }}</span>
+            <span> | </span>
+            <small>Stock: {{ product.stock }}</small>
+          </p>
+        </a>
       </li>
     </ul>
   </div>

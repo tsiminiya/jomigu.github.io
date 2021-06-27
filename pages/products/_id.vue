@@ -3,7 +3,7 @@
     <div class="product bg-white p-4">
       <p class="name">{{ name }}</p>
       <div class="row">
-        <div class="col-12">
+        <div class="col-md-6">
           <div>
             <b-carousel
               id="carousel-1"
@@ -23,9 +23,7 @@
             </b-carousel>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
+        <div class="col-md-6">
           {{ description }}
         </div>
       </div>

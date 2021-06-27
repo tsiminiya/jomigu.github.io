@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="container-fluid p-4 mt-4 bg-jomigu-2 text-blue">
+    <div class="container-fluid p-4 bg-jomigu-2 text-blue">
       <p class="text-center">Follow us at</p>
       <ul class="shops">
         <li v-for="shop in shops" :key="shop.id">

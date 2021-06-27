@@ -3,9 +3,11 @@
 :root {
     --jomigu-color-1: #f6c;
     --jomigu-color-2: #0cc;
+    --jomigu-normal-text: #333;
     --jomigu-price: rgb(187, 19, 83);
     --jomigu-page-background: #ccc;
     --jomigu-card-background: #fff;
+    --jomigu-border-radius: 20px;
 }
 
 html {
@@ -30,14 +32,6 @@ html {
     background: var(--jomigu-color-2);
 }
 
-.banner, .banner-stretched {
-    width: 100%;
-}
-
-.banner-stretched {
-    height: 100%;
-}
-
 .title {
     font-family: SourceCodePro, monospace;
     color: var(--jomigu-color-1);
@@ -59,49 +53,65 @@ html {
     }
 }
 
-ul.categories {
-    padding: 18px 5px 15px;
-    text-align: center;
-    background-color: #fff;
+ul.narrow-padding {
+    padding: 0 8px;
+    margin-bottom: 5px;
+    background-color: var(--jomigu-card-background);
 
     li {
         display: inline-block;
+        padding: 0;
         list-style: none;
 
         a {
-            font-size: x-small;
-            color: #000;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+ul.banners {
+    padding: 0;
+}
+
+ul.categories {
+    text-align: center;
+    padding: 25px;
+    
+    li {
+        a {
+            font-size: small;
+            color: var(--jomigu-normal-text);
 
             img {
-                width: 100px;
+                width: 100%;
             }
         }
     }
 }
 
 ul.products {
-    padding-left: 0;
-    text-align: center;
+    padding: 0 5px;
+    background-color: var(--jomigu-page-background);
 
     li {
-        display: inline-block;
-        list-style: none;
-        vertical-align: top;
-        width: 170px;
-        padding: 3px;
+        padding: 2px;
+        background-color: var(--jomigu-card-background);
+        border: 1px solid var(--jomigu-page-background);
+        border-radius: var(--jomigu-border-radius);
 
-        div {
-            padding: 2px;
-            background-color: var(--jomigu-card-background);
-        
-            a {
-                font-size: small;
-                color: #000;
-    
-                img {
-                    width: 100%;
-                }
+        a {
+            img {
+                border-top-left-radius: var(--jomigu-border-radius);
+                border-top-right-radius: var(--jomigu-border-radius);
             }
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+            color: var(--jomigu-normal-text);
         }
     }
 }
