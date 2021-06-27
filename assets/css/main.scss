@@ -92,14 +92,20 @@ ul.narrow-padding {
 }
 
 ul.banners {
-    padding: 0;
+    padding: 0 5px;
+    background-color: var(--jomigu-page-background);
 }
 
 ul.categories {
-    text-align: center;
-    padding: 25px;
+    padding: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: var(--jomigu-card-background);
     
     li {
+        text-align: center;
+        padding: 10px;
+    
         a {
             font-size: small;
             color: var(--jomigu-normal-text);

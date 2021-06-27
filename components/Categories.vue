@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <ul class="row categories narrow-padding">
-      <li v-for="category in categories" :key="category.id" class="col-4">
+      <li
+        v-for="category in categories"
+        :key="category.id"
+        class="col-4 col-sm-3 col-md-2"
+      >
         <a v-if="category.name" href="#">
           <img :src="require(`~/assets/images/categories/${category.image}`)" />
           <p>
