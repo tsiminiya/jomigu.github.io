@@ -48,6 +48,7 @@ export default {
     const product = filtered[0]
 
     return {
+      id: product.id,
       name: product.name,
       mainImage: product.images[0],
       images: product.images,
@@ -63,6 +64,11 @@ export default {
       title: this.name,
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
       meta: [
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${process.env.baseUrl}/products/${this.id}`,
+        },
         {
           hid: 'og:image',
           property: 'og:image',
