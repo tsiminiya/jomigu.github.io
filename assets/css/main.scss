@@ -14,6 +14,10 @@ html {
     background-color: var(--jomigu-color-1);
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: SourceCodePro, monospace;
     src: url(~assets/fonts/SourceCodePro-Italic.ttf);
