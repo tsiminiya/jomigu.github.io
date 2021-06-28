@@ -1,5 +1,12 @@
 <template>
-  <nuxt-content :document="doc" />
+  <div class="topics container bg-white p-3">
+    <h1 class="text-center my-5">{{ doc.title }}</h1>
+    <div class="row">
+      <div :class="`col-12 ${doc.allTextCentered ? 'text-center' : ''}`">
+        <nuxt-content :document="doc" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

@@ -204,6 +204,16 @@ ul.sites {
     }
 }
 
+ul.blogs {
+    li {
+        p {
+            a {
+                color: var(--jomigu-normal-text);
+            }
+        }
+    }
+}
+
 header {
     position: fixed;
     top: 0;
@@ -261,4 +271,8 @@ main {
 .content-wrapper {
     margin-top: 40px;
     padding-top: 3px;
+}
+
+.topics {
+    min-height: 800px;
 }

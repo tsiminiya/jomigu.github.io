@@ -12,6 +12,7 @@
         </a>
       </li>
       <li class="header-follow-link">
+        <a href="/topics" class="mr-2 text-dark">Blog</a>
         <span class="follow-us-at">Follow us @</span>
         <a
           v-for="site in sites"
