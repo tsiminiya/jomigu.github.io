@@ -78,6 +78,8 @@ export default {
   plugins: [
     // Peso Currency Filter
     '@/plugins/peso-currency.js',
+    // Date Utils
+    '@/plugins/date-utils.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
