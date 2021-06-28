@@ -24,9 +24,15 @@
 </template>
 <script>
 const project = (product) => {
+  let name = product.name
+  const nameLength = name.length
+  if (nameLength > 50) {
+    name = name.substring(0, 45) + '...'
+  }
+
   return {
     id: product.id,
-    name: product.name,
+    name,
     price: product.price,
     stock: (product.stock.lazada || 0) + (product.stock.shopee || 0),
     mainImage: product.images[0],
