@@ -1,7 +1,11 @@
 <template>
   <footer>
     <div class="container-fluid p-4 bg-jomigu-2 text-blue">
-      <p class="text-center">Follow us at</p>
+      <p class="text-center">
+        Read our <a href="/topics" class="text-dark"><strong>Blog</strong></a>
+        <span>|</span>
+        <span>Follow us at</span>
+      </p>
       <ul class="shops">
         <li v-for="shop in shops" :key="shop.id">
           <p>
