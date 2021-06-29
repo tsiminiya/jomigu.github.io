@@ -49,10 +49,15 @@ export default {
   async fetch() {
     const productList = await this.$content('products').fetch()
     const categories = await this.$content('categories').fetch()
+    const pushed = {}
     categories.forEach((category) => {
       productList
+        .filter((product) => !pushed[product.id])
         .filter((product) => product.categories.includes(category.id))
-        .forEach((product) => this.products.push(project(product)))
+        .forEach((product) => {
+          this.products.push(project(product))
+          pushed[product.id] = product
+        })
     })
   },
 }
