@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <ul class="row products narrow-padding">
-      <li v-if="products.length < 1" class="col-12 p-5">
+      <li v-if="products.length < 1" class="col-12 p-5 text-center">
         <span>
           We are currently updating the listing for this category or promo.
           Please come back soon. Thank you.
