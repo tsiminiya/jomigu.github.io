@@ -2,7 +2,7 @@
   <div>
     <Banners />
     <Categories />
-    <AllProducts />
+    <Products />
   </div>
 </template>
 

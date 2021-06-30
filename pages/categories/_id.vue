@@ -3,7 +3,7 @@
     <p class="name text-center px-5 pt-3 pb-1 font-weight-bold">
       {{ name }}
     </p>
-    <AllProducts :filter="'category'" :value="categoryId" />
+    <Products :filter="'category'" :value="categoryId" />
   </div>
 </template>
 
