@@ -5,6 +5,9 @@ price: 1830
 stock:
   lazada: 5
   shopee: 0
+sold:
+  lazada: 0
+  shopee: 0
 link:
   lazada: https://s.lazada.com.ph/s.2AcDL
   shopee: https://shopee.ph/product/131641645/3981292389?smtt=0.134284870-1624991019.9
