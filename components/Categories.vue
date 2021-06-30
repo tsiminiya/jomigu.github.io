@@ -6,7 +6,7 @@
         :key="category.id"
         class="col-4 col-sm-3 col-md-2"
       >
-        <a v-if="category.name" href="#">
+        <a v-if="category.name" :href="`/categories/${category.id}`">
           <img :src="require(`~/assets/images/categories/${category.image}`)" />
           <p>
             {{ category.name }}

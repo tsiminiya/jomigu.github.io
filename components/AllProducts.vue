@@ -1,8 +1,18 @@
 <template>
   <div class="container">
     <ul class="row products narrow-padding">
+      <li v-if="products.length < 1" class="col-12 p-5">
+        <span>
+          We are currently updating the listing for this category or promo.
+          Please come back soon. Thank you.
+        </span>
+        <p>
+          <img src="~/assets/images/logo.png" class="logo" />
+        </p>
+      </li>
       <li
         v-for="product in products"
+        v-else
         :key="product.id"
         class="col-6 col-sd-4 col-md-3 col-lg-2"
       >
@@ -39,7 +49,34 @@ const project = (product) => {
   }
 }
 
+const categoryFilters = {
+  category(categoryId) {
+    return (category) => category.id === categoryId
+  },
+}
+
+const productFilters = {
+  category() {
+    return () => true
+  },
+}
+
 export default {
+  props: {
+    filter: {
+      type: String,
+      default: '',
+    },
+    value: {
+      type: String,
+      default: '',
+    },
+    values: {
+      type: Array,
+      default: () => {},
+    },
+  },
+
   data() {
     return {
       products: [],
@@ -47,13 +84,26 @@ export default {
   },
 
   async fetch() {
+    const categoryFilter = categoryFilters[this.filter]
+    const categoryFilterFunc =
+      (categoryFilter && categoryFilter(this.values || this.value)) ||
+      (() => true)
+
     const productList = await this.$content('products').fetch()
-    const categories = await this.$content('categories').fetch()
+    const categories = (await this.$content('categories').fetch()).filter(
+      categoryFilterFunc
+    )
+
+    const productFilter = productFilters[this.filter]
+    const productFilterFunc =
+      (productFilter && productFilter(this.value)) || (() => true)
+
     const pushed = {}
     categories.forEach((category) => {
       productList
         .filter((product) => !pushed[product.id])
         .filter((product) => product.categories.includes(category.id))
+        .filter(productFilterFunc)
         .forEach((product) => {
           this.products.push(project(product))
           pushed[product.id] = product
