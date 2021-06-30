@@ -3,9 +3,7 @@
     <ul class="row banners narrow-padding">
       <li class="col-md-8">
         <a href="#">
-          <img
-            src="~/assets/images/banners/featuring-free-shipping-june-2021.png"
-          />
+          <img src="~/assets/images/banners/jomigu-7.7.png" />
         </a>
       </li>
       <li class="col-md-4">
