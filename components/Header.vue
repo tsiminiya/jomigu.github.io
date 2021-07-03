@@ -12,14 +12,13 @@
         </a>
       </li>
       <li class="header-follow-link">
-        <span class="follow-us-at">Follow us @</span>
         <a
           v-for="site in sites"
           :key="site.id"
           :href="site.url"
           :class="site.style"
         >
-          <i :class="`bi-${site.icon}`"></i>
+          <i :class="`bi-${site.icon} float-right mr-2`"></i>
         </a>
       </li>
     </ul>
