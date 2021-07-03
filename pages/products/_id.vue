@@ -1,6 +1,16 @@
 <template>
   <div class="container product-details bg-white p-4">
     <p class="name">{{ name }}</p>
+    <p class="text-right">
+      <ShareNetwork
+        network="facebook"
+        :url="url"
+        :title="name"
+        :hashtags="hashtags"
+      >
+        Share on <i class="bi-facebook"></i>
+      </ShareNetwork>
+    </p>
     <div class="row">
       <div class="col-md-6">
         <b-carousel
@@ -46,6 +56,7 @@ export default {
     }
 
     const product = filtered[0]
+    const hashtags = product.tags.join(',') + ',jomigu,jomiguonlineshop'
 
     return {
       id: product.id,
@@ -56,6 +67,8 @@ export default {
       price: product.price,
       stock: product.stock,
       link: product.link,
+      url: `${process.env.baseUrl}/products/${product.id}`,
+      hashtags,
     }
   },
 
@@ -77,7 +90,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `${process.env.baseUrl}/products/${this.id}`,
+          content: this.url,
         },
         {
           hid: 'og:image',

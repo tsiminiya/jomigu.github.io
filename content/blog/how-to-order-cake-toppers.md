@@ -3,6 +3,7 @@ title: How to order Cake Toppers from Jomigu
 subtitle: A step-by-step guide to ordering Cake Toppers at Jomigu Online Shop
 published: 2021-06-28T20:00:00
 sharing_image: /images/blog/how-to-order-cake-toppers/how-to-order-cake-toppers_sharing.png
+hashtags: jomigucaketoppers
 allTextCentered: true
 ---
 

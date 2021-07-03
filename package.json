@@ -24,7 +24,8 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
     "moment": "^2.29.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-social-sharing": "^3.0.8"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
