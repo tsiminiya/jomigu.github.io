@@ -3,6 +3,15 @@
     <p class="name">{{ name }}</p>
     <p class="text-right">
       <ShareNetwork
+        network="twitter"
+        :url="url"
+        :title="name"
+        :hashtags="hashtags"
+        class="float-left"
+      >
+        Share on <i class="bi-twitter"></i>
+      </ShareNetwork>
+      <ShareNetwork
         network="facebook"
         :url="url"
         :title="name"

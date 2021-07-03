@@ -11,6 +11,15 @@
       >
         Share on <i class="bi-facebook"></i>
       </ShareNetwork>
+      <ShareNetwork
+        network="twitter"
+        :url="url"
+        :title="blog.title"
+        :hashtags="blog.hashtags"
+        class="float-left"
+      >
+        Share on <i class="bi-twitter"></i>
+      </ShareNetwork>
     </p>
     <div class="row">
       <div :class="`col-12 ${blog.allTextCentered ? 'text-center' : ''}`">
