@@ -21,6 +21,18 @@ export default {
         content: 'width=device-width, initial-scale=1',
       },
       {
+        hid: 'description',
+        property: 'description',
+        content:
+          'This is Jomigu Online Shop. Visit our site to get updates and to know more about the products we offer.',
+      },
+      {
+        hid: 'robots',
+        name: 'robots',
+        property: 'robots',
+        content: 'index, follow',
+      },
+      {
         hid: 'og:description',
         property: 'og:description',
         content:
@@ -47,6 +59,11 @@ export default {
         content: 'Jomigu Online Shop',
       },
       {
+        hid: 'apple-mobile-web-app-title',
+        property: 'apple-mobile-web-app-title',
+        content: 'Jomigu Online Shop',
+      },
+      {
         hid: 'og:site_name',
         property: 'og:site_name',
         content: 'Jomigu Online Shop',
@@ -66,6 +83,12 @@ export default {
         hid: 'og:image:height',
         property: 'og:image:height',
         content: '630',
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
