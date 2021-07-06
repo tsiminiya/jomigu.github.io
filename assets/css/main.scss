@@ -49,6 +49,20 @@ a:hover {
     font-size: x-large;
 }
 
+.price.on-sale {
+    text-decoration: line-through;
+}
+
+.price.promo {
+    color: var(--jomigu-color-1);
+    font-weight: bold;
+}
+
+.buy-btn.btn-success {
+    background-color: var(--jomigu-color-1);
+    border-color: var(--jomigu-color-1);
+}
+
 .product-details {
     padding: 0;
 

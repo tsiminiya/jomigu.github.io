@@ -1,7 +1,12 @@
 <template>
   <div>
     <p class="price price-larger">
-      <span>{{ price | peso_currency }}</span>
+      <span v-if="onSale" class="price promo">{{
+        promoPrice | peso_currency
+      }}</span>
+      <span :class="`price ${onSale ? 'on-sale' : ''}`">{{
+        price | peso_currency
+      }}</span>
     </p>
     <div>
       <strong>Stock:</strong>
@@ -31,10 +36,14 @@
             >
               <a
                 v-if="shopStock.stock"
-                class="btn btn-primary btn-sm"
+                :class="`buy-btn btn ${
+                  shopStock.onSale ? 'btn-success' : 'btn-primary'
+                } btn-sm`"
                 :href="shopStock.link"
               >
-                Buy at {{ shopStock.name }}
+                {{
+                  `Buy ${shopStock.onSale ? 'Sale' : ''} at ${shopStock.name}`
+                }}
               </a>
               <span v-else>Not available at {{ shopStock.name }}</span>
             </td>
@@ -46,6 +55,7 @@
 </template>
 
 <script>
+import moment from 'moment'
 import createVariations from '../models/variation'
 
 export default {
@@ -53,6 +63,10 @@ export default {
     price: {
       type: Number,
       default: 0,
+    },
+    promos: {
+      type: Array,
+      default: undefined,
     },
     stock: {
       type: Object,
@@ -72,11 +86,35 @@ export default {
     return {
       shops: [],
       stockPerShop: [],
+      onSale: false,
+      promoPrice: 0,
     }
   },
 
   async fetch() {
     const shops = await this.$content('shops').fetch()
+
+    const now = moment().toDate()
+    const promos = await this.$content('promos')
+      .where({
+        'start-date': { $lt: now },
+        'end-date': { $gt: now },
+      })
+      .fetch()
+    const promoIds = promos.map((promo) => promo.id)
+    const promoShops = promos.map((promo) => promo.shop)
+
+    this.promoPrice = this.price
+    const productPromos = this.promos || []
+    if (promoIds && promoIds.length > 0) {
+      const activePromos = productPromos.filter((promo) =>
+        promoIds.includes(promo.id)
+      )
+      if (activePromos.length > 0) {
+        this.promoPrice = activePromos[0].price
+        this.onSale = true
+      }
+    }
 
     const variations = createVariations(this.variations)
     const stock = variations.isEmpty()
@@ -89,6 +127,7 @@ export default {
         name: shop.name,
         stock: stock[shop.slug],
         link: this.link[shop.slug],
+        onSale: promoShops.includes(shop.id),
       }
       this.stockPerShop.push(shopStock)
     }

@@ -42,6 +42,7 @@
       <div class="col-md-6 pt-3">
         <PriceDetails
           :price="price"
+          :promos="promos"
           :stock="stock"
           :link="link"
           :variations="variations"
@@ -79,6 +80,7 @@ export default {
       images: product.images,
       description: product.description,
       price: product.price,
+      promos: product.promos,
       stock: product.stock,
       variations: product.variations,
       link: product.link,

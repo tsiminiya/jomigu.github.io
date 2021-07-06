@@ -23,7 +23,12 @@
           />
           <p class="mt-1">{{ product.name }}</p>
           <p class="mb-2">
-            <span class="price">{{ product.price | peso_currency }}</span>
+            <span v-if="product.onSale" class="price promo">{{
+              product.promoPrice | peso_currency
+            }}</span>
+            <span :class="`price ${product.onSale ? 'on-sale' : ''}`">{{
+              product.price | peso_currency
+            }}</span>
             <span> | </span>
             <small>Stock: {{ product.stock }}</small>
           </p>
@@ -33,9 +38,10 @@
   </div>
 </template>
 <script>
+import moment from 'moment'
 import createVariations from '../models/variation'
 
-const project = (product) => {
+const project = (product, promoIds) => {
   let name = product.name
   const nameLength = name.length
   if (nameLength > 50) {
@@ -51,10 +57,25 @@ const project = (product) => {
     stockTotal += entry[1]
   })
 
+  let promoPrice = product.price
+  let onSale = false
+  const productPromos = product.promos || []
+  if (promoIds && promoIds.length > 0) {
+    const activePromos = productPromos.filter((promo) =>
+      promoIds.includes(promo.id)
+    )
+    if (activePromos.length > 0) {
+      promoPrice = activePromos[0].price
+      onSale = true
+    }
+  }
+
   return {
     id: product.id,
     name,
     price: product.price,
+    promoPrice,
+    onSale,
     stock: stockTotal,
     mainImage: product.images[0],
   }
@@ -109,6 +130,16 @@ export default {
     const productFilterFunc =
       (productFilter && productFilter(this.value)) || (() => true)
 
+    const now = moment().toDate()
+    const promoIds = (
+      await this.$content('promos')
+        .where({
+          'start-date': { $lt: now },
+          'end-date': { $gt: now },
+        })
+        .fetch()
+    ).map((promo) => promo.id)
+
     const pushed = {}
     categories.forEach((category) => {
       productList
@@ -116,7 +147,7 @@ export default {
         .filter((product) => product.categories.includes(category.id))
         .filter(productFilterFunc)
         .forEach((product) => {
-          this.products.push(project(product))
+          this.products.push(project(product, promoIds))
           pushed[product.id] = product
         })
     })
