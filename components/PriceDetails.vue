@@ -42,7 +42,9 @@
                 :href="shopStock.link"
               >
                 {{
-                  `Buy ${shopStock.onSale ? 'Sale' : ''} at ${shopStock.name}`
+                  `Buy ${
+                    shopStock.onSale ? 'Sale Price' : `at ${shopStock.name}`
+                  }`
                 }}
               </a>
               <span v-else>Not available at {{ shopStock.name }}</span>
