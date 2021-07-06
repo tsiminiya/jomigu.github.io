@@ -40,7 +40,12 @@
         </b-carousel>
       </div>
       <div class="col-md-6 pt-3">
-        <PriceDetails :price="price" :stock="stock" :link="link" />
+        <PriceDetails
+          :price="price"
+          :stock="stock"
+          :link="link"
+          :variations="variations"
+        />
       </div>
       <div class="col-md-12 pt-2">
         <strong>Description: </strong>
@@ -75,6 +80,7 @@ export default {
       description: product.description,
       price: product.price,
       stock: product.stock,
+      variations: product.variations,
       link: product.link,
       url: `${process.env.baseUrl}/products/${product.id}`,
       hashtags,

@@ -46,6 +46,8 @@
 </template>
 
 <script>
+import createVariations from '../models/variation'
+
 export default {
   props: {
     price: {
@@ -55,6 +57,10 @@ export default {
     stock: {
       type: Object,
       default: () => {},
+    },
+    variations: {
+      type: Object,
+      default: undefined,
     },
     link: {
       type: Object,
@@ -72,11 +78,16 @@ export default {
   async fetch() {
     const shops = await this.$content('shops').fetch()
 
+    const variations = createVariations(this.variations)
+    const stock = variations.isEmpty()
+      ? this.stock
+      : variations.getOverallStats().stock
+
     for (const shop of shops) {
       const shopStock = {
         key: shop.slug,
         name: shop.name,
-        stock: this.stock[shop.slug],
+        stock: stock[shop.slug],
         link: this.link[shop.slug],
       }
       this.stockPerShop.push(shopStock)

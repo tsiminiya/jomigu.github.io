@@ -33,6 +33,8 @@
   </div>
 </template>
 <script>
+import createVariations from '../models/variation'
+
 const project = (product) => {
   let name = product.name
   const nameLength = name.length
@@ -40,11 +42,20 @@ const project = (product) => {
     name = name.substring(0, 45) + '...'
   }
 
+  const variations = createVariations(product.variations)
+  const stock = variations.isEmpty()
+    ? product.stock
+    : variations.getOverallStats().stock
+  let stockTotal = 0
+  Object.entries(stock).forEach((entry) => {
+    stockTotal += entry[1]
+  })
+
   return {
     id: product.id,
     name,
     price: product.price,
-    stock: (product.stock.lazada || 0) + (product.stock.shopee || 0),
+    stock: stockTotal,
     mainImage: product.images[0],
   }
 }
