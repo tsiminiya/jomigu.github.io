@@ -1,5 +1,5 @@
 id: ad12e553-b0ae-4e2b-aba8-fa658ca40140
-name: Young Living Label Stickers for all YL Essential Oil Bottles - April 2021 Edition
+name: Young Living Label Stickers for YL's Special Line of Essential Oils
 featured: 'false'
 price: 16
 variations:
@@ -15,6 +15,20 @@ variations:
     - name: Animal Scents
       stock:
         lazada: 10
+        shopee: 10
+      sold:
+        lazada: 0
+        shopee: 0
+    - name: Custom 6
+      stock:
+        lazada: 0
+        shopee: 10
+      sold:
+        lazada: 0
+        shopee: 0
+    - name: Custom 12
+      stock:
+        lazada: 0
         shopee: 10
       sold:
         lazada: 0
@@ -44,6 +58,8 @@ description: |+
   Currently, we have sticker sets for the following:
   - YL KidScents
   - Animal Scents
+  - Custom 6 (6 unique YL label stickers that can be requested by customer)
+  - Custom 12 (7 to 12 unique YL label stickers that can be requested by customer)
 
   High-quality print, clear-text, glossy, water-proof label stickers for YL essential oil bottles.
 
@@ -52,3 +68,6 @@ description: |+
   Have you already spent more than a minute just to find your 5-mL Lemon Essential Oil bottle?
 
   With this label stickers, you can easily find the essential oil that you want from your sea of essential oil bottles.
+
+  Package includes:
+  2 x sheet of the selected set of label stickers
