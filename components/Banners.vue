@@ -7,7 +7,7 @@
         </a>
       </li>
       <li class="col-md-4">
-        <a href="https://s.lazada.com.ph/s.2l1kU">
+        <a href="/products/d1fa669b-1e6d-4ca5-adee-81e1eb35e93b">
           <img
             src="~/assets/images/banners/featuring-the-bible-in-52-weeks.png"
           />
