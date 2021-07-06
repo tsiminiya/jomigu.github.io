@@ -131,7 +131,7 @@ export default {
       (productFilter && productFilter(this.value)) || (() => true)
 
     const now = moment().toDate()
-    console.log(now)
+
     const promoIds = (
       await this.$content('promos')
         .where({
