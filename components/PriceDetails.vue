@@ -97,6 +97,7 @@ export default {
     const shops = await this.$content('shops').fetch()
 
     const now = moment().toDate()
+    console.log(`date-time now is ${now}`)
     const promos = await this.$content('promos')
       .where({
         'start-date': { $lt: now },
