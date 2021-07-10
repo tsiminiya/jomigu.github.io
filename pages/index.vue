@@ -2,7 +2,7 @@
   <div>
     <Banners />
     <Categories />
-    <Products />
+    <Products :current-time="currentTime" />
   </div>
 </template>
 
@@ -53,6 +53,9 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    currentTime: () => new Date(),
   },
 }
 </script>
