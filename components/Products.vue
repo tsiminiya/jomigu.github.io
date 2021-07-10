@@ -136,7 +136,6 @@ export default {
 
     const now = moment().toDate()
     console.log(`now: ${now}`)
-    console.log(`currentTime: ${this.currentTime}`)
 
     const promoIds = (
       await this.$content('promos')
