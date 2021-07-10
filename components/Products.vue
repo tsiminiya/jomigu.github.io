@@ -101,15 +101,11 @@ export default {
     },
     value: {
       type: String,
-      default: '',
+      default: undefined,
     },
     values: {
       type: Array,
-      default: () => [],
-    },
-    currentTime: {
-      type: Date,
-      default: () => new Date(),
+      default: () => undefined,
     },
   },
 
@@ -135,7 +131,6 @@ export default {
       (productFilter && productFilter(this.value)) || (() => true)
 
     const now = moment().toDate()
-    console.log(`now: ${now}`)
 
     const promoIds = (
       await this.$content('promos')

@@ -13,7 +13,6 @@ import products from '../assets/videos/products/jomigu-7.7-products.mp4'
 export default {
   asyncData() {
     const currentTime = new Date()
-    console.log(`current time: ${currentTime}`)
 
     return {
       currentTime,
