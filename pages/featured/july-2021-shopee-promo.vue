@@ -40,6 +40,11 @@ export default {
       title: TITLE,
       meta: [
         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://shop.jomigu.com/featured/july-2021-shopee-promo/',
+        },
+        {
           hid: 'og:title',
           property: 'og:title',
           content: TITLE,
