@@ -81,15 +81,22 @@ const project = (product, promoIds) => {
   }
 }
 
-const categoryFilters = {
-  category(categoryId) {
-    return (category) => category.id === categoryId
-  },
-}
-
 const productFilters = {
-  category() {
-    return () => true
+  category(categoryId) {
+    return (product) => {
+      const categories = product.categories || []
+      const found = categories.filter((id) => id === categoryId)
+      return found.length > 0
+    }
+  },
+  promo(promoId) {
+    return (product) => {
+      const promos = product.promos || []
+      const found = promos
+        .map((promo) => promo.id)
+        .filter((id) => id === promoId)
+      return found.length > 0
+    }
   },
 }
 
@@ -116,15 +123,7 @@ export default {
   },
 
   async fetch() {
-    const categoryFilter = categoryFilters[this.filter]
-    const categoryFilterFunc =
-      (categoryFilter && categoryFilter(this.values || this.value)) ||
-      (() => true)
-
     const productList = await this.$content('products').fetch()
-    const categories = (await this.$content('categories').fetch()).filter(
-      categoryFilterFunc
-    )
 
     const productFilter = productFilters[this.filter]
     const productFilterFunc =
@@ -142,16 +141,13 @@ export default {
     ).map((promo) => promo.id)
 
     const pushed = {}
-    categories.forEach((category) => {
-      productList
-        .filter((product) => !pushed[product.id])
-        .filter((product) => product.categories.includes(category.id))
-        .filter(productFilterFunc)
-        .forEach((product) => {
-          this.products.push(project(product, promoIds))
-          pushed[product.id] = product
-        })
-    })
+    productList
+      .filter((product) => !pushed[product.id])
+      .filter(productFilterFunc)
+      .forEach((product) => {
+        this.products.push(project(product, promoIds))
+        pushed[product.id] = product
+      })
   },
 }
 </script>
