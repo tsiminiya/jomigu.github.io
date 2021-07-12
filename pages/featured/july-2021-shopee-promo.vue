@@ -27,7 +27,7 @@
 
 <script>
 import moment from 'moment'
-import sharingImage from '../../assets/images/sharing/july-2021-promo.png'
+import sharingImage from '../../assets/images/sharing/july-2021-promo_wide.png'
 
 const TITLE = 'Jomigu July 2021 Promo'
 
@@ -60,9 +60,10 @@ export default {
           content: `${process.env.baseUrl + sharingImage}`,
         },
         {
-          hid: 'og:image:height',
-          property: 'og:image:height',
-          content: '1200',
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            "Up to 40% off. Don't miss this chance. Visit and follow our shop at Shopeeto learn more and updates in the future.",
         },
       ],
     }
