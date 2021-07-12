@@ -29,14 +29,26 @@
 import moment from 'moment'
 import sharingImage from '../../assets/images/sharing/july-2021-promo.png'
 
+const TITLE = 'Jomigu July 2021 Promo'
+
 export default {
   asyncData() {
     return { currentTime: moment().toDate() }
   },
   head() {
     return {
-      title: 'Jomigu July 2021 Promo',
+      title: TITLE,
       meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: TITLE,
+        },
+        {
+          hid: 'apple-mobile-web-app-title',
+          property: 'apple-mobile-web-app-title',
+          content: TITLE,
+        },
         {
           hid: 'og:image',
           property: 'og:image',
