@@ -33,6 +33,12 @@ export default {
         content: 'index, follow',
       },
       {
+        hid: 'facebook-domain-verification',
+        name: 'facebook-domain-verification',
+        property: 'facebook-domain-verification',
+        content: '897e2bpol94z81gy7mso6c598amcc3',
+      },
+      {
         hid: 'og:description',
         property: 'og:description',
         content:
