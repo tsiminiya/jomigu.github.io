@@ -2,23 +2,20 @@
   <div class="container">
     <ul class="row banners narrow-padding">
       <li class="col-md-8">
-        <a href="#">
-          <img src="~/assets/images/banners/jomigu-7.7.png" />
+        <a href="/featured/july-2021-shopee-promo">
+          <img
+            title="Jomigu July 2021 Promo at Shopee"
+            src="~/assets/images/banners/jomigu-july-2021-promo_featured.png"
+          />
         </a>
       </li>
-      <li class="col-md-4 banner-background">
-        <img
-          title="Lazada - Jomigu Online Shop"
-          src="~/assets/images/banners/jomigu-lazada-7.7.png"
-          class="floating-btn-image"
-          @click="goToLazada"
-        />
-        <img
-          title="Shopee - Jomigu Online Shop"
-          src="~/assets/images/banners/jomigu-shopee-7.7.png"
-          class="floating-btn-image"
-          @click="goToShopee"
-        />
+      <li class="col-md-4">
+        <a href="/products/6c0a4460-47de-4540-a7d1-ab615c7f3ae8">
+          <img
+            title="Atomic Habits"
+            src="~/assets/images/banners/featuring_atomic-habits.png"
+          />
+        </a>
       </li>
     </ul>
   </div>
