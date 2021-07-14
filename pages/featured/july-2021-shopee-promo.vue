@@ -22,6 +22,28 @@
       filter="promo"
       value="9b9a5e4d-7f4a-4677-ab6e-cdaa3108d6e4"
     />
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Other promos</h2>
+        </div>
+        <div class="col-lg-6 bg-white p-3">
+          <p style="font-size: large">
+            <span>Now at only </span>
+            <span style="font-size: x-large; font-weight: bold; color: #f00"
+              >₱800</span
+            >
+            <span>from our Lazada store.</span>
+          </p>
+          <a href="/products/6c0a4460-47de-4540-a7d1-ab615c7f3ae8">
+            <img
+              src="~/assets/images/banners/featuring_atomic-habits.png"
+              style="width: 100%"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
