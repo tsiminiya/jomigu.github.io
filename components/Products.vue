@@ -22,14 +22,15 @@
             class="category"
           />
           <p class="mt-1">{{ product.name }}</p>
-          <p class="mb-2">
+          <p>
             <span v-if="product.onSale" class="price promo">{{
               product.promoPrice | peso_currency
             }}</span>
             <span :class="`price ${product.onSale ? 'on-sale' : ''}`">{{
               product.price | peso_currency
             }}</span>
-            <span> | </span>
+          </p>
+          <p class="mb-2">
             <small>Stock: {{ product.stock }}</small>
           </p>
         </a>
@@ -44,8 +45,8 @@ import createVariations from '../models/variation'
 const project = (product, promoIds) => {
   let name = product.name
   const nameLength = name.length
-  if (nameLength > 50) {
-    name = name.substring(0, 45) + '...'
+  if (nameLength > 60) {
+    name = name.substring(0, 55) + '...'
   }
 
   const variations = createVariations(product.variations)

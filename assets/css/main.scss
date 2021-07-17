@@ -4,7 +4,8 @@
     --jomigu-color-1: #f6c;
     --jomigu-color-2: #0cc;
     --jomigu-normal-text: #333;
-    --jomigu-price: rgb(187, 19, 83);
+    --jomigu-striked-through: #777;
+    --jomigu-price: rgb(241, 36, 173);
     --jomigu-page-background: #ccc;
     --jomigu-card-background: #fff;
     --jomigu-border-radius: 20px;
@@ -43,6 +44,8 @@ a:hover {
 
 .price {
     color: var(--jomigu-price);
+    font-weight: bold;
+    font-size: larger;
 }
 
 .price.price-larger {
@@ -51,10 +54,13 @@ a:hover {
 
 .price.on-sale {
     text-decoration: line-through;
+    color: var(--jomigu-striked-through);
+    font-size: smaller;
+    font-weight: normal;
 }
 
 .price.promo {
-    color: var(--jomigu-color-1);
+    color: var(--jomigu-price);
     font-weight: bold;
 }
 
@@ -140,14 +146,20 @@ ul.products {
     background-color: var(--jomigu-page-background);
 
     li {
-        padding: 1px;
+        padding: 10px;
         background-color: var(--jomigu-card-background);
         border: 1px solid var(--jomigu-page-background);
 
         p {
             margin: 0;
-            text-align: center;
+            text-align: left;
             color: var(--jomigu-normal-text);
+        }
+
+        a {
+            img {
+                border-radius: 5%;
+            }
         }
     }
 }
