@@ -104,12 +104,12 @@ export default {
       })
       .fetch()
     const promoIds = promos.map((promo) => promo.id)
+    const promoShops = promos.map((promo) => promo.shop)
 
     this.promoPrice = this.price
     const productPromos = this.promos || []
-    let activePromos = []
     if (promoIds && promoIds.length > 0) {
-      activePromos = productPromos.filter((promo) =>
+      const activePromos = productPromos.filter((promo) =>
         promoIds.includes(promo.id)
       )
       if (activePromos.length > 0) {
@@ -117,11 +117,6 @@ export default {
         this.onSale = true
       }
     }
-
-    const activePromoIds = activePromos.map((promo) => promo.id)
-    const promoShops = promos
-      .filter((promo) => activePromoIds.includes(promo.id))
-      .map((promo) => promo.shop)
 
     const variations = createVariations(this.variations)
     const stock = variations.isEmpty()
