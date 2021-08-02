@@ -5,7 +5,7 @@
         promoPrice | peso_currency
       }}</span>
       <span :class="`price ${onSale ? 'on-sale' : ''}`">{{
-        price | peso_currency
+        product.price | peso_currency
       }}</span>
     </p>
     <div>
@@ -57,30 +57,19 @@
 </template>
 
 <script>
-import moment from 'moment'
-import createVariations from '../models/variation'
-
 export default {
   props: {
-    price: {
-      type: Number,
-      default: 0,
+    product: {
+      type: Object,
+      default: () => ({}),
     },
-    promos: {
+    shopList: {
       type: Array,
-      default: undefined,
+      default: () => [],
     },
-    stock: {
-      type: Object,
-      default: () => {},
-    },
-    variations: {
-      type: Object,
-      default: undefined,
-    },
-    link: {
-      type: Object,
-      default: () => {},
+    promoList: {
+      type: Array,
+      default: () => [],
     },
   },
 
@@ -93,20 +82,13 @@ export default {
     }
   },
 
-  async fetch() {
-    const shops = await this.$content('shops').fetch()
+  fetch() {
+    console.log(this.shopList)
+    console.log(this.promoList)
+    const promoIds = this.promoList.map((promo) => promo.id)
 
-    const now = moment().toDate()
-    const promos = await this.$content('promos')
-      .where({
-        'start-date': { $lt: now },
-        'end-date': { $gt: now },
-      })
-      .fetch()
-    const promoIds = promos.map((promo) => promo.id)
-
-    this.promoPrice = this.price
-    const productPromos = this.promos || []
+    this.promoPrice = this.product.price
+    const productPromos = this.product.promos || []
     let activePromos = []
     if (promoIds && promoIds.length > 0) {
       activePromos = productPromos.filter((promo) =>
@@ -119,27 +101,22 @@ export default {
     }
 
     const activePromoIds = activePromos.map((promo) => promo.id)
-    const promoShops = promos
+    const promoShops = this.promoList
       .filter((promo) => activePromoIds.includes(promo.id))
       .map((promo) => promo.shop)
 
-    const variations = createVariations(this.variations)
-    const stock = variations.isEmpty()
-      ? this.stock
-      : variations.getOverallStats().stock
-
-    for (const shop of shops) {
+    for (const shop of this.shopList) {
       const shopStock = {
         key: shop.slug,
         name: shop.name,
-        stock: stock[shop.slug],
-        link: this.link[shop.slug],
+        stock: this.product.stock[shop.slug],
+        link: this.product.link[shop.slug],
         onSale: promoShops.includes(shop.id),
       }
       this.stockPerShop.push(shopStock)
     }
 
-    this.shops = shops.map((s) => ({ slug: s.slug, image: s.image }))
+    this.shops = this.shopList.map((s) => ({ slug: s.slug, image: s.image }))
   },
 }
 </script>

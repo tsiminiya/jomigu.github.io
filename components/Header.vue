@@ -7,9 +7,9 @@
         </a>
       </li>
       <li>
-        <a href="/">
+        <NuxtLink to="/">
           <span class="title">Online Shop</span>
-        </a>
+        </NuxtLink>
       </li>
       <li class="header-follow-link">
         <a

@@ -2,20 +2,20 @@
   <div class="container">
     <ul class="row banners narrow-padding">
       <li class="col-md-8">
-        <a href="/featured/july-2021-shopee-promo">
+        <NuxtLink to="/featured/july-2021-shopee-promo">
           <img
             title="Jomigu July 2021 Promo at Shopee"
             src="~/assets/images/banners/jomigu-july-2021-promo_featured.png"
           />
-        </a>
+        </NuxtLink>
       </li>
       <li class="col-md-4">
-        <a href="/products/6c0a4460-47de-4540-a7d1-ab615c7f3ae8">
+        <NuxtLink to="/products/6c0a4460-47de-4540-a7d1-ab615c7f3ae8">
           <img
             title="Atomic Habits"
             src="~/assets/images/banners/featuring_atomic-habits.png"
           />
-        </a>
+        </NuxtLink>
       </li>
     </ul>
   </div>

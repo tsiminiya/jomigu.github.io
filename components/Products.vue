@@ -16,24 +16,49 @@
         :key="product.id"
         class="col-6 col-sd-4 col-md-3 col-lg-2"
       >
-        <a :href="`/products/${product.id}`">
+        <NuxtLink :to="`/products/${product.id}`" no-prefetch="">
           <img
             :src="require(`~/assets/images/products/${product.mainImage}`)"
             class="category"
           />
           <p class="mt-1">{{ product.name }}</p>
-          <p>
+          <p v-if="product.hasVariants && product.onSale">
+            <span class="price promo">{{
+              product.priceRange.lowerPromo | peso_currency
+            }}</span>
+            <span class="price promo"> - </span>
+            <span class="price promo">{{
+              product.priceRange.upperPromo | peso_currency
+            }}</span>
+            <span class="price on-sale">{{
+              product.priceRange.lower | peso_currency
+            }}</span>
+            <span class="price on-sale"> - </span>
+            <span class="price on-sale">{{
+              product.priceRange.upper | peso_currency
+            }}</span>
+          </p>
+          <p v-else-if="product.hasVariants && !product.onSale">
+            <span class="price">{{
+              product.priceRange.lower | peso_currency
+            }}</span>
+            <span class="price"> - </span>
+            <span class="price">{{
+              product.priceRange.upper | peso_currency
+            }}</span>
+          </p>
+          <p v-else>
             <span v-if="product.onSale" class="price promo">{{
               product.promoPrice | peso_currency
             }}</span>
-            <span :class="`price ${product.onSale ? 'on-sale' : ''}`">{{
+            <span :class="`price${product.onSale ? ' on-sale' : ''}`">{{
               product.price | peso_currency
             }}</span>
           </p>
           <p class="mb-2">
             <small>Stock: {{ product.stock }}</small>
           </p>
-        </a>
+        </NuxtLink>
       </li>
     </ul>
   </div>
@@ -71,6 +96,12 @@ const project = (product, promoIds) => {
     }
   }
 
+  const priceRange = variations.buildPriceRange(promoIds)
+  const hasVariants = priceRange !== undefined
+  if (hasVariants) {
+    onSale = priceRange.onSale
+  }
+
   return {
     id: product.id,
     name,
@@ -79,6 +110,8 @@ const project = (product, promoIds) => {
     onSale,
     stock: stockTotal,
     mainImage: product.images[0],
+    hasVariants,
+    priceRange,
   }
 }
 
