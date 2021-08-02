@@ -16,6 +16,10 @@ categories:
 promos:
   - id: 3edd843a-ed7f-4fca-b52b-b77ab07628b0
     price: 800
+  - id: a752d847-0c32-4756-acdd-f5aeb2a935a7
+    price: 750
+  - id: d9567fe6-fbef-47d3-b27e-a586ead59803
+    price: 750
 images:
   - atomic-habits/atomic-habits_01.png
   - atomic-habits/atomic-habits_02.png
