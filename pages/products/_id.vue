@@ -40,12 +40,12 @@
         </b-carousel>
       </div>
       <div class="col-md-6 pt-3">
-        <VariationPriceDetails v-if="hasVariants" :product="product" />
         <PriceDetails
-          v-else
-          :product="product"
-          :shop-list="shopList"
-          :promo-list="promoList"
+          :price="price"
+          :promos="promos"
+          :stock="stock"
+          :link="link"
+          :variations="variations"
         />
       </div>
       <div class="col-md-12 pt-2">
@@ -57,15 +57,13 @@
 </template>
 
 <script>
-import moment from 'moment'
-
 export default {
   async asyncData({ $content, params }) {
+    const products = await $content('products').fetch()
+
     if (!params.id) {
       return { product: null }
     }
-
-    const products = await $content('products').where({ id: params.id }).fetch()
 
     const filtered = products.filter((product) => product.id === params.id)
     if (!filtered.length) {
@@ -75,27 +73,19 @@ export default {
     const product = filtered[0]
     const hashtags = product.tags.join(',') + ',jomigu,jomiguonlineshop'
 
-    const shopList = await $content('shops').fetch()
-    const now = moment().toDate()
-    console.log(now)
-    const promoList = (await $content('promos').fetch()).map((promo) => {
-      return { ...promo, 'start-date': moment(promo['start-date']).toDate() }
-    })
-    console.log(`shop-list: ${shopList}`)
-    console.log(`promo-list: ${promoList}`)
-
     return {
       id: product.id,
       name: product.name,
       sharingImage: product.sharing_image || product.images[0],
       images: product.images,
       description: product.description,
-      product,
+      price: product.price,
+      promos: product.promos,
+      stock: product.stock,
+      variations: product.variations,
+      link: product.link,
       url: `${process.env.baseUrl}/products/${product.id}`,
       hashtags,
-      hasVariants: product.variations !== undefined,
-      shopList,
-      promoList,
     }
   },
 

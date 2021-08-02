@@ -1,22 +1,8 @@
-export class Pricing {
-  name: string = ''
-  price: number | undefined
-  stock: { [key: string]: number } = {}
-  sold: { [key: string]: number } = {}
-  variant: Pricing | undefined
-}
-
-export class PriceDetails {
-  pricingList: Pricing[] | undefined
-  headerNames: string[] | undefined
-}
-
 export class Variations {
   name: string = ''
   price: number | undefined
   stock: { [key: string]: number } = {}
   sold: { [key: string]: number } = {}
-  promos = []
   image: string | undefined
   options: Variations[] | undefined
 
@@ -28,62 +14,6 @@ export class Variations {
 
   isEmpty() {
     return this.empty
-  }
-
-  buildPriceRange(promoIds = []) {
-    if (this.isEmpty()) {
-      return undefined
-    }
-
-    const prices: number[] = []
-    const discountedPrices: number[] = []
-    this.traverseAndExtractPrices([this], prices, discountedPrices, promoIds)
-
-    if (prices.length < 1) {
-      return undefined
-    }
-
-    const onSale = discountedPrices.length > 0
-
-    return {
-      lower: Math.min(...prices),
-      upper: Math.max(...prices),
-      onSale,
-      lowerPromo: onSale ? Math.min(...discountedPrices) : undefined,
-      upperPromo: onSale ? Math.max(...discountedPrices) : undefined,
-    }
-  }
-
-  private traverseAndExtractPrices(
-    options: Variations[],
-    prices: number[],
-    discountedPrices: number[],
-    promoIds: string[]
-  ) {
-    for (const variation of options) {
-      if (variation.price) {
-        prices.push(variation.price)
-        if (variation.promos && variation.promos.length > 0) {
-          variation.promos
-            .filter((promo: any) => promoIds.includes(promo.id))
-            .forEach((promo: any) => {
-              discountedPrices.push(promo.price)
-            })
-        }
-      } else if (variation.options) {
-        this.traverseAndExtractPrices(
-          variation.options,
-          prices,
-          discountedPrices,
-          promoIds
-        )
-      }
-    }
-  }
-
-  buildPriceDetails() {
-    const priceDetails = new PriceDetails()
-    return priceDetails
   }
 
   private traverseAndAccumulate(
@@ -122,13 +52,12 @@ export class Variations {
     return target
   }
 
-  static mapVariation(variation: any = {}) {
+  static mapVariation(variation: any) {
     const v = new Variations()
     v.name = variation.name
     v.price = variation.price
     v.stock = Variations.mapStats(variation.stock)
     v.sold = Variations.mapStats(variation.sold)
-    v.promos = variation.promos
     v.image = variation.image
     v.options = (variation.options || []).map(Variations.mapVariation)
     v.empty = false
@@ -156,9 +85,9 @@ export class Variations {
   }
 }
 
-export default (variations: any) => {
-  if (variations == null) {
+export default (variation: any) => {
+  if (variation == null) {
     return new Variations()
   }
-  return Variations.mapVariation(variations)
+  return Variations.mapVariation(variation)
 }
