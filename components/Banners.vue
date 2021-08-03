@@ -2,18 +2,18 @@
   <div class="container">
     <ul class="row banners narrow-padding">
       <li class="col-md-8">
-        <a href="/featured/july-2021-shopee-promo">
+        <a href="/featured/august-2021-promos">
           <img
-            title="Jomigu July 2021 Promo at Shopee"
-            src="~/assets/images/banners/jomigu-july-2021-promo_featured.png"
+            title="Jomigu August 2021 Promos"
+            src="~/assets/images/banners/jomigu-august-2021-promo_featured.png"
           />
         </a>
       </li>
       <li class="col-md-4">
-        <a href="/products/6c0a4460-47de-4540-a7d1-ab615c7f3ae8">
+        <a href="/categories/dbefabad-c4be-4a4b-aeed-79feb1c6c517">
           <img
-            title="Atomic Habits"
-            src="~/assets/images/banners/featuring_atomic-habits.png"
+            title="Home School Kits"
+            src="~/assets/images/banners/featuring_home-school-kits.png"
           />
         </a>
       </li>
