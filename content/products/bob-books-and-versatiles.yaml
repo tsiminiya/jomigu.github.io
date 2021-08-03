@@ -16,6 +16,10 @@ categories:
 promos:
   - id: 9b9a5e4d-7f4a-4677-ab6e-cdaa3108d6e4
     price: 1236
+  - id: 4996763d-4439-48ff-8085-2e2127e000d9
+    price: 1030
+  - id: a752d847-0c32-4756-acdd-f5aeb2a935a7
+    price: 1030
 images:
   - bob-books-and-versatiles/bob-books-and-versatiles-01.png
   - bob-books-and-versatiles/bob-books-and-versatiles-02.png
