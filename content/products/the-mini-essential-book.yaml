@@ -3,11 +3,11 @@ name: Hello Essentials The Mini Essential Book First Edition
 featured: 'false'
 price: 267
 stock:
-  lazada: 12
-  shopee: 7
+  lazada: 10
+  shopee: 6
 sold:
-  lazada: 4
-  shopee: 24
+  lazada: 6
+  shopee: 25
 link:
   lazada: https://s.lazada.com.ph/s.da13b
   shopee: https://shopee.ph/product/131641645/6880084371?smtt=0.134284870-1625083912.9
