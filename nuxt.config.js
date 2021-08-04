@@ -47,7 +47,7 @@ export default {
       {
         hid: 'fb:app_id',
         property: 'fb:app_id',
-        content: '1476032742574888',
+        content: '212019520858979',
       },
       {
         hid: 'og:url',
@@ -109,6 +109,8 @@ export default {
     '@/plugins/peso-currency.js',
     // Date Utils
     '@/plugins/date-utils.js',
+    // Facebook SDK
+    '@/plugins/fb-sdk.client.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
