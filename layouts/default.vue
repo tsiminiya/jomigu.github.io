@@ -8,11 +8,3 @@
     <Footer />
   </main>
 </template>
-
-<script>
-export default {
-  mounted() {
-    // window.FB.CustomerChat.show(true)
-  },
-}
-</script>
