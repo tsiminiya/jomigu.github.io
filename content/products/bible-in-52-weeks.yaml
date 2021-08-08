@@ -13,6 +13,9 @@ link:
   shopee: https://shopee.ph/product/131641645/3981288410?smtt=0.134284870-1624795072.9
 categories:
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
+promos:
+  - id: 8aca4b65-bb81-43aa-8e22-d1476d0a023c
+    price: 1060
 images:
   - bible-in-52-weeks/bible-in-52-weeks_01.png
   - bible-in-52-weeks/bible-in-52-weeks_02.png
