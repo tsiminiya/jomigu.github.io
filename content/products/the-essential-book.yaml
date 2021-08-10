@@ -3,10 +3,10 @@ name: Hello Essentials The Essential Book First Edition
 featured: 'false'
 price: 1280
 stock:
-  lazada: 2
-  shopee: 4
+  lazada: 3
+  shopee: 2
 sold:
-  lazada: 2
+  lazada: 3
   shopee: 1
 link:
   lazada: https://s.lazada.com.ph/s.dbTBu

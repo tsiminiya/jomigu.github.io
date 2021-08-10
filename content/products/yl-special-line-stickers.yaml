@@ -2,6 +2,12 @@ id: ad12e553-b0ae-4e2b-aba8-fa658ca40140
 name: Young Living Label Stickers for YL's Special Line of Essential Oils
 featured: 'false'
 price: 16
+stock:
+  lazada: 60
+  shopee: 45
+sold:
+  lazada: 0
+  shopee: 5
 variations:
   name: Collection
   options:
