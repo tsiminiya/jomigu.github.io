@@ -86,7 +86,7 @@ export class Variations {
 }
 
 export default (variation: any) => {
-  if (variation == null) {
+  if (variation === undefined) {
     return new Variations()
   }
   return Variations.mapVariation(variation)

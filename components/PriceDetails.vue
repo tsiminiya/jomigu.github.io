@@ -59,6 +59,7 @@
 <script>
 import moment from 'moment'
 import createVariations from '../models/variation'
+import createPromoListWrapper from '../models/promos'
 
 export default {
   props: {
@@ -103,20 +104,13 @@ export default {
         'end-date': { $gt: now },
       })
       .fetch()
-    const promoIds = promos.map((promo) => promo.id)
-    const promoShops = promos.map((promo) => promo.shop)
-
-    this.promoPrice = this.price
-    const productPromos = this.promos || []
-    if (promoIds && promoIds.length > 0) {
-      const activePromos = productPromos.filter((promo) =>
-        promoIds.includes(promo.id)
-      )
-      if (activePromos.length > 0) {
-        this.promoPrice = activePromos[0].price
-        this.onSale = true
-      }
+    const promoListWrapper = createPromoListWrapper(promos)
+    const activePromos = promoListWrapper.getProductActivePromos(this.promos)
+    if (activePromos.length > 0) {
+      this.onSale = true
+      this.promoPrice = activePromos[0].productPrice
     }
+    const promoShops = activePromos.map((promo) => promo.shop)
 
     const variations = createVariations(this.variations)
     const stock = variations.isEmpty()
