@@ -40,11 +40,7 @@
         </li>
       </ul>
     </div>
-    <Products
-      :current-time="currentTime"
-      filter="category"
-      value="dbefabad-c4be-4a4b-aeed-79feb1c6c517"
-    />
+    <Products filter="category" value="dbefabad-c4be-4a4b-aeed-79feb1c6c517" />
   </div>
 </template>
 
