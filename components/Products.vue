@@ -20,7 +20,7 @@
               :key="product.id"
               class="col-6 col-sd-4 col-md-4 col-lg-4"
             >
-              <nuxt-link :to="`/products/${product.id}`">
+              <a :href="`/products/${product.id}`">
                 <section class="product-info">
                   <img
                     :src="
@@ -43,7 +43,7 @@
                     <span class="name">{{ product.name }}</span>
                   </p>
                 </section>
-              </nuxt-link>
+              </a>
             </li>
           </ul>
         </div>

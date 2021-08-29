@@ -10,12 +10,12 @@
               :key="category.id"
               class="col-6 col-md-4 col-lg-3 text-center"
             >
-              <nuxt-link :to="`/categories/${category.id}`">
+              <a :href="`/categories/${category.id}`">
                 <img
                   :src="require(`~/assets/images/categories/${category.image}`)"
                 />
                 <p class="name">{{ category.name }}</p>
-              </nuxt-link>
+              </a>
             </li>
           </ul>
         </div>

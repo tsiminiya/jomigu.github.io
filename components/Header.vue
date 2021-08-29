@@ -3,9 +3,9 @@
     <div class="container">
       <ul class="header-details">
         <li>
-          <nuxt-link to="/">
+          <a href="/">
             <img src="~/assets/images/strips/jomigu-20210827_strips.png" />
-          </nuxt-link>
+          </a>
         </li>
         <li class="float-right mt-3">
           <a
