@@ -1,14 +1,19 @@
 <template>
   <div>
     <div class="container">
-        <h1 class="text-center mt-5">Jomigu August 2021 Promos</h1>
-        <ul class="row products narrow-padding">
-            <li class="col-12">
-                <img :src="require(`~/assets/images/featured/jomigu-books.png`)" class="featured-image" />
-                <p class="font-weight-bold">Big discounts on books at Jomigu!</p>
-                <p>Promo runs until August 31, 2021 so, hurry and grab your copies now.</p>
-            </li>
-        </ul>
+      <h1 class="text-center mt-5">Jomigu August 2021 Promos</h1>
+      <ul class="row products list-style-none">
+        <li class="col-12">
+          <img
+            :src="require(`~/assets/images/featured/jomigu-books.png`)"
+            class="featured-image"
+          />
+          <p class="font-weight-bold">Big discounts on books at Jomigu!</p>
+          <p>
+            Promo runs until August 31, 2021 so, hurry and grab your copies now.
+          </p>
+        </li>
+      </ul>
     </div>
     <Products
       :current-time="currentTime"
@@ -16,14 +21,24 @@
       value="a752d847-0c32-4756-acdd-f5aeb2a935a7"
     />
     <div class="container">
-        <h2 class="text-center mt-5">Other Promos</h2>
-        <ul class="row products narrow-padding">
-            <li class="col-12">
-                <img :src="require(`~/assets/images/banners/featuring_home-school-kits.png`)" class="featured-image" />
-                <p class="font-weight-bold">Big discounts on home school kits at Jomigu!</p>
-                <p>Just in time before the start of the school year. Promo is active until August 31.</p>
-            </li>
-        </ul>
+      <h2 class="text-center mt-5">Other Promos</h2>
+      <ul class="row products list-style-none">
+        <li class="col-12">
+          <img
+            :src="
+              require(`~/assets/images/banners/featuring_home-school-kits.png`)
+            "
+            class="featured-image"
+          />
+          <p class="font-weight-bold">
+            Big discounts on home school kits at Jomigu!
+          </p>
+          <p>
+            Just in time before the start of the school year. Promo is active
+            until August 31.
+          </p>
+        </li>
+      </ul>
     </div>
     <Products
       :current-time="currentTime"
@@ -71,7 +86,7 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content:
-            "Great discounts on books and home school kits. You can even get more discount in price and shipping using our store vouchers. Visit and follow our shops to learn more and get updates on our future promotions.",
+            'Great discounts on books and home school kits. You can even get more discount in price and shipping using our store vouchers. Visit and follow our shops to learn more and get updates on our future promotions.',
         },
       ],
     }

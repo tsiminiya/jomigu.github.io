@@ -1,21 +1,21 @@
 <template>
-  <div class="container">
-    <ul class="row banners narrow-padding">
+  <div class="banners container">
+    <ul class="row list-style-none">
       <li class="col-md-8">
-        <a href="/featured/august-2021-promos">
+        <nuxt-link to="/featured/august-2021-promos">
           <img
             title="Jomigu August 2021 Promos"
             src="~/assets/images/banners/jomigu-august-2021-promo_featured.png"
           />
-        </a>
+        </nuxt-link>
       </li>
       <li class="col-md-4">
-        <a href="/categories/dbefabad-c4be-4a4b-aeed-79feb1c6c517">
+        <nuxt-link to="/categories/dbefabad-c4be-4a4b-aeed-79feb1c6c517">
           <img
             title="Home School Kits"
             src="~/assets/images/banners/featuring_home-school-kits.png"
           />
-        </a>
+        </nuxt-link>
       </li>
     </ul>
   </div>
@@ -36,19 +36,20 @@ export default {
 </script>
 
 <style lang="scss">
-.banner-background {
-  position: relative;
-  width: 100%;
-  background-image: url(~/assets/images/banners/jomigu-7.7-background.png);
-  background-size: cover;
-}
+.banners {
+  ul {
+    margin-bottom: 0;
 
-.floating-btn-image {
-  display: block;
-  width: 36%;
-  cursor: pointer;
-  border-radius: 10px;
-  border: 2px solid #333;
-  margin: 20px;
+    li {
+      padding: 0;
+
+      a {
+        img {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    }
+  }
 }
 </style>

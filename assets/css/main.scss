@@ -1,307 +1,72 @@
 @import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 :root {
-    --jomigu-color-1: #f6c;
-    --jomigu-color-2: #0cc;
-    --jomigu-normal-text: #333;
-    --jomigu-striked-through: #777;
-    --jomigu-price: rgb(241, 36, 173);
-    --jomigu-page-background: #ccc;
-    --jomigu-card-background: #fff;
-    --jomigu-border-radius: 20px;
+  --jomigu-color-1: #b39659;
+  --jomigu-color-2: #180763;
+  --jomigu-color-3: #d9d9d9;
+  --jomigu-color-4: #fff;
+  --jomigu-color-5: #000;
+  --jomigu-normal-text: #333;
+  --jomigu-striked-through: #777;
+  --jomigu-price: #b39659;
+  --jomigu-page-background: #b39659;
+  --jomigu-main-background: #d9d9d9;
+  --jomigu-card-background: #fff;
+  --jomigu-header-background: #180763;
+  --jomigu-border-radius: 20px;
+}
+
+@font-face {
+  font-family: SourceCodePro, monospace;
+  src: url(~assets/fonts/SourceCodePro-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Happy Monkey', monospace;
+  src: url(~assets/fonts/HappyMonkey-Regular.ttf);
 }
 
 html {
-    background-color: var(--jomigu-color-1);
+  background-color: var(--jomigu-page-background);
+}
+
+a {
+  color: var(--jomigu-color-5);
 }
 
 a:hover {
-    text-decoration: none;
-}
-
-@font-face {
-    font-family: SourceCodePro, monospace;
-    src: url(~assets/fonts/SourceCodePro-Italic.ttf);
-}
-
-@font-face {
-    font-family: 'Happy Monkey', monospace;
-    src: url(~assets/fonts/HappyMonkey-Regular.ttf);
-}
-
-.bg-jomigu {
-    background: var(--jomigu-color-1);
-}
-
-.bg-jomigu-2 {
-    background: var(--jomigu-color-2);
-}
-
-.title {
-    font-family: SourceCodePro, monospace;
-    color: var(--jomigu-color-1);
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.price {
-    color: var(--jomigu-price);
-    font-weight: bold;
-    font-size: larger;
-}
-
-.price.price-larger {
-    font-size: x-large;
-}
-
-.price.on-sale {
-    text-decoration: line-through;
-    color: var(--jomigu-striked-through);
-    font-size: smaller;
-    font-weight: normal;
-}
-
-.price.promo {
-    color: var(--jomigu-price);
-    font-weight: bold;
-}
-
-.buy-btn.btn-success {
-    background-color: var(--jomigu-color-1);
-    border-color: var(--jomigu-color-1);
-}
-
-.product-details {
-    padding: 0;
-
-    .name {
-        margin-top: 6px;
-        font-size: x-large;
-        text-align: center;
-    }
-
-    .description {
-        white-space: pre-line;
-    }
-
-    .count {
-        font-size: x-large;
-    }
-
-    img {
-        width: 100%;
-    }
-}
-
-.stock {
-    img {
-        width: 60%;
-    }
-}
-
-ul.narrow-padding {
-    padding: 0 8px;
-    margin-bottom: 5px;
-    background-color: var(--jomigu-card-background);
-
-    li {
-        display: inline-block;
-        padding: 0;
-        list-style: none;
-
-        a {
-            img {
-                width: 100%;
-            }
-        }
-    }
-}
-
-ul.banners {
-    padding: 0 5px;
-    background-color: var(--jomigu-page-background);
-}
-
-ul.categories {
-    padding: 0;
-    margin-left: -10px;
-    margin-right: -10px;
-    background-color: var(--jomigu-card-background);
-    
-    li {
-        text-align: center;
-        padding: 10px;
-    
-        a {
-            font-size: small;
-            color: var(--jomigu-normal-text);
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-}
-
-ul.products {
-    padding: 0 5px;
-    background-color: var(--jomigu-page-background);
-
-    li {
-        padding: 10px;
-        background-color: var(--jomigu-card-background);
-        border: 1px solid var(--jomigu-page-background);
-
-        p {
-            margin: 0;
-            text-align: left;
-            color: var(--jomigu-normal-text);
-        }
-
-        a {
-            img {
-                border-radius: 5%;
-                border: 1px solid #ccc;
-            }
-        }
-    }
-}
-
-ul.shops {
-    list-style: none;
-    text-align: center;
-    float: center;
-    padding-left: 0;
-
-    li {
-        display: inline-block;
-        padding: 10px 10px 0;
-
-        span {
-            font-weight: bold;
-        }
-
-        p {
-            font-size: larger;
-
-            a {
-                color: #000;
-
-                img {
-                    width: 70%;
-                }
-            }
-        }
-    }
-}
-
-ul.sites {
-    list-style: none;
-    text-align: center;
-    float: center;
-    padding-left: 0;
-
-    li {
-        display: inline-block;
-        padding: 10px 10px 0;
-
-        span {
-            font-weight: bold;
-        }
-
-        p {
-            font-size: larger;
-
-            a {
-                color: #000;
-
-                img {
-                    width: 70%;
-                }
-
-                i {
-                    &.facebook {
-                        color: #00f;
-                    }
-
-                    &.instagram {
-                        color: #f00;
-                    }
-                }
-            }
-        }
-    }
-}
-
-ul.blogs {
-    li {
-        p {
-            a {
-                color: var(--jomigu-normal-text);
-            }
-        }
-    }
-}
-
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-    height: 35px;
-    margin: 0;
-    background-color: #fff;
-
-    ul.header-details {
-        position: absolute;
-        width: 100%;
-        padding: 5px;
-
-        li {
-            display: inline;
-            list-style: none;
-
-            &.logo-container {
-                .logo {
-                    float: left;
-                    width: 60px;
-                }       
-            }
-
-            &.header-follow-link {
-                margin-right: 5px;
-                float: right;
-
-                .follow-us-at {
-                    font-stretch: condensed;
-                }
-
-                a {
-                    margin-left: 5px;
-
-                    &.facebook {
-                        color: #00f;
-                    }
-    
-                    &.instagram {
-                        color: #f00;
-                    }
-                }
-            }
-        }
-    }
+  text-decoration: none;
+  color: var(--jomigu-color-1);
 }
 
 main {
-    background-color: var(--jomigu-page-background);
+  background-color: var(--jomigu-main-background);
 }
 
-.content-wrapper {
-    margin-top: 40px;
-    padding-top: 3px;
+ul.list-style-none {
+  list-style: none;
+  padding: 0;
 }
 
-.topics {
-    min-height: 800px;
+.logo {
+    width: 100%;
+}
+
+.color-1 {
+  color: var(--jomigu-color-1);
+}
+
+.container .card-borderless {
+  border: 0;
+  border-radius: 0;
+}
+
+.container .card-title-header {
+  background-color: var(--jomigu-color-1);
+  border-radius: 0;
+  border: 2px solid var(--jomigu-color-1);
+  color: var(--jomigu-color-5);
+  padding: 3px 15px;
+  font-size: smaller;
+  font-weight: bold;
 }

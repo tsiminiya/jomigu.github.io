@@ -2,7 +2,7 @@
   <div>
     <Banners />
     <Categories />
-    <Products :current-time="currentTime" />
+    <Products :show-header="true" />
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div class="container product-details bg-white p-4">
     <p class="name">{{ name }}</p>
-    <p class="text-right">
+    <p class="text-center">
       <ShareNetwork
         network="twitter"
         :url="url"
         :title="name"
         :hashtags="hashtags"
-        class="float-left"
+        class="mr-2"
       >
         Share on <i class="bi-twitter"></i>
       </ShareNetwork>
@@ -121,3 +121,33 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+p.price {
+  span {
+    color: var(--jomigu-price);
+    font-weight: bold;
+  }
+
+  span.on-sale {
+    color: var(--jomigu-color-5);
+    font-size: xx-small;
+    font-weight: normal;
+    text-decoration: line-through;
+  }
+}
+
+.description {
+  white-space: pre-line;
+}
+
+.product-shop {
+  width: 100%;
+}
+
+.name {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+</style>

@@ -1,8 +1,17 @@
 <template>
-  <div class="container bg-white p-3">
+  <div class="container blog bg-white p-3">
     <small class="float-right">{{ blog.published | format_date_time }}</small>
     <h1 class="text-center my-5">{{ blog.title }}</h1>
-    <p class="text-right">
+    <p class="text-center">
+      <ShareNetwork
+        network="twitter"
+        :url="url"
+        :title="blog.title"
+        :hashtags="blog.hashtags"
+        class="mr-2"
+      >
+        Share on <i class="bi-twitter"></i>
+      </ShareNetwork>
       <ShareNetwork
         network="facebook"
         :url="url"
@@ -10,15 +19,6 @@
         :hashtags="blog.hashtags"
       >
         Share on <i class="bi-facebook"></i>
-      </ShareNetwork>
-      <ShareNetwork
-        network="twitter"
-        :url="url"
-        :title="blog.title"
-        :hashtags="blog.hashtags"
-        class="float-left"
-      >
-        Share on <i class="bi-twitter"></i>
       </ShareNetwork>
     </p>
     <div class="row">
@@ -72,8 +72,9 @@ export default {
 </script>
 
 <style>
-img {
+.blog img {
   width: auto;
+  max-width: 100%;
   max-height: 650px;
 }
 

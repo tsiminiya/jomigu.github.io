@@ -6,7 +6,7 @@
         <span>|</span>
         <span>Follow us at</span>
       </p>
-      <ul class="shops">
+      <ul class="shops list-style-none">
         <li v-for="shop in shops" :key="shop.id">
           <p>
             <a :href="shop.url">
@@ -15,7 +15,7 @@
           </p>
         </li>
       </ul>
-      <ul class="sites">
+      <ul class="sites list-style-none">
         <li v-for="site in sites" :key="site.id">
           <p>
             <a :href="site.url">
@@ -44,3 +44,39 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+footer {
+  background-color: var(--jomigu-page-background);
+  color: var(--jomigu-color-2);
+
+  div {
+    p {
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    ul.shops,
+    ul.sites {
+      text-align: center;
+      color: var(--jomigu-color-2);
+
+      li {
+        display: inline-block;
+        padding: 15px;
+
+        p {
+          a {
+            color: var(--jomigu-color-2);
+
+            img {
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</style>

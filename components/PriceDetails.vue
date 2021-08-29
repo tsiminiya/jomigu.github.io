@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="price-details">
     <p class="price price-larger">
       <span v-if="onSale" class="price promo">{{
         promoPrice | peso_currency
@@ -14,7 +14,10 @@
         <thead class="thead-light">
           <tr>
             <th v-for="shop in shops" :key="shop.slug" class="text-center">
-              <img :src="require(`~/assets/images/shops/${shop.image}`)" />
+              <img
+                class="product-shop"
+                :src="require(`~/assets/images/shops/${shop.image}`)"
+              />
             </th>
           </tr>
         </thead>
