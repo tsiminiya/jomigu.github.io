@@ -36,11 +36,16 @@
                     </span>
                   </p>
                   <p class="mb-0 mx-1">
-                    <span class="stat">Sold: {{ product.sold }}</span>
                     <span class="stat">Stock: {{ product.stock }}</span>
                   </p>
                   <p class="mx-1">
                     <span class="name">{{ product.name }}</span>
+                  </p>
+                  <p
+                    v-if="product.stock < 1"
+                    class="badge badge-secondary out-of-stock"
+                  >
+                    Out of Stock
                   </p>
                 </section>
               </a>
@@ -232,6 +237,12 @@ export default {
                     font-size: small;
                     font-weight: normal;
                   }
+                }
+
+                p.out-of-stock {
+                  position: absolute;
+                  top: 5px;
+                  left: 5px;
                 }
               }
             }
