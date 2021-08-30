@@ -4,10 +4,10 @@ featured: 'false'
 price: 1280
 stock:
   lazada: 3
-  shopee: 2
-sold:
-  lazada: 3
   shopee: 1
+sold:
+  lazada: 4
+  shopee: 2
 link:
   lazada: https://s.lazada.com.ph/s.dbTBu
   shopee: https://shopee.ph/product/131641645/8918299136
