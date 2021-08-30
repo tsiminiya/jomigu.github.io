@@ -18,7 +18,7 @@
               v-for="product in products"
               v-else
               :key="product.id"
-              class="col-6 col-sd-4 col-md-4 col-lg-4"
+              class="col-6 col-sd-4 col-md-4 col-lg-3"
             >
               <a :href="`/products/${product.id}`">
                 <section class="product-info">
