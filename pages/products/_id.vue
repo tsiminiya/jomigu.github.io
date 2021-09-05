@@ -130,8 +130,8 @@ p.price {
   }
 
   span.on-sale {
-    color: var(--jomigu-color-5);
-    font-size: xx-small;
+    color: var(--jomigu-color-2);
+    font-size: smaller;
     font-weight: normal;
     text-decoration: line-through;
   }

@@ -27,14 +27,12 @@
                       require(`~/assets/images/products/${product.mainImage}`)
                     "
                   />
-                  <p class="mt-1 mb-0 mx-1">
-                    <span v-if="product.onSale" class="price promo">{{
-                      product.promoPrice | peso_currency
-                    }}</span>
-                    <span :class="`price ${product.onSale ? 'on-sale' : ''}`"
-                      >{{ product.price | peso_currency }}
-                    </span>
-                  </p>
+                  <Price
+                    :price="product.price"
+                    :product-promos="product.promos"
+                    :variations="product.variations"
+                    style-class="mt-1 mb-0 mx-1"
+                  />
                   <p class="mb-0 mx-1">
                     <span class="stat">Stock: {{ product.stock }}</span>
                   </p>
@@ -57,7 +55,6 @@
   </div>
 </template>
 <script>
-import moment from 'moment'
 import createVariations from '../models/variation'
 
 const getStats = (product) => {
@@ -83,7 +80,7 @@ const getStats = (product) => {
   return { stockTotal, soldTotal }
 }
 
-const project = (product, promoIds) => {
+const project = (product) => {
   let name = product.name
   const nameLength = name.length
   if (nameLength > 60) {
@@ -92,28 +89,15 @@ const project = (product, promoIds) => {
 
   const stats = getStats(product)
 
-  let promoPrice = product.price
-  let onSale = false
-  const productPromos = product.promos || []
-  if (promoIds && promoIds.length > 0) {
-    const activePromos = productPromos.filter((promo) =>
-      promoIds.includes(promo.id)
-    )
-    if (activePromos.length > 0) {
-      promoPrice = activePromos[0].price
-      onSale = true
-    }
-  }
-
   return {
     id: product.id,
     name,
     price: product.price,
-    promoPrice,
-    onSale,
     stock: stats.stockTotal,
     sold: stats.soldTotal,
     mainImage: product.images[0],
+    promos: product.promos,
+    variations: product.variations,
   }
 }
 
@@ -159,6 +143,7 @@ export default {
   data() {
     return {
       products: [],
+      promoIds: [],
     }
   },
 
@@ -169,23 +154,12 @@ export default {
     const productFilterFunc =
       (productFilter && productFilter(this.value)) || (() => true)
 
-    const now = moment().toDate()
-
-    const promoIds = (
-      await this.$content('promos')
-        .where({
-          'start-date': { $lt: now },
-          'end-date': { $gt: now },
-        })
-        .fetch()
-    ).map((promo) => promo.id)
-
     const pushed = {}
     productList
       .filter((product) => !pushed[product.id])
       .filter(productFilterFunc)
       .forEach((product) => {
-        this.products.push(project(product, promoIds))
+        this.products.push(project(product))
         pushed[product.id] = product
       })
   },
@@ -222,8 +196,8 @@ export default {
                   }
 
                   .price.on-sale {
-                    color: var(--jomigu-color-5);
-                    font-size: xx-small;
+                    color: var(--jomigu-color-2);
+                    font-size: x-small;
                     font-weight: normal;
                     text-decoration: line-through;
                   }

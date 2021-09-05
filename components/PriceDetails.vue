@@ -1,13 +1,11 @@
 <template>
   <div class="price-details">
-    <p class="price price-larger">
-      <span v-if="onSale" class="price promo">{{
-        promoPrice | peso_currency
-      }}</span>
-      <span :class="`price ${onSale ? 'on-sale' : ''}`">{{
-        price | peso_currency
-      }}</span>
-    </p>
+    <Price
+      :price="price"
+      :product-promos="promos"
+      :variations="variations"
+      style-class="price price-larger"
+    />
     <div>
       <strong>Stock:</strong>
       <table class="stock table table-bordered mt-2">
@@ -92,8 +90,6 @@ export default {
     return {
       shops: [],
       stockPerShop: [],
-      onSale: false,
-      promoPrice: 0,
     }
   },
 
@@ -109,10 +105,6 @@ export default {
       .fetch()
     const promoListWrapper = createPromoListWrapper(promos)
     const activePromos = promoListWrapper.getProductActivePromos(this.promos)
-    if (activePromos.length > 0) {
-      this.onSale = true
-      this.promoPrice = activePromos[0].productPrice
-    }
     const promoShops = activePromos.map((promo) => promo.shop)
 
     const variations = createVariations(this.variations)

@@ -10,6 +10,9 @@ export default () => {
     if (!value) {
       return ''
     }
+    if (value.length) {
+      return value.map((e) => `${PESO_FORMATTER.format(e)}`).join(' - ')
+    }
     return `${PESO_FORMATTER.format(value)}`
   })
 }

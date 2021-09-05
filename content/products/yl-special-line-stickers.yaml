@@ -12,40 +12,70 @@ variations:
   name: Collection
   options:
     - name: YL KidScents
+      price: 16
       stock:
         lazada: 10
         shopee: 8
       sold:
         lazada: 0
         shopee: 2
+      promos:
+        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
+          price: 14
+        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+          price: 14
     - name: Animal Scents
+      price: 16
       stock:
         lazada: 10
         shopee: 8
       sold:
         lazada: 0
         shopee: 2
-    - name: Custom 6
+      promos:
+        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
+          price: 14
+        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+          price: 14
+    - name: Custom 12
+      price: 16
       stock:
         lazada: 20
         shopee: 10
       sold:
         lazada: 0
         shopee: 0
-    - name: Custom 12
+      promos:
+        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
+          price: 14
+        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+          price: 14
+    - name: Custom 24
+      price: 25
       stock:
         lazada: 20
         shopee: 19
       sold:
         lazada: 0
         shopee: 1
-    - name: Custom 60 Assorted
+      promos:
+        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
+          price: 22
+        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+          price: 22
+    - name: Custom 60
+      price: 50
       stock:
-        lazada: 0
+        lazada: 20
         shopee: 19
       sold:
         lazada: 0
         shopee: 1
+      promos:
+        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
+          price: 45
+        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+          price: 45
 link:
   lazada: https://s.lazada.com.ph/s.dbokf
   shopee: https://shopee.ph/product/131641645/7887674577

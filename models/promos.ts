@@ -1,4 +1,4 @@
-class PromoListWrapper {
+export class PromoListWrapper {
   private promos: any[] = []
   private promoMap: { [key: string]: any } = {}
   private empty: boolean = true

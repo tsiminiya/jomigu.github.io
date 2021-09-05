@@ -1,3 +1,29 @@
+import createPromoListWrapper, { PromoListWrapper } from './promos'
+
+export class PriceRange {
+  min: number | undefined
+  max: number | undefined
+  minName: string = ''
+  maxName: string = ''
+  promoListWrapper: PromoListWrapper | undefined
+  promosFound: boolean = false
+
+  withPromoListWrapper(promos: any[]) {
+    const priceRange = new PriceRange()
+    priceRange.min = this.min
+    priceRange.max = this.max
+    priceRange.minName = this.minName
+    priceRange.maxName = this.maxName
+    priceRange.promoListWrapper = createPromoListWrapper(promos)
+    priceRange.promosFound = this.promosFound
+    return priceRange
+  }
+
+  toArray() {
+    return [this.min, this.max]
+  }
+}
+
 export class Variations {
   name: string = ''
   price: number | undefined
@@ -5,28 +31,111 @@ export class Variations {
   sold: { [key: string]: number } = {}
   image: string | undefined
   options: Variations[] | undefined
+  promos: any[] | undefined
 
   private empty: boolean = true
 
+  constructor() {
+    this.mergeStats = this.mergeStats.bind(this)
+    this.evaluatePriceRange = this.evaluatePriceRange.bind(this)
+    this.evaluatePromoPriceRange = this.evaluatePromoPriceRange.bind(this)
+  }
+
+  getPromoPriceRange(promos: any[]): PriceRange {
+    return this.traverseAndAccumulate(
+      this,
+      this.getPriceRange().withPromoListWrapper(promos),
+      this.evaluatePromoPriceRange
+    )
+  }
+
+  evaluatePromoPriceRange(partialResult: PriceRange, variation: Variations) {
+    if (
+      variation.price !== undefined &&
+      variation.promos !== undefined &&
+      partialResult.promoListWrapper !== undefined
+    ) {
+      const activePromos =
+        partialResult.promoListWrapper.getProductActivePromos(variation.promos)
+      if (activePromos.length > 0) {
+        partialResult.promosFound = true
+
+        const activePromo = activePromos[0]
+        if (
+          partialResult.min === undefined ||
+          activePromo.productPrice < partialResult.min
+        ) {
+          partialResult.min = activePromo.productPrice
+          partialResult.minName = variation.name
+        }
+        if (
+          partialResult.max === undefined ||
+          partialResult.maxName === variation.name
+        ) {
+          partialResult.max = activePromo.productPrice
+          partialResult.maxName = variation.name
+        }
+      }
+    }
+    return partialResult
+  }
+
+  getPriceRange(): PriceRange {
+    return this.traverseAndAccumulate(
+      this,
+      new PriceRange(),
+      this.evaluatePriceRange
+    )
+  }
+
+  private evaluatePriceRange(partialResult: PriceRange, variation: Variations) {
+    if (variation.price !== undefined) {
+      if (
+        partialResult.min === undefined ||
+        variation.price < partialResult.min
+      ) {
+        partialResult.min = variation.price
+        partialResult.minName = variation.name
+      }
+      if (
+        partialResult.max === undefined ||
+        variation.price > partialResult.max
+      ) {
+        partialResult.max = variation.price
+        partialResult.maxName = variation.name
+      }
+    }
+    return partialResult
+  }
+
   getOverallStats() {
-    return this.traverseAndAccumulate(this, {})
+    return this.traverseAndAccumulate(this, {}, this.mergeStats)
   }
 
-  isEmpty() {
-    return this.empty
-  }
-
-  private traverseAndAccumulate(
-    variation: Variations,
-    stats: { [key: string]: { [key: string]: number } }
-  ) {
-    let overallStats = this.copyHash(stats)
+  private mergeStats(
+    partialResult: { [key: string]: { [key: string]: number } },
+    variation: Variations
+  ): any {
+    let overallStats = this.copyHash(partialResult)
     overallStats = this.addStatsToField(variation.stock, overallStats, 'stock')
     overallStats = this.addStatsToField(variation.sold, overallStats, 'sold')
-    variation.options?.forEach((option: Variations) => {
-      overallStats = this.traverseAndAccumulate(option, overallStats)
-    })
     return overallStats
+  }
+
+  private traverseAndAccumulate<T>(
+    variation: Variations,
+    initialValue: T,
+    accumulationFunc: Function
+  ) {
+    let partialResult = accumulationFunc(initialValue, variation)
+    variation.options?.forEach((option: Variations) => {
+      partialResult = this.traverseAndAccumulate(
+        option,
+        partialResult,
+        accumulationFunc
+      )
+    })
+    return partialResult
   }
 
   private addStatsToField(
@@ -52,10 +161,15 @@ export class Variations {
     return target
   }
 
+  isEmpty() {
+    return this.empty
+  }
+
   static mapVariation(variation: any) {
     const v = new Variations()
     v.name = variation.name
     v.price = variation.price
+    v.promos = variation.promos
     v.stock = Variations.mapStats(variation.stock)
     v.sold = Variations.mapStats(variation.sold)
     v.image = variation.image
@@ -86,7 +200,7 @@ export class Variations {
 }
 
 export default (variation: any) => {
-  if (variation === undefined) {
+  if (variation === undefined || Object.keys(variation).length === 0) {
     return new Variations()
   }
   return Variations.mapVariation(variation)
