@@ -41,6 +41,16 @@
       </div>
       <div class="col-md-6 pt-3">
         <PriceDetails
+          v-if="!hasVariations"
+          :price="price"
+          :promos="promos"
+          :promo-shops="promoShops"
+          :product-promos="productPromos"
+          :stock="stock"
+          :link="link"
+        />
+        <VariationPriceDetails
+          v-else
           :price="price"
           :promos="promos"
           :stock="stock"
@@ -49,7 +59,6 @@
         />
       </div>
       <div class="col-md-12 pt-2">
-        <strong>Description: </strong>
         <p class="description mt-2">{{ description }}</p>
       </div>
     </div>
@@ -57,6 +66,10 @@
 </template>
 
 <script>
+import moment from 'moment'
+import createPromoListWrapper from '../../models/promos'
+import createVariations from '../../models/variation'
+
 export default {
   async asyncData({ $content, params }) {
     const products = await $content('products').fetch()
@@ -73,6 +86,22 @@ export default {
     const product = filtered[0]
     const hashtags = product.tags.join(',') + ',jomigu,jomiguonlineshop'
 
+    const variations = createVariations(product.variations)
+    const stock = variations.isEmpty()
+      ? product.stock
+      : variations.getOverallStats().stock
+
+    const now = moment().toDate()
+    const promos = await $content('promos')
+      .where({
+        'start-date': { $lt: now },
+        'end-date': { $gt: now },
+      })
+      .fetch()
+    const promoListWrapper = createPromoListWrapper(promos)
+    const activePromos = promoListWrapper.getProductActivePromos(product.promos)
+    const promoShops = activePromos.map((promo) => promo.shop)
+
     return {
       id: product.id,
       name: product.name,
@@ -80,9 +109,13 @@ export default {
       images: product.images,
       description: product.description,
       price: product.price,
-      promos: product.promos,
-      stock: product.stock,
+      promos,
+      activePromos,
+      promoShops,
+      productPromos: product.promos,
+      stock,
       variations: product.variations,
+      hasVariations: !variations.isEmpty(),
       link: product.link,
       url: `${process.env.baseUrl}/products/${product.id}`,
       hashtags,
@@ -142,12 +175,22 @@ p.price {
 }
 
 .product-shop {
-  width: 100%;
+  width: 75%;
 }
 
 .name {
   font-size: larger;
   font-weight: bold;
   text-align: center;
+}
+
+.btn-success {
+  background-color: var(--jomigu-color-1);
+  border-color: var(--jomigu-color-1);
+}
+
+.btn-primary {
+  background-color: var(--jomigu-color-2);
+  border-color: var(--jomigu-color-2);
 }
 </style>

@@ -3,11 +3,11 @@
     <Price
       :price="price"
       :promos="promos"
-      :product-promos="productPromos"
+      :has-variations="true"
       :variations="variations"
       style-class="price price-larger"
     />
-    <Shops :promo-shops="promoShops" :stock="stock" :link="link" />
+    <Shops :stock="stock" :link="link" />
   </div>
 </template>
 
@@ -22,17 +22,9 @@ export default {
       type: Array,
       default: undefined,
     },
-    promoShops: {
-      type: Array,
-      default: undefined,
-    },
-    productPromos: {
-      type: Array,
-      default: undefined,
-    },
     stock: {
       type: Object,
-      default: () => {},
+      default: undefined,
     },
     variations: {
       type: Object,

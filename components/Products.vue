@@ -29,8 +29,10 @@
                   />
                   <Price
                     :price="product.price"
+                    :promos="promos"
                     :product-promos="product.promos"
                     :variations="product.variations"
+                    :has-variations="product.hasVariations"
                     style-class="mt-1 mb-0 mx-1"
                   />
                   <p class="mb-0 mx-1">
@@ -55,13 +57,12 @@
   </div>
 </template>
 <script>
+import moment from 'moment'
 import createVariations from '../models/variation'
 
-const getStats = (product) => {
+const getStats = (product, variations) => {
   let stockTotal = 0
   let soldTotal = 0
-
-  const variations = createVariations(product.variations)
 
   const stock = variations.isEmpty()
     ? product.stock
@@ -87,7 +88,9 @@ const project = (product) => {
     name = name.substring(0, 40) + '...'
   }
 
-  const stats = getStats(product)
+  const variations = createVariations(product.variations)
+
+  const stats = getStats(product, variations)
 
   return {
     id: product.id,
@@ -98,6 +101,7 @@ const project = (product) => {
     mainImage: product.images[0],
     promos: product.promos,
     variations: product.variations,
+    hasVariations: !variations.isEmpty(),
   }
 }
 
@@ -144,11 +148,19 @@ export default {
     return {
       products: [],
       promoIds: [],
+      promos: [],
     }
   },
 
   async fetch() {
     const productList = await this.$content('products').fetch()
+    const now = moment().toDate()
+    this.promos = await this.$content('promos')
+      .where({
+        'start-date': { $lt: now },
+        'end-date': { $gt: now },
+      })
+      .fetch()
 
     const productFilter = productFilters[this.filter]
     const productFilterFunc =

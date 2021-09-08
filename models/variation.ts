@@ -32,6 +32,7 @@ export class Variations {
   image: string | undefined
   options: Variations[] | undefined
   promos: any[] | undefined
+  count: number = 0
 
   private empty: boolean = true
 
@@ -39,6 +40,49 @@ export class Variations {
     this.mergeStats = this.mergeStats.bind(this)
     this.evaluatePriceRange = this.evaluatePriceRange.bind(this)
     this.evaluatePromoPriceRange = this.evaluatePromoPriceRange.bind(this)
+    this.traverseUniqueVariant = this.traverseUniqueVariant.bind(this)
+  }
+
+  getUniqueVariations(): Variations[] {
+    const namesMap: { [key: string]: Variations } = this.traverseUniqueVariant(
+      this,
+      '',
+      {}
+    )
+
+    const variantNames: Variations[] = []
+
+    Object.entries(namesMap).forEach((entry: [string, Variations]) => {
+      if (entry[1].count === 1) {
+        variantNames.push(entry[1])
+      }
+    })
+
+    return variantNames
+  }
+
+  traverseUniqueVariant(
+    variation: Variations,
+    name: string,
+    namesMap: { [key: string]: Variations }
+  ): { [key: string]: Variations } {
+    if (variation.price !== undefined && variation.price > 0) {
+      const updatedVariation = Variations.mapVariation(variation)
+      updatedVariation.name = name
+      updatedVariation.count = updatedVariation.count + 1
+      namesMap[name] = updatedVariation
+      return namesMap
+    } else {
+      let partialResult = namesMap
+      variation.options?.forEach((option: Variations) => {
+        partialResult = this.traverseUniqueVariant(
+          option,
+          `${option.name} ${name}`.trim(),
+          partialResult
+        )
+      })
+      return partialResult
+    }
   }
 
   getPromoPriceRange(promos: any[]): PriceRange {
@@ -199,7 +243,7 @@ export class Variations {
   }
 }
 
-export default (variation: any) => {
+export default (variation: any): Variations => {
   if (variation === undefined || Object.keys(variation).length === 0) {
     return new Variations()
   }

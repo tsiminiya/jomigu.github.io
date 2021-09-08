@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import moment from 'moment'
 import createVariations from '../models/variation'
 import createPromoListWrapper from '../models/promos'
 
@@ -20,9 +19,17 @@ export default {
       type: Number,
       default: 0,
     },
+    promos: {
+      type: Array,
+      default: () => [],
+    },
     productPromos: {
       type: Array,
       default: () => [],
+    },
+    hasVariations: {
+      type: Boolean,
+      default: false,
     },
     variations: {
       type: Object,
@@ -43,26 +50,11 @@ export default {
     }
   },
 
-  async fetch() {
-    const variations = createVariations(this.variations)
-    if (variations.isEmpty()) {
+  fetch() {
+    if (!this.hasVariations) {
       this.priceRange = [this.price]
-    } else {
-      const priceRangeWrapper = variations.getPriceRange()
-      this.priceRange = priceRangeWrapper.toArray()
-    }
-
-    const now = moment().toDate()
-    const promos = await this.$content('promos')
-      .where({
-        'start-date': { $lt: now },
-        'end-date': { $gt: now },
-      })
-      .fetch()
-
-    if (variations.isEmpty()) {
       this.promoPrice = [this.price]
-      const promoListWrapper = createPromoListWrapper(promos)
+      const promoListWrapper = createPromoListWrapper(this.promos)
       const activePromos = promoListWrapper.getProductActivePromos(
         this.productPromos || []
       )
@@ -71,7 +63,11 @@ export default {
         this.promoPrice = [activePromos[0].productPrice]
       }
     } else {
-      const promoPriceRangeWrapper = variations.getPromoPriceRange(promos)
+      const variations = createVariations(this.variations)
+      const priceRangeWrapper = variations.getPriceRange()
+      this.priceRange = priceRangeWrapper.toArray()
+
+      const promoPriceRangeWrapper = variations.getPromoPriceRange(this.promos)
       if (promoPriceRangeWrapper.promosFound) {
         this.onSale = true
         this.promoPrice = promoPriceRangeWrapper.toArray()
