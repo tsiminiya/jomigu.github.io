@@ -1,12 +1,12 @@
 <template>
   <div>
-    <table class="stock table table-bordered mt-2">
+    <table class="stock table table-bordered my-2">
       <thead class="thead-light">
         <tr>
           <th v-for="shop in shops" :key="shop.slug" class="text-center">
             <img
               class="product-shop"
-              :src="require(`~/assets/images/shops/${shop.image}`)"
+              :src="require(`~/assets/images/shops/${shop.logo}`)"
             />
           </th>
         </tr>
@@ -40,7 +40,9 @@
                 }`
               }}
             </a>
-            <span v-else>Not available at {{ shopStock.name }}</span>
+            <span v-else class="not-available"
+              >Not available at {{ shopStock.name }}</span
+            >
           </td>
         </tr>
       </tbody>
@@ -86,7 +88,7 @@ export default {
       this.stockPerShop.push(shopStock)
     }
 
-    this.shops = shops.map((s) => ({ slug: s.slug, image: s.image }))
+    this.shops = shops.map((s) => ({ slug: s.slug, logo: s.logo }))
   },
 }
 </script>

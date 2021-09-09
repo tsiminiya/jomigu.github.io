@@ -175,7 +175,11 @@ p.price {
 }
 
 .product-shop {
-  width: 75%;
+  width: 25%;
+}
+
+.not-available {
+  font-size: smaller;
 }
 
 .name {

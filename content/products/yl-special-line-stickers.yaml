@@ -13,6 +13,7 @@ variations:
   options:
     - name: YL KidScents
       price: 16
+      image: yl-special-line-stickers/yl-special-line-stickers_02.png
       stock:
         lazada: 10
         shopee: 8
@@ -26,6 +27,7 @@ variations:
           price: 14
     - name: Animal Scents
       price: 16
+      image: yl-special-line-stickers/yl-special-line-stickers_03.png
       stock:
         lazada: 10
         shopee: 8
@@ -39,6 +41,7 @@ variations:
           price: 14
     - name: Custom 12
       price: 16
+      image: yl-special-line-stickers/yl-special-line-stickers_custom-12.png
       stock:
         lazada: 20
         shopee: 10
@@ -52,6 +55,7 @@ variations:
           price: 14
     - name: Custom 24
       price: 25
+      image: yl-special-line-stickers/yl-special-line-stickers_custom-24.png
       stock:
         lazada: 20
         shopee: 19
@@ -65,6 +69,7 @@ variations:
           price: 22
     - name: Custom 60
       price: 50
+      image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
       stock:
         lazada: 20
         shopee: 19
