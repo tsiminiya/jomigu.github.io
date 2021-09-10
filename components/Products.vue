@@ -142,10 +142,6 @@ export default {
       type: Boolean,
       default: false,
     },
-    currentDateTime: {
-      type: String,
-      default: () => moment().toDate().toString(),
-    },
   },
 
   data() {
@@ -158,7 +154,6 @@ export default {
 
   async fetch() {
     const productList = await this.$content('products').fetch()
-    console.log(this.currentDateTime)
     const now = moment().toDate()
     this.promos = await this.$content('promos')
       .where({
