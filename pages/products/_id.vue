@@ -197,4 +197,10 @@ p.price {
   background-color: var(--jomigu-color-2);
   border-color: var(--jomigu-color-2);
 }
+
+.btn-success:hover {
+  color: #fff;
+  background-color: var(--jomigu-color-1);
+  border-color: var(--jomigu-color-1);
+}
 </style>

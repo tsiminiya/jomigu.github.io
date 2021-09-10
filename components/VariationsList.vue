@@ -24,7 +24,8 @@
           ok-title="Close"
         >
           <b-carousel
-            id="carousel-2"
+            id="variations-carousel"
+            v-model="variationIndex"
             :interval="4000"
             controls
             indicators
@@ -39,42 +40,33 @@
               :key="index"
               :caption="variation.name"
               :img-src="require(`~/assets/images/products/${variation.image}`)"
-            ></b-carousel-slide>
+            >
+            </b-carousel-slide>
           </b-carousel>
-          <table class="table table-sm mt-3">
-            <thead class="thead-light">
-              <tr>
-                <th></th>
-                <th v-for="shop in shops" :key="shop.slug" class="text-center">
-                  {{ shop.name }}
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <span class="selling-price">
-                    {{
-                      (variations[variationIndex].promoPrice ||
-                        variations[variationIndex].price) | peso_currency
-                    }}
-                  </span>
-                  <small class="on-sale">
-                    {{ variations[variationIndex].price | peso_currency }}
-                  </small>
-                </td>
-                <td v-for="shop in shops" :key="shop.slug" class="text-center">
-                  {{ variations[variationIndex].stock[shop.slug] }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <p>
+            <span class="selling-price">
+              {{
+                (variations[variationIndex].promoPrice ||
+                  variations[variationIndex].price) | peso_currency
+              }}
+            </span>
+            <small class="on-sale">
+              {{ variations[variationIndex].price | peso_currency }}
+            </small>
+          </p>
+          <Shops
+            :promo-shops="promoShops"
+            :stock="variations[variationIndex].stock"
+            :link="link"
+            :shop-name-header="true"
+          />
         </b-modal>
         <img
           v-for="(variation, index) in variations"
           :key="index"
           :src="require(`~/assets/images/products/${variation.image}`)"
           class="m-1 product-thumbnails"
+          @click="viewVariationsAt(index)"
         />
       </div>
     </div>
@@ -85,6 +77,14 @@
 export default {
   props: {
     variations: {
+      type: Array,
+      default: () => [],
+    },
+    link: {
+      type: Object,
+      default: () => {},
+    },
+    promoShops: {
       type: Array,
       default: () => [],
     },
@@ -108,8 +108,15 @@ export default {
 
   methods: {
     viewVariations() {
+      this.variationIndex = 0
       this.$refs['variations-view'].show()
     },
+
+    viewVariationsAt(index) {
+      this.variationIndex = index
+      this.$refs['variations-view'].show()
+    },
+
     onSlideStart(slide) {
       this.variationIndex = slide
     },

@@ -8,7 +8,11 @@
       style-class="price price-larger"
     />
     <Shops :promo-shops="promoShops" :stock="stock" :link="link" />
-    <VariationsList :variations="variationList" />
+    <VariationsList
+      :promo-shops="promoShops"
+      :variations="variationList"
+      :link="link"
+    />
   </div>
 </template>
 
