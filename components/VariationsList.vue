@@ -55,6 +55,7 @@
             </small>
           </p>
           <Shops
+            :shops="shops"
             :promo-shops="promoShops"
             :stock="variations[variationIndex].stock"
             :link="link"
@@ -84,6 +85,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    shops: {
+      type: Array,
+      default: () => [],
+    },
     promoShops: {
       type: Array,
       default: () => [],
@@ -92,18 +97,8 @@ export default {
 
   data() {
     return {
-      shops: [],
       variationIndex: 0,
     }
-  },
-
-  async fetch() {
-    const shops = await this.$content('shops').fetch()
-    this.shops = shops.map((s) => ({
-      slug: s.slug,
-      name: s.name,
-      logo: s.logo,
-    }))
   },
 
   methods: {

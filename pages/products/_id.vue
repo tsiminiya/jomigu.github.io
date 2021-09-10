@@ -44,6 +44,7 @@
           v-if="!hasVariations"
           :price="price"
           :promos="promos"
+          :shops="shops"
           :promo-shops="promoShops"
           :product-promos="productPromos"
           :stock="stock"
@@ -53,6 +54,7 @@
           v-else
           :price="price"
           :promos="promos"
+          :shops="shops"
           :stock="stock"
           :link="link"
           :variations="variations"
@@ -73,6 +75,7 @@ import createVariations from '../../models/variation'
 export default {
   async asyncData({ $content, params }) {
     const products = await $content('products').fetch()
+    const shops = await $content('shops').fetch()
 
     if (!params.id) {
       return { product: null }
@@ -111,6 +114,7 @@ export default {
       price: product.price,
       promos,
       activePromos,
+      shops,
       promoShops,
       productPromos: product.promos,
       stock,

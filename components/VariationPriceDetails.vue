@@ -7,8 +7,14 @@
       :variations="variations"
       style-class="price price-larger"
     />
-    <Shops :promo-shops="promoShops" :stock="stock" :link="link" />
+    <Shops
+      :shops="shops"
+      :promo-shops="promoShops"
+      :stock="stock"
+      :link="link"
+    />
     <VariationsList
+      :shops="shops"
       :promo-shops="promoShops"
       :variations="variationList"
       :link="link"
@@ -27,6 +33,10 @@ export default {
       default: 0,
     },
     promos: {
+      type: Array,
+      default: undefined,
+    },
+    shops: {
       type: Array,
       default: undefined,
     },
