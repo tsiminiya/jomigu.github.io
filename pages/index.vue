@@ -2,22 +2,16 @@
   <div>
     <Banners />
     <Categories />
-    <Products :show-header="true" />
+    <Products :current-date-time="currentDateTime" :show-header="true" />
   </div>
 </template>
 
 <script>
+import moment from 'moment'
 import featured from '../assets/images/sharing/facebook-sharing-image-june-2021.png'
 import products from '../assets/videos/products/jomigu-7.7-products.mp4'
 
 export default {
-  asyncData() {
-    const currentTime = new Date()
-
-    return {
-      currentTime,
-    }
-  },
   head() {
     return {
       title: 'Jomigu Online Shop',
@@ -60,6 +54,12 @@ export default {
         },
       ],
     }
+  },
+
+  computed: {
+    currentDateTime() {
+      return moment().toDate().toString()
+    },
   },
 }
 </script>
