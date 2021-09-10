@@ -20,7 +20,8 @@
             :key="shopStock.key"
             class="count text-center"
           >
-            {{ shopStock.stock }}
+            <p class="mb-0">{{ shopStock.stock }}</p>
+            <small>Available</small>
           </td>
         </tr>
         <tr>

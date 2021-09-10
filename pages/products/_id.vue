@@ -202,8 +202,18 @@ p.price {
   border-color: var(--jomigu-color-2);
 }
 
-.btn-success:hover {
-  color: #fff;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: var(--jomigu-color-1);
+  background-color: var(--jomigu-color-2);
+  border-color: var(--jomigu-color-2);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:not(:disabled):not(.disabled):active {
+  color: var(--jomigu-color-2);
   background-color: var(--jomigu-color-1);
   border-color: var(--jomigu-color-1);
 }
