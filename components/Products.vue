@@ -1,7 +1,7 @@
 <template>
   <div class="products container">
     <div class="card card-borderless">
-      <div class="card-header card-title-header">Products</div>
+      <div class="card-header card-title-header">{{ title }}</div>
       <div class="card-body">
         <div class="container">
           <ul class="row list-style-none">
@@ -141,6 +141,10 @@ export default {
     showHeader: {
       type: Boolean,
       default: false,
+    },
+    title: {
+      type: String,
+      default: 'Products',
     },
   },
 
