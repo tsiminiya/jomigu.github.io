@@ -19,6 +19,10 @@ export class PriceRange {
     return priceRange
   }
 
+  hasRange() {
+    return this.min !== this.max
+  }
+
   toArray() {
     return [this.min, this.max]
   }

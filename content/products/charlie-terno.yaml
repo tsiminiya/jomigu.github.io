@@ -1,0 +1,94 @@
+id: 23cf41af-9bfa-4717-a88a-02218fa7133d
+name: Charlie Top & Shorts Small to Medium Size Fit Terno
+featured: 'false'
+variations:
+  name: Color
+  options:
+    - name: Green
+      price: 320
+      image: charlie-terno/charlie-terno_green.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Black
+      price: 320
+      image: charlie-terno/charlie-terno_black.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Coral Pink
+      price: 320
+      image: charlie-terno/charlie-terno_coral-pink.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Mustard Yellow
+      price: 320
+      image: charlie-terno/charlie-terno_mustard-yellow.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Rust
+      price: 320
+      image: charlie-terno/charlie-terno_rust.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/9220896826
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - charlie-terno/charlie-terno_01.png
+  - charlie-terno/charlie-terno_02.png
+  - charlie-terno/charlie-terno_03.png
+sharing_image: charlie-terno/charlie-terno_sharing.png
+tags:
+  - charlieterno
+  - specialfabric
+  - womensapparel
+  - mavenscollections
+description: |+
+  This could be your favorite summer getup.
+
+  Because it's so soft and comfortable, you can wear it in the beach or even in a normal day when the weather is so hot.
+
+  It's made of special fabric and comes with different colors:
+  * Mustard Yellow
+  * Rust
+  * Green
+  * Black
+  * Coral Pink
+
+  Grab one now while available.

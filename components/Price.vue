@@ -65,12 +65,20 @@ export default {
     } else {
       const variations = createVariations(this.variations)
       const priceRangeWrapper = variations.getPriceRange()
-      this.priceRange = priceRangeWrapper.toArray()
+      if (priceRangeWrapper.hasRange()) {
+        this.priceRange = priceRangeWrapper.toArray()
+      } else {
+        this.priceRange = [priceRangeWrapper.toArray()[0]]
+      }
 
       const promoPriceRangeWrapper = variations.getPromoPriceRange(this.promos)
       if (promoPriceRangeWrapper.promosFound) {
         this.onSale = true
-        this.promoPrice = promoPriceRangeWrapper.toArray()
+        if (promoPriceRangeWrapper.hasRange()) {
+          this.promoPrice = promoPriceRangeWrapper.toArray()
+        } else {
+          this.promoPrice = [promoPriceRangeWrapper.toArray()[0]]
+        }
       }
     }
   },
