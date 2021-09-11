@@ -4,10 +4,10 @@ featured: 'false'
 price: 85
 stock:
   lazada: 10
-  shopee: 5
+  shopee: 4
 sold:
   lazada: 0
-  shopee: 3
+  shopee: 6
 link:
   lazada: https://s.lazada.com.ph/s.db80L
   shopee: https://shopee.ph/product/131641645/8954675302
