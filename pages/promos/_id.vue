@@ -5,6 +5,25 @@
         :src="require(`~/assets/images/sharing/${sharingImage}`)"
         class="featured-image"
       />
+      <p class="text-center mb-0">
+        <ShareNetwork
+          network="twitter"
+          :url="url"
+          :title="name"
+          :hashtags="hashtags"
+          class="mr-2"
+        >
+          Share on <i class="bi-twitter"></i>
+        </ShareNetwork>
+        <ShareNetwork
+          network="facebook"
+          :url="url"
+          :title="name"
+          :hashtags="hashtags"
+        >
+          Share on <i class="bi-facebook"></i>
+        </ShareNetwork>
+      </p>
     </div>
     <Products :current-time="currentTime" filter="promo" :value="promoId" />
   </div>
@@ -25,6 +44,8 @@ export default {
       sharingImage: promo.sharing_image,
       currentTime: moment().toDate(),
       description: promo.name,
+      url: `https://shop.jomigu.com/promos/${promo.id}`,
+      hashtags: `${promo.hashtag},jomigu,jomiguonlineshop`,
     }
   },
 
@@ -37,7 +58,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://shop.jomigu.com/promos/${this.promoId}`,
+          content: this.url,
         },
         {
           hid: 'og:title',
