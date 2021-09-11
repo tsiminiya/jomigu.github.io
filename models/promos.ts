@@ -14,7 +14,7 @@ export class PromoListWrapper {
     }
   }
 
-  getProductActivePromos(productPromos: any[]) {
+  getProductActivePromos(productPromos: any[] = []) {
     const promoIds = this.toPromoIdList()
     if (promoIds && promoIds.length > 0) {
       const activePromos = productPromos.filter((promo) =>

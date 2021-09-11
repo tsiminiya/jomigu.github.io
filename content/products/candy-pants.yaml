@@ -1,0 +1,196 @@
+id: 7f01d4a5-bdef-4223-8c26-e34d1b3ab944
+name: Candy Pants Small to Medium Fit made of Neoprene Fabric
+featured: 'false'
+variations:
+  name: Color
+  options:
+    - name: Purple
+      price: 320
+      image: candy-pants/candy-pants_purple.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Old Rose
+      price: 320
+      image: candy-pants/candy-pants_old-rose.png
+      stock:
+        lazada: 0
+        shopee: 6
+      sold:
+        lazada: 0
+        shopee: 3
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Mustard Yellow
+      price: 320
+      image: candy-pants/candy-pants_mustard-yellow.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Navy Blue
+      price: 320
+      image: candy-pants/candy-pants_navy-blue.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 2
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Peach
+      price: 320
+      image: candy-pants/candy-pants_peach.png
+      stock:
+        lazada: 0
+        shopee: 6
+      sold:
+        lazada: 0
+        shopee: 3
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Coral Pink
+      price: 320
+      image: candy-pants/candy-pants_coral-pink.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 2
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Rust
+      price: 320
+      image: candy-pants/candy-pants_rust.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Black
+      price: 320
+      image: candy-pants/candy-pants_black.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 3
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Gray
+      price: 320
+      image: candy-pants/candy-pants_purple.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 3
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Moss Green
+      price: 320
+      image: candy-pants/candy-pants_moss-green.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 3
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Dark Rose
+      price: 320
+      image: candy-pants/candy-pants_dark-rose.png
+      stock:
+        lazada: 0
+        shopee: 4
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Brown
+      price: 320
+      image: candy-pants/candy-pants_brown.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Pink
+      price: 320
+      image: candy-pants/candy-pants_pink.png
+      stock:
+        lazada: 0
+        shopee: 5
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/8820858052
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - candy-pants/candy-pants_01.png
+  - candy-pants/candy-pants_02.png
+  - candy-pants/candy-pants_03.png
+sharing_image: candy-pants/candy-pants_sharing.png
+tags:
+  - candypants
+  - neoprenefabric
+  - womensapparel
+  - mavenscollections
+description: |+
+  It's listed as casual but this pants - you can wear it almost on any occasion and anywhere.
+
+  Made of neoprene fabric, the pants feel so soft and comfortable to wear.
+
+  It can fit any waist sizes from 24 inches to 34 inches.
+
+  Also available in many colors:
+  * Black
+  * Green
+  * Gray
+  * Navy Blue
+  * Mustard Yellow
+  * Peach
+  * Old Rose
+  * Dark Rose
+  * Coral Pink
+  * Rust
+  * Purple
