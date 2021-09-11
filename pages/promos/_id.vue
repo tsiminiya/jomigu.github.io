@@ -5,7 +5,7 @@
         :src="require(`~/assets/images/sharing/${sharingImage}`)"
         class="featured-image"
       />
-      <p class="text-center mb-0">
+      <p class="text-center bg-white mb-0">
         <ShareNetwork
           network="twitter"
           :url="url"
@@ -43,7 +43,7 @@ export default {
       name: promo.name,
       sharingImage: promo.sharing_image,
       currentTime: moment().toDate(),
-      description: promo.name,
+      description: `Jomigu Online Shop ${promo.name}`,
       url: `https://shop.jomigu.com/promos/${promo.id}`,
       hashtags: `${promo.hashtag},jomigu,jomiguonlineshop`,
     }
