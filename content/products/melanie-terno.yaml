@@ -1,0 +1,93 @@
+id: ed77e599-c26e-4fae-8976-e9525b555cbc
+name: Melanie Top & Shorts Small to Medium Fit Terno made of Woven Fabric
+featured: 'false'
+variations:
+  name: Color
+  options:
+    - name: Green
+      price: 320
+      image: melanie-terno/melanie-terno_green.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Black
+      price: 320
+      image: melanie-terno/melanie-terno_black.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Light Pink
+      price: 320
+      image: melanie-terno/melanie-terno_light-pink.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Mustard Yellow
+      price: 320
+      image: melanie-terno/melanie-terno_mustard-yellow.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+    - name: Rust
+      price: 320
+      image: melanie-terno/melanie-terno_rust.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 297
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/2922305902
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - melanie-terno/melanie-terno_01.png
+  - melanie-terno/melanie-terno_02.png
+  - melanie-terno/melanie-terno_03.png
+  - melanie-terno/melanie-terno_04.png
+  - melanie-terno/melanie-terno_05.png
+sharing_image: melanie-terno/melanie-terno_sharing.png
+tags:
+  - melanieterno
+  - specialfabric
+  - womensapparel
+  - mavenscollections
+description: |+
+  This could be your most favorite getup among your pairs of top and shorts.
+
+  It feels very soft and comfortable as this was made from a woven fabric.
+
+  Only available in one size (Small to Medium)
+  * Shirt Length: 21 inches
+  * Shirt Bust: can fit up to 33.5 inches
+  * Waist: can fit from 22 to 32 inches
+  * Shorts Length: 14 inches

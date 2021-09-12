@@ -16,7 +16,7 @@
       <div class="card-body">
         <b-modal
           ref="variations-view"
-          title="Variations"
+          :title="variations[variationIndex].name"
           footer-bg-variant="light"
           header-text-variant="light"
           centered
@@ -38,7 +38,6 @@
             <b-carousel-slide
               v-for="(variation, index) in variations"
               :key="index"
-              :caption="variation.name"
               :img-src="require(`~/assets/images/products/${variation.image}`)"
             >
             </b-carousel-slide>
