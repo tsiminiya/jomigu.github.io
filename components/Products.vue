@@ -38,7 +38,7 @@
                   <p class="mb-0 mx-1">
                     <span class="stat">Stock: {{ product.stock }}</span>
                   </p>
-                  <p class="mx-1">
+                  <p class="mx-1 lh-1">
                     <span class="name">{{ product.name }}</span>
                   </p>
                   <p
@@ -84,8 +84,8 @@ const getStats = (product, variations) => {
 const project = (product) => {
   let name = product.name
   const nameLength = name.length
-  if (nameLength > 60) {
-    name = name.substring(0, 40) + '...'
+  if (nameLength > 65) {
+    name = name.substring(0, 62) + '...'
   }
 
   const variations = createVariations(product.variations)
@@ -183,6 +183,10 @@ export default {
 </script>
 
 <style lang="scss">
+p.lh-1 {
+  line-height: 1;
+}
+
 .products {
   padding: 0;
 

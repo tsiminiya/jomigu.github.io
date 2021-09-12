@@ -1,0 +1,69 @@
+id: 6b38bb9c-11ef-448e-b2ff-cb40265f1e5e
+name: Maine Three-way Jumpsuit made from Crepe Fabric
+featured: 'false'
+variations:
+  name: Color
+  options:
+    - name: Rose Pink
+      price: 300
+      image: maine-jumpsuit/maine-jumpsuit_rose-pink.png
+      stock:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 234
+    - name: Black
+      price: 300
+      image: maine-jumpsuit/maine-jumpsuit_black.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 234
+    - name: Tan
+      price: 300
+      image: maine-jumpsuit/maine-jumpsuit_tan.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 234
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/3013237568
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - maine-jumpsuit/maine-jumpsuit_01.png
+  - maine-jumpsuit/maine-jumpsuit_02.png
+  - maine-jumpsuit/maine-jumpsuit_03.png
+sharing_image: maine-jumpsuit/maine-jumpsuit_sharing.png
+tags:
+  - mainejumpsuit
+  - specialfabric
+  - womensapparel
+  - mavenscollections
+description: |+
+  This jumpsuit has a soft and comfortable feel.
+
+  It can be worn in a number of ways i.e. off-shoulder, off one shoulder, etc - depending on the occasion or mood.
+
+  It can fit 26 to 32 inches of waist size.
+
+  It's made from Crepe Fabric.
+
+  It can be your casual, formal or office attire.
+
+  Available in rose pink, tan and black.
