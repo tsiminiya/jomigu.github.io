@@ -1,8 +1,10 @@
 <template>
   <div>
-    <p class="name text-center px-5 pt-3 pb-1 font-weight-bold">
-      {{ name }}
-    </p>
+    <div class="container p-0">
+      <p class="name text-center bg-white px-0 py-3 m-0 font-weight-bold">
+        {{ name }}
+      </p>
+    </div>
     <Products :filter="'category'" :value="categoryId" />
   </div>
 </template>
