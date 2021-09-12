@@ -18,7 +18,7 @@
               v-for="product in products"
               v-else
               :key="product.id"
-              class="col-6 col-sd-4 col-md-4 col-lg-3"
+              class="col-6 col-sd-4 col-md-3 col-lg-2"
             >
               <a :href="`/products/${product.id}`">
                 <section class="product-info">
@@ -33,12 +33,12 @@
                     :product-promos="product.promos"
                     :variations="product.variations"
                     :has-variations="product.hasVariations"
-                    style-class="mt-1 mb-0 mx-1"
+                    style-class="mt-1 mb-0 mx-1 px-1"
                   />
-                  <p class="mb-0 mx-1">
+                  <p class="mb-0 mx-1 px-1">
                     <span class="stat">Stock: {{ product.stock }}</span>
                   </p>
-                  <p class="mx-1 lh-1">
+                  <p class="mx-1 lh-1 px-1">
                     <span class="name">{{ product.name }}</span>
                   </p>
                   <p
@@ -82,19 +82,13 @@ const getStats = (product, variations) => {
 }
 
 const project = (product) => {
-  let name = product.name
-  const nameLength = name.length
-  if (nameLength > 65) {
-    name = name.substring(0, 62) + '...'
-  }
-
   const variations = createVariations(product.variations)
 
   const stats = getStats(product, variations)
 
   return {
     id: product.id,
-    name,
+    name: product.name,
     price: product.price,
     stock: stats.stockTotal,
     sold: stats.soldTotal,
