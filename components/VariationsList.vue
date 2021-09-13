@@ -61,7 +61,7 @@
             :link="link"
             :shop-name-header="true"
           />
-          <p class="text-center mt-3 mb-0 pb-0">
+          <p class="text-center my-3 pb-0">
             <button class="btn btn-primary btn-sm" @click="hideModal">
               Close
             </button>
