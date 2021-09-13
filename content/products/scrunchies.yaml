@@ -1,0 +1,178 @@
+id: fc71f3d7-832e-4bc3-b9dc-9043d135d87c
+name: Arte Manila Washable, Reusable, Reversible New Normal Face Mask
+featured: 'false'
+variations:
+  name: Color
+  options:
+    - name: Beige
+      price: 93
+      image: scrunchies/scrunchies_beige.png
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Black
+      price: 93
+      image: scrunchies/scrunchies_black.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Navy Blue
+      price: 93
+      image: scrunchies/scrunchies_navy-blue.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Matte Gold
+      price: 93
+      image: scrunchies/scrunchies_matte-gold.png
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Purple
+      price: 93
+      image: scrunchies/scrunchies_purple.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Silver Grey
+      price: 93
+      image: scrunchies/scrunchies_silver-grey.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Old Rose
+      price: 93
+      image: scrunchies/scrunchies_old-rose.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Choco Brown
+      price: 93
+      image: scrunchies/scrunchies_choco-brown.png
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Rose Gold
+      price: 93
+      image: scrunchies/scrunchies_rose-gold.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Mauve Lilac
+      price: 93
+      image: scrunchies/scrunchies_mauve-lilac.png
+      stock:
+        lazada: 0
+        shopee: 4
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Mocha
+      price: 93
+      image: scrunchies/scrunchies_mocha.png
+      stock:
+        lazada: 0
+        shopee: 5
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+    - name: Maroon
+      price: 93
+      image: scrunchies/scrunchies_maroon.png
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 73
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/9455673903
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - scrunchies/scrunchies_01.png
+  - scrunchies/scrunchies_02.png
+  - scrunchies/scrunchies_03.png
+sharing_image: scrunchies/scrunchies_sharing.png
+tags:
+  - scrunchies
+  - satin
+  - womensapparel
+  - mavenscollections
+description: |+
+  This is Arte Manila's New Normal (NN) Mask v2.0 for your daily protection needs.
+  Because we wanted you to face the future of new normal in a fashionable way.
+
+  It's reversible.
+  Either side of the mask will bring you comfort and fashion that you want.
+  It's washable and reusable.
+  It has an adjustable ear loop.
+  And, it has a fashionable design.
+
+  Now that masks are part of our daily get-up, you don't have to worry how you look wherever you go.
+  You have Arte Manila's NN Face Masks.
+  Stay Fashionably Protected.
