@@ -19,6 +19,7 @@
           :title="variations[variationIndex].name"
           footer-bg-variant="light"
           header-text-variant="light"
+          hide-footer
           centered
           ok-only
           ok-title="Close"
@@ -60,6 +61,11 @@
             :link="link"
             :shop-name-header="true"
           />
+          <p class="text-center mt-3 mb-0 pb-0">
+            <button class="btn btn-primary btn-sm" @click="hideModal">
+              Close
+            </button>
+          </p>
         </b-modal>
         <img
           v-for="(variation, index) in variations"
@@ -109,6 +115,10 @@ export default {
     viewVariationsAt(index) {
       this.variationIndex = index
       this.$refs['variations-view'].show()
+    },
+
+    hideModal() {
+      this.$refs['variations-view'].hide()
     },
 
     onSlideStart(slide) {
