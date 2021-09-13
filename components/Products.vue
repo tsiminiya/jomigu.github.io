@@ -110,10 +110,17 @@ const productFilters = {
   promo(promoId) {
     return (product) => {
       const promos = product.promos || []
+
       const found = promos
         .map((promo) => promo.id)
         .filter((id) => id === promoId)
-      return found.length > 0
+      if (found.length > 0) {
+        return true
+      }
+
+      const variations = createVariations(product.variations)
+
+      return variations.isPromoFound(promoId)
     }
   },
 }

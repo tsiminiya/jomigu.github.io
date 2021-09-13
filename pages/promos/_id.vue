@@ -2,6 +2,7 @@
   <div>
     <div class="container featured">
       <img
+        v-if="sharingImage !== undefined"
         :src="require(`~/assets/images/sharing/${sharingImage}`)"
         class="featured-image"
       />

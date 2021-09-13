@@ -39,7 +39,7 @@
           ></b-carousel-slide>
         </b-carousel>
       </div>
-      <div class="col-md-6 pt-3">
+      <div class="col-md-6">
         <PriceDetails
           v-if="!hasVariations"
           :price="price"
@@ -59,6 +59,7 @@
           :link="link"
           :variations="variations"
         />
+        <Promos />
       </div>
       <div class="col-md-12 pt-2">
         <p class="description mt-2">{{ description }}</p>

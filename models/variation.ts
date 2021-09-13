@@ -213,6 +213,29 @@ export class Variations {
     return this.empty
   }
 
+  isPromoFound(promoId: string): boolean {
+    return this.findPromo(promoId, this) !== null
+  }
+
+  private findPromo(promoId: string, variation: Variations): any {
+    const promos = variation.promos || []
+
+    const found = promos.filter((promo) => promo.id === promoId)
+    if (found.length > 0) {
+      return found[0]
+    }
+
+    const options = variation.options || []
+    for (const option of options) {
+      const promo = this.findPromo(promoId, option)
+      if (promo !== null) {
+        return promo
+      }
+    }
+
+    return null
+  }
+
   static mapVariation(variation: any) {
     const v = new Variations()
     v.name = variation.name
