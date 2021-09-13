@@ -1,0 +1,142 @@
+id: ecfef09a-2e6f-4a01-b599-aaf098bf46a8
+name: Arte Manila Washable, Reusable, Reversible New Normal Face Mask
+featured: 'false'
+variations:
+  name: Design
+  options:
+    - name: Mickey Mouse Blue
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_mickey-mouse_blue.png
+      stock:
+        lazada: 0
+        shopee: 4
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: Mickey Mouse White
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_mickey-mouse_white.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: Mickey and Friends White
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_mickey-and-friends_white.png
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: Mickey and Friends Blue
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_mickey-and-friends_blue.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: Chanel Brown
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_chanel_brown.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: Mickey Mouse Red
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_mickey-mouse_red.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: XOXO Light Pink
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_xoxo_light-pink.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: XOXO Pastel Green
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
+      stock:
+        lazada: 0
+        shopee: 1
+      sold:
+        lazada: 0
+        shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+    - name: LV White
+      price: 68
+      image: new-normal-facemask/new-normal-facemask_lv_white.png
+      stock:
+        lazada: 0
+        shopee: 2
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 54
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/11804554078
+categories:
+  - 0229bef0-bef5-4c2b-80e2-aa5c5d31f174
+images:
+  - new-normal-facemask/new-normal-facemask_01.png
+  - new-normal-facemask/new-normal-facemask_02.png
+  - new-normal-facemask/new-normal-facemask_03.png
+sharing_image: new-normal-facemask/new-normal-facemask_sharing.png
+tags:
+  - newnormal
+  - facemask
+  - womensapparel
+  - mavenscollections
+description: |+
+  This is Arte Manila's New Normal (NN) Mask v2.0 for your daily protection needs.
+  Because we wanted you to face the future of new normal in a fashionable way.
+
+  It's reversible.
+  Either side of the mask will bring you comfort and fashion that you want.
+  It's washable and reusable.
+  It has an adjustable ear loop.
+  And, it has a fashionable design.
+
+  Now that masks are part of our daily get-up, you don't have to worry how you look wherever you go.
+  You have Arte Manila's NN Face Masks.
+  Stay Fashionably Protected.
