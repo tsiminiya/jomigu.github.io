@@ -4,7 +4,11 @@
       <div class="col-12">
         <div class="card">
           <div class="card-body p-0">
-            <img :src="require(`~/assets/images/sharing/${featuredBanner}`)" />
+            <a :href="featuredUrl">
+              <img
+                :src="require(`~/assets/images/sharing/${featuredBanner}`)"
+              />
+            </a>
           </div>
           <div class="card-footer">
             <ul>
@@ -29,6 +33,7 @@ export default {
   data() {
     return {
       featuredBanner: null,
+      featuredUrl: '',
       promos: [],
     }
   },
@@ -47,6 +52,7 @@ export default {
 
     if (this.promos.length > 0) {
       this.featuredBanner = this.promos[0].sharing_image
+      this.featuredUrl = `/promos/${this.promos[0].id}`
     }
   },
 }
@@ -61,6 +67,7 @@ export default {
       img {
         width: 100%;
         padding: 0;
+        border-radius: 0.25rem;
       }
 
       ul {
