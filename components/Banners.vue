@@ -4,16 +4,16 @@
       <li class="col-md-8">
         <a href="/products/ad12e553-b0ae-4e2b-aba8-fa658ca40140">
           <img
-            title="Jomigu August 2021 Promos"
+            title="Custom YL Sticker Promo"
             src="~/assets/images/banners/custom-yl-stickers-promo-september-2021.png"
           />
         </a>
       </li>
       <li class="col-md-4">
-        <a href="/promos/9a56cfe1-82b9-42c6-92c3-1382c8c3c40a">
+        <a href="/promos/b3786142-669a-476d-983a-1c930756733f">
           <img
-            title="Home School Kits"
-            src="~/assets/images/banners/lazada-9.9-sale.png"
+            title="Best Seller Books"
+            src="~/assets/images/banners/best-seller-books-on-sale.png"
           />
         </a>
       </li>
