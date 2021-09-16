@@ -27,6 +27,10 @@
       </p>
     </div>
     <Products :current-time="currentTime" filter="promo" :value="promoId" />
+    <Promos
+      :exclude-promos="[promoId]"
+      additional-style-class="px-3 pb-3 bg-white"
+    />
   </div>
 </template>
 

@@ -1,5 +1,8 @@
 <template>
-  <div v-if="promos.length > 0" class="container promos pt-2">
+  <div
+    v-if="promos.length > 0"
+    :class="`container promos ${additionalStyleClass}`"
+  >
     <div class="row">
       <div class="col-12">
         <div class="card">
@@ -30,6 +33,17 @@
 import moment from 'moment'
 
 export default {
+  props: {
+    additionalStyleClass: {
+      type: String,
+      default: '',
+    },
+    excludePromos: {
+      type: Array,
+      default: () => [],
+    },
+  },
+
   data() {
     return {
       featuredBanner: null,
@@ -48,7 +62,9 @@ export default {
         })
         .sortBy('start-date', 'desc')
         .fetch()
-    ).filter((promo) => promo.sharing_image !== undefined)
+    )
+      .filter((promo) => promo.sharing_image !== undefined)
+      .filter((promo) => !this.excludePromos.includes(promo.id))
 
     if (this.promos.length > 0) {
       this.featuredBanner = this.promos[0].sharing_image

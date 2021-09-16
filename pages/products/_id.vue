@@ -59,7 +59,10 @@
           :link="link"
           :variations="variations"
         />
-        <Promos />
+        <Promos
+          additional-style-class="pt-2"
+          :exclude-promos="[productPromoId]"
+        />
       </div>
       <div class="col-md-12 pt-2">
         <p class="description mt-2">{{ description }}</p>
@@ -107,6 +110,8 @@ export default {
       .fetch()
     const promoListWrapper = createPromoListWrapper(promos)
     const activePromos = promoListWrapper.getProductActivePromos(product.promos)
+    const productPromoId =
+      activePromos.length > 0 ? activePromos[0].id : undefined
     const promoShops = activePromos.map((promo) => promo.shop)
 
     return {
@@ -122,6 +127,7 @@ export default {
       shops,
       promoShops,
       productPromos: product.promos,
+      productPromoId,
       stock,
       variations: product.variations,
       hasVariations: !variations.isEmpty(),
