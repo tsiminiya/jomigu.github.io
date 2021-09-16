@@ -12,8 +12,8 @@
         thumbnail
         fluid
         rounded
-        width="100"
-        height="100"
+        width="80"
+        height="80"
         class="m-1"
         :src="require(`~/assets/images/products/${product.images[0]}`)"
       />
