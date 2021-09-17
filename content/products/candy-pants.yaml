@@ -45,7 +45,7 @@ variations:
       image: candy-pants/candy-pants_navy-blue.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 5
       sold:
         lazada: 0
         shopee: 2
@@ -93,7 +93,7 @@ variations:
       image: candy-pants/candy-pants_black.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 7
       sold:
         lazada: 0
         shopee: 3
@@ -117,7 +117,7 @@ variations:
       image: candy-pants/candy-pants_moss-green.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 5
       sold:
         lazada: 0
         shopee: 3
@@ -141,7 +141,7 @@ variations:
       image: candy-pants/candy-pants_brown.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 5
       sold:
         lazada: 0
         shopee: 0
@@ -153,10 +153,34 @@ variations:
       image: candy-pants/candy-pants_pink.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 9
       sold:
         lazada: 0
         shopee: 1
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: White
+      price: 320
+      image: candy-pants/candy-pants_whitepng
+      stock:
+        lazada: 0
+        shopee: 4
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+    - name: Rust Orange
+      price: 320
+      image: candy-pants/candy-pants_rust-orangeng
+      stock:
+        lazada: 0
+        shopee: 3
+      sold:
+        lazada: 0
+        shopee: 0
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 250
