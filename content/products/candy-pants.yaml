@@ -162,7 +162,7 @@ variations:
           price: 250
     - name: White
       price: 320
-      image: candy-pants/candy-pants_whitepng
+      image: candy-pants/candy-pants_white.png
       stock:
         lazada: 0
         shopee: 4
@@ -174,10 +174,10 @@ variations:
           price: 250
     - name: Rust Orange
       price: 320
-      image: candy-pants/candy-pants_rust-orangeng
+      image: candy-pants/candy-pants_rust-orange.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 
       sold:
         lazada: 0
         shopee: 0
