@@ -33,7 +33,7 @@ variations:
       image: melanie-terno/melanie-terno_light-pink.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 0
         shopee: 0
@@ -45,7 +45,7 @@ variations:
       image: melanie-terno/melanie-terno_mustard-yellow.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 0
         shopee: 0
@@ -57,7 +57,7 @@ variations:
       image: melanie-terno/melanie-terno_rust.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 0
         shopee: 0
