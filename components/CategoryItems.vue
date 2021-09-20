@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="p-0 text-center">
+  <b-container v-if="products.length > 0" fluid class="p-0 text-center">
     <p>
       <strong>Here are the items on the same category of {{ name }}</strong>
     </p>
@@ -32,6 +32,10 @@ export default {
       type: String,
       default: '',
     },
+    excludedProducts: {
+      type: Array,
+      default: () => [],
+    },
   },
 
   data() {
@@ -50,9 +54,9 @@ export default {
       return false
     }
 
-    this.products = productList.filter((product) =>
-      categoryMatched(product.categories)
-    )
+    this.products = productList
+      .filter((product) => categoryMatched(product.categories))
+      .filter((product) => !this.excludedProducts.includes(product.id))
   },
 }
 </script>

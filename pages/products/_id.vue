@@ -68,7 +68,11 @@
         <p class="description mt-2">{{ description }}</p>
       </div>
     </div>
-    <category-items :categories="categories" :name="name" />
+    <category-items
+      :categories="categories"
+      :name="name"
+      :excluded-products="[id]"
+    />
   </div>
 </template>
 
