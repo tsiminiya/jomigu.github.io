@@ -1,4 +1,4 @@
-! /bin/sh
+#! /bin/sh
 
 git pull && \
 mkdir -p $HOME/.jomigu && touch $HOME/.jomigu/build-start && date > $HOME/.jomigu/build-start && \
