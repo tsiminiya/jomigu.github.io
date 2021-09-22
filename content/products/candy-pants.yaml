@@ -10,6 +10,9 @@ variations:
       stock:
         lazada: 0
         shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -22,6 +25,9 @@ variations:
       stock:
         lazada: 0
         shopee: 6
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 3
@@ -34,6 +40,9 @@ variations:
       stock:
         lazada: 0
         shopee: 1
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 1
@@ -46,6 +55,9 @@ variations:
       stock:
         lazada: 0
         shopee: 5
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 2
@@ -58,6 +70,9 @@ variations:
       stock:
         lazada: 0
         shopee: 6
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 3
@@ -68,6 +83,9 @@ variations:
       price: 320
       image: candy-pants/candy-pants_coral-pink.png
       stock:
+        lazada: 0
+        shopee: 0
+      floating:
         lazada: 0
         shopee: 0
       sold:
@@ -82,6 +100,9 @@ variations:
       stock:
         lazada: 0
         shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 1
@@ -94,6 +115,9 @@ variations:
       stock:
         lazada: 0
         shopee: 7
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 3
@@ -104,6 +128,9 @@ variations:
       price: 320
       image: candy-pants/candy-pants_purple.png
       stock:
+        lazada: 0
+        shopee: 0
+      floating:
         lazada: 0
         shopee: 0
       sold:
@@ -117,7 +144,10 @@ variations:
       image: candy-pants/candy-pants_moss-green.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 4
+      floating:
+        lazada: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 3
@@ -130,6 +160,9 @@ variations:
       stock:
         lazada: 0
         shopee: 4
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -142,6 +175,9 @@ variations:
       stock:
         lazada: 0
         shopee: 5
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -154,6 +190,9 @@ variations:
       stock:
         lazada: 0
         shopee: 9
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 1
@@ -166,6 +205,9 @@ variations:
       stock:
         lazada: 0
         shopee: 4
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -177,7 +219,10 @@ variations:
       image: candy-pants/candy-pants_rust-orange.png
       stock:
         lazada: 0
-        shopee: 
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0

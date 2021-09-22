@@ -5,6 +5,9 @@ price: 2030
 stock:
   lazada: 7
   shopee: 7
+floating:
+  lazada: 0
+  shopee: 0
 sold:
   lazada: 2
   shopee: 2

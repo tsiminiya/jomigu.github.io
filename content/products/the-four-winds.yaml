@@ -5,6 +5,9 @@ price: 1830
 stock:
   lazada: 5
   shopee: 0
+floating:
+  lazada: 0
+  shopee: 0
 sold:
   lazada: 0
   shopee: 0

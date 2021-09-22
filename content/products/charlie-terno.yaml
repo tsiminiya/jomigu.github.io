@@ -10,6 +10,9 @@ variations:
       stock:
         lazada: 0
         shopee: 2
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -22,6 +25,9 @@ variations:
       stock:
         lazada: 0
         shopee: 2
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -34,6 +40,9 @@ variations:
       stock:
         lazada: 0
         shopee: 2
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -46,6 +55,9 @@ variations:
       stock:
         lazada: 0
         shopee: 2
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -58,6 +70,9 @@ variations:
       stock:
         lazada: 0
         shopee: 2
+      floating:
+        lazada: 0
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
