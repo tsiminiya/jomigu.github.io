@@ -24,6 +24,8 @@ promos:
     price: 20
   - id: 425cde7f-04d7-4eb0-a37c-75fef9ef52e9
     price: 23
+  - id: 83b6466f-2fe9-42f1-bc4f-d5caf9d189ba
+    price: 23
 images:
   - yl-raindrop-stickers/yl-raindrop-stickers_01.png
   - yl-raindrop-stickers/yl-raindrop-stickers_02.png
