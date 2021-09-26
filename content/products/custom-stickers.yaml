@@ -1,0 +1,275 @@
+id: 27443585-34c2-4794-9232-4381b665c95e
+name: Custom Sticker Package - Glossy, Printed and Machine-cut - Kiss-cut
+featured: 'false'
+variations:
+  name: Size
+  options:
+    - name: 1 inch x 1 inch
+      options:
+        - name: Design provided by customer
+          price: 350
+          image: custom-stickers/custom-stickers_1x1.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 315
+        - name: Design created by Jomigu
+          price: 1250
+          image: custom-stickers/custom-stickers_1x1_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1125
+    - name: 1.5 inch x 1.5 inch
+      options:
+        - name: Design provided by customer
+          price: 300
+          image: custom-stickers/custom-stickers_1.5x1.5.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 270
+        - name: Design created by Jomigu
+          price: 1200
+          image: custom-stickers/custom-stickers_1.5x1.5_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1080
+    - name: 2 inch x 2 inch
+      options:
+        - name: Design provided by customer
+          price: 250
+          image: custom-stickers/custom-stickers_2x2.png
+          stock:
+            lazada: 0
+            shopee: 18
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 2
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 225
+        - name: Design created by Jomigu
+          price: 1150
+          image: custom-stickers/custom-stickers_2x2_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+    - name: 3 inch x 3 inch
+      options:
+        - name: Design provided by customer
+          price: 250
+          image: custom-stickers/custom-stickers_3x3.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 225
+        - name: Design created by Jomigu
+          price: 1150
+          image: custom-stickers/custom-stickers_3x3_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+    - name: 2 inch x 4 inch
+      options:
+        - name: Design provided by customer
+          price: 250
+          image: custom-stickers/custom-stickers_2x4.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 225
+        - name: Design created by Jomigu
+          price: 1150
+          image: custom-stickers/custom-stickers_2x4_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+    - name: 4 inch x 6 inch
+      options:
+        - name: Design provided by customer
+          price: 250
+          image: custom-stickers/custom-stickers_4x6.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 225
+        - name: Design created by Jomigu
+          price: 1150
+          image: custom-stickers/custom-stickers_4x6_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+    - name: 5 inch x 7 inch
+      options:
+        - name: Design provided by customer
+          price: 250
+          image: custom-stickers/custom-stickers_5x7.png
+          stock:
+            lazada: 0
+            shopee: 20
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 225
+        - name: Design created by Jomigu
+          price: 1150
+          image: custom-stickers/custom-stickers_5x7_design-on-us.png
+          stock:
+            lazada: 0
+            shopee: 13
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 7
+          promos:
+            - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/6892929480
+categories:
+  - 25dbe6a1-67e7-4c9f-a314-49a3e4369bea
+images:
+  - custom-stickers/custom-stickers_01.png
+  - custom-stickers/custom-stickers_02.png
+  - custom-stickers/custom-stickers_03.png
+sharing_image: custom-stickers/custom-stickers_sharing.png
+tags:
+  - customstickers
+  - kisscutstickers
+  - jomiguprints
+description: |+
+  Give us your own sticker design, and we will print and cut it for you.
+
+  If you don't have your own design, we can make one for you and we will charge you with an additional cost.
+
+  Here are the sticker sizes that we can make and how many pieces are in one package:
+
+  1 inch x 1 inch ---------- 200 pieces
+  1.5 inch x 1.5 inch ------ 120 pieces
+  2 inch x 2 inch ---------- 60 pieces
+  3 inch x 3 inch ---------- 30 pieces
+  2 inch x 4 inch ---------- 30 pieces
+  4 inch x 6 inch ---------- 10 pieces
+  5 inch x 7 inch ---------- 10 pieces
+
+  !!! Available for preorder !!!
+
+  Guidelines before pre-ordering:
+
+  1. Please chat us before placing an order to avoid any issues in developing and delivering your custom stickers.
+
+  2. If you have your own design of your stickers, please send them via chat first before placing an order. We will assess first whether the design is suitable for printing and cutting. Take note we only support specific sizes of stickers listed above. If the size which you desire is not listed above, please chat us so we can negotiate on the prices.
+
+  3. Final approval of the design by the customer is required before we start printing the stickers. Any customization requests after the final approval will not be entertained.
+
+  4. We only ship through Shopee couriers. Other means are not available.
+
+  5. Allow us 5 to 7 days before shipping plus 2 or more days on delivery. This may vary depending on the availability of the materials, the number of ordered items and the location of delivery. To avoid any issues regarding shipping and delivery, please chat us before ordering.
+
+  Materials used:
+  * Glossy Sticker Paper
