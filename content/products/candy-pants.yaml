@@ -144,13 +144,13 @@ variations:
       image: candy-pants/candy-pants_moss-green.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 3
       floating:
         lazada: 0
         shopee: 1
       sold:
         lazada: 0
-        shopee: 3
+        shopee: 6
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 250
