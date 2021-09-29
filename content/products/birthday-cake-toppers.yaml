@@ -18,11 +18,11 @@ variations:
         shopee: 0
       promos: []
     - name: Glittered
-      price: 100
+      price: 50
       image: birthday-cake-toppers/birthday-cake-toppers-set_glittered.png
       stock:
         lazada: 0
-        shopee: 50
+        shopee: 100
       floating:
         lazada: 0
         shopee: 0
