@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import featured from '../assets/images/sharing/facebook-sharing-image-june-2021.png'
+import featured from '../assets/images/sharing/facebook-sharing-image-october-2021.png'
 import products from '../assets/videos/products/jomigu-7.7-products.mp4'
 
 export default {
