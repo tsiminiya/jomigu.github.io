@@ -16,7 +16,11 @@ link:
   shopee: https://shopee.ph/product/131641645/3484186979
 categories:
   - 25dbe6a1-67e7-4c9f-a314-49a3e4369bea
-promos: []
+promos:
+  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+    price: 45
+  - id: 252d9397-cf32-4423-9c4b-54cc790458e0
+    price: 45
 images:
   - among-us_kiss-cut/among-us_kiss-cut_01.png
   - among-us_kiss-cut/among-us_kiss-cut_02.png

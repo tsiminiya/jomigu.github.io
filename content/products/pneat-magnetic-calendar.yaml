@@ -21,6 +21,8 @@ promos:
     price: 1385
   - id: fd2cfac1-d2c5-4330-b5c2-eaeec03ed800
     price: 1000
+  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+    price: 2493
 images:
   - pneat-magnetic-calendar/pneat-magnetic-calendar_01.png
   - pneat-magnetic-calendar/pneat-magnetic-calendar_02.png

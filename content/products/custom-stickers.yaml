@@ -21,6 +21,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 315
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 315
         - name: Design created by Jomigu
           price: 1250
           image: custom-stickers/custom-stickers_1x1_design-on-us.png
@@ -35,6 +37,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1125
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1125
     - name: 1.5 inch x 1.5 inch
       options:
@@ -53,6 +57,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 270
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 270
         - name: Design created by Jomigu
           price: 1200
           image: custom-stickers/custom-stickers_1.5x1.5_design-on-us.png
@@ -67,6 +73,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1080
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1080
     - name: 2 inch x 2 inch
       options:
@@ -85,6 +93,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 225
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 225
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_2x2_design-on-us.png
@@ -99,6 +109,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
     - name: 3 inch x 3 inch
       options:
@@ -117,6 +129,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 225
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 225
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_3x3_design-on-us.png
@@ -131,6 +145,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
     - name: 2 inch x 4 inch
       options:
@@ -149,6 +165,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 225
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 225
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_2x4_design-on-us.png
@@ -163,6 +181,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
     - name: 4 inch x 6 inch
       options:
@@ -181,6 +201,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 225
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 225
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_4x6_design-on-us.png
@@ -195,6 +217,8 @@ variations:
             shopee: 0
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
     - name: 5 inch x 7 inch
       options:
@@ -213,6 +237,8 @@ variations:
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 225
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+              price: 225
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_5x7_design-on-us.png
@@ -227,6 +253,8 @@ variations:
             shopee: 7
           promos:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
+              price: 1035
+            - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
 link:
   lazada:

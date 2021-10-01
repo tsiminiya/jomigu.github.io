@@ -16,7 +16,9 @@ variations:
       sold:
         lazada: 0
         shopee: 0
-      promos: []
+      promos:
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 90
     - name: Glittered
       price: 50
       image: birthday-cake-toppers/birthday-cake-toppers-set_glittered.png
@@ -29,7 +31,9 @@ variations:
       sold:
         lazada: 0
         shopee: 0
-      promos: []
+      promos:
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 45
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/11512929199

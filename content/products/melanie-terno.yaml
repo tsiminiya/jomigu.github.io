@@ -19,6 +19,8 @@ variations:
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 297
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 342
     - name: Black
       price: 320
       image: melanie-terno/melanie-terno_black.png
@@ -34,6 +36,8 @@ variations:
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 297
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 342
     - name: Light Pink
       price: 320
       image: melanie-terno/melanie-terno_light-pink.png
@@ -49,6 +53,8 @@ variations:
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 297
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 342
     - name: Mustard Yellow
       price: 320
       image: melanie-terno/melanie-terno_mustard-yellow.png
@@ -64,6 +70,8 @@ variations:
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 297
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 342
     - name: Rust
       price: 320
       image: melanie-terno/melanie-terno_rust.png
@@ -79,6 +87,8 @@ variations:
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 297
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 342
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/2922305902
