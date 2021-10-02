@@ -19,6 +19,8 @@ categories:
 promos:
   - id: 0d9cf811-ec8a-4ca2-b688-694ba1e966cc
     price: 125
+  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+    price: 144
   - id: 252d9397-cf32-4423-9c4b-54cc790458e0
     price: 144
 images:
