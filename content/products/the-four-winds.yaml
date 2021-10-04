@@ -33,6 +33,10 @@ promos:
     price: 1647
   - id: 252d9397-cf32-4423-9c4b-54cc790458e0
     price: 1647
+  - id: 516ff340-2804-46e8-ab80-a4ec25976afa
+    price: 935
+  - id: 19acac43-6a27-4f4c-88d3-97f231d034cb
+    price: 935
 images:
   - the-four-winds/the-four-winds_01.png
   - the-four-winds/the-four-winds_02.png
