@@ -10,10 +10,10 @@
         </a>
       </li>
       <li class="col-md-4">
-        <a href="/promos/b3786142-669a-476d-983a-1c930756733f">
+        <a href="/products/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
           <img
             title="Best Seller Books"
-            src="~/assets/images/banners/best-seller-books-on-sale.png"
+            src="~/assets/images/banners/jomigu-budget-planner-2021.png"
           />
         </a>
       </li>
