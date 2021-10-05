@@ -8,10 +8,10 @@ variations:
       price: 16
       image: yl-special-line-stickers/yl-special-line-stickers_02.png
       stock:
-        lazada: 10
+        lazada: 9
         shopee: 8
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
       sold:
         lazada: 0
@@ -92,10 +92,10 @@ variations:
       price: 50
       image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
       stock:
-        lazada: 20
+        lazada: 19
         shopee: 19
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
       sold:
         lazada: 0
