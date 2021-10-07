@@ -66,13 +66,13 @@ variations:
       image: candy-pants/candy-pants_navy-blue.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 4
       floating:
         lazada: 0
         shopee: 0
       sold:
         lazada: 0
-        shopee: 2
+        shopee: 3
       promos:
         - id: af5afe29-f041-48f0-828c-0da0a7b86c19
           price: 250
