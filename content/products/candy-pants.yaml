@@ -66,7 +66,7 @@ variations:
       image: candy-pants/candy-pants_navy-blue.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 8
       floating:
         lazada: 0
         shopee: 0
@@ -142,7 +142,7 @@ variations:
       image: candy-pants/candy-pants_black.png
       stock:
         lazada: 0
-        shopee: 7
+        shopee: 11
       floating:
         lazada: 0
         shopee: 0
@@ -180,7 +180,7 @@ variations:
       image: candy-pants/candy-pants_moss-green.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 8
       floating:
         lazada: 0
         shopee: 0
@@ -289,6 +289,44 @@ variations:
           price: 288
         - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
           price: 256
+    - name: Bluish Cyan
+      price: 320
+      image: candy-pants/candy-pants_bluish-cyan.png
+      stock:
+        lazada: 0
+        shopee: 4
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 288
+        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+          price: 256
+    - name: Pinkish Red
+      price: 320
+      image: candy-pants/candy-pants_pinkish-red.png
+      stock:
+        lazada: 0
+        shopee: 3
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos:
+        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
+          price: 250
+        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+          price: 288
+        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+          price: 256
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/8820858052
@@ -323,3 +361,5 @@ description: |+
   * Coral Pink
   * Rust
   * Purple
+  * Bluish Cyan
+  * Pinkish Red
