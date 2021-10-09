@@ -1,5 +1,5 @@
 id: ad12e553-b0ae-4e2b-aba8-fa658ca40140
-name: Young Living Label Stickers for YL's Special Line of Essential Oils
+name: Custom Young Living Label Stickers Set for your Personal Essential Oil Labelling Needs
 featured: 'false'
 variations:
   name: Collection
@@ -72,10 +72,10 @@ variations:
       image: yl-special-line-stickers/yl-special-line-stickers_custom-24.png
       stock:
         lazada: 20
-        shopee: 19
+        shopee: 18
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
@@ -93,10 +93,10 @@ variations:
       image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
       stock:
         lazada: 19
-        shopee: 19
+        shopee: 18
       floating:
         lazada: 1
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
