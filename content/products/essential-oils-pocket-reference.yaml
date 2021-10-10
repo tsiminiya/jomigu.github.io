@@ -18,26 +18,10 @@ categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
-  - id: 9d103c1b-e18a-4dfb-9ae4-65bb6b2a51c2
-    price: 2000
-  - id: f9f476c3-c7d1-4073-99bd-9df87b33a323
-    price: 2000
-  - id: 9b9a5e4d-7f4a-4677-ab6e-cdaa3108d6e4
-    price: 2050
-  - id: 3edd843a-ed7f-4fca-b52b-b77ab07628b0
-    price: 2050
-  - id: a752d847-0c32-4756-acdd-f5aeb2a935a7
-    price: 2100
-  - id: d9567fe6-fbef-47d3-b27e-a586ead59803
-    price: 2100
-  - id: 425cde7f-04d7-4eb0-a37c-75fef9ef52e9
-    price: 2100
-  - id: 83b6466f-2fe9-42f1-bc4f-d5caf9d189ba
-    price: 2100
-  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-    price: 2133
-  - id: 252d9397-cf32-4423-9c4b-54cc790458e0
-    price: 2133
+  - id: 52041a4d-c1a4-4a94-9dbf-6ec2ad83816b
+    price: 1900
+  - id: 193dfaa5-67fb-4ee7-a791-e1984f8b825b
+    price: 1900
 images:
   - essential-oils-pocket-reference/essential-oils-pocket-reference_01.png
   - essential-oils-pocket-reference/essential-oils-pocket-reference_02.png
