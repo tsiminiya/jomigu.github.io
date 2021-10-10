@@ -17,12 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: Mickey Mouse White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_white.png
@@ -36,12 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: Mickey and Friends White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_white.png
@@ -55,12 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: Mickey and Friends Blue
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_blue.png
@@ -74,12 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: Chanel Brown
       price: 68
       image: new-normal-facemask/new-normal-facemask_chanel_brown.png
@@ -93,12 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: Mickey Mouse Red
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_red.png
@@ -112,12 +92,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: XOXO Light Pink
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_light-pink.png
@@ -131,12 +107,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: XOXO Pastel Green
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
@@ -150,12 +122,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
     - name: LV White
       price: 68
       image: new-normal-facemask/new-normal-facemask_lv_white.png
@@ -169,12 +137,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 54
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 62
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 55
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 50
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/11804554078

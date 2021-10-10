@@ -17,11 +17,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -38,11 +34,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -59,11 +51,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -80,11 +68,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -101,11 +85,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -122,11 +102,7 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -143,11 +119,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -164,11 +136,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -185,11 +153,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -206,11 +170,7 @@ variations:
         lazada: 0
         shopee: 6
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -227,11 +187,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -248,11 +204,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -269,11 +221,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -290,11 +238,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -311,11 +255,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -332,11 +272,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240
@@ -353,11 +289,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 250
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 288
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 256
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 240

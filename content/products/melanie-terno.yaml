@@ -17,12 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 297
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 342
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 304
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 280
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 285
     - name: Black
@@ -38,12 +34,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 297
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 342
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 304
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 280
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 285
     - name: Light Pink
@@ -59,12 +51,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 297
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 342
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 304
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 280
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 285
     - name: Mustard Yellow
@@ -80,12 +68,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 297
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 342
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 304
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 280
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 285
     - name: Rust
@@ -101,12 +85,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 297
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 342
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
-          price: 304
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 280
         - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
           price: 285
 link:

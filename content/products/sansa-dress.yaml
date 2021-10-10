@@ -17,11 +17,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 180
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 207
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 184
     - name: Black
       price: 230
@@ -36,11 +32,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 180
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 207
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 184
     - name: Mustard Yellow
       price: 230
@@ -55,11 +47,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: af5afe29-f041-48f0-828c-0da0a7b86c19
-          price: 180
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 207
-        - id: 5f8e7676-d51b-42f6-86e3-d082157cc085
+        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 184
 link:
   lazada:
