@@ -3,10 +3,10 @@ name: 'The Bible in 52 Weeks: A Yearlong Journey'
 featured: 'false'
 price: 1090.00
 stock:
-  lazada: 4
+  lazada: 3
   shopee: 3
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 37
