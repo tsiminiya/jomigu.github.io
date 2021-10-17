@@ -10,23 +10,15 @@
 </template>
 
 <script>
-import moment from 'moment'
 import createPromoListWrapper from '../../models/promos'
 
 export default {
   async asyncData({ $content, params }) {
-    const now = moment().toDate()
-
     const category = (await $content('categories').fetch()).filter(
       (c) => c.id === params.id
     )[0]
 
-    const promoList = await $content('promos')
-      .where({
-        'start-date': { $lt: now },
-        'end-date': { $gt: now },
-      })
-      .fetch()
+    const promoList = await $content('promos').fetch()
 
     return { categoryId: params.id, name: category.name, promoList }
   },
