@@ -19,6 +19,8 @@ variations:
       promos:
         - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 184
+        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+          price: 184
     - name: Black
       price: 230
       image: sansa-dress/sansa-dress_black.png
@@ -34,6 +36,8 @@ variations:
       promos:
         - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
           price: 184
+        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+          price: 184
     - name: Mustard Yellow
       price: 230
       image: sansa-dress/sansa-dress_mustard-yellow.png
@@ -48,6 +52,8 @@ variations:
         shopee: 0
       promos:
         - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
+          price: 184
+        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
           price: 184
 link:
   lazada:
