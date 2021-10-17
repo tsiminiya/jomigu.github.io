@@ -33,6 +33,7 @@ export class Variations {
   price: number | undefined
   stock: { [key: string]: number } = {}
   sold: { [key: string]: number } = {}
+  floating: { [key: string]: number } = {}
   image: string | undefined
   options: Variations[] | undefined
   promos: any[] | undefined
@@ -167,6 +168,11 @@ export class Variations {
     let overallStats = this.copyHash(partialResult)
     overallStats = this.addStatsToField(variation.stock, overallStats, 'stock')
     overallStats = this.addStatsToField(variation.sold, overallStats, 'sold')
+    overallStats = this.addStatsToField(
+      variation.floating,
+      overallStats,
+      'floating'
+    )
     return overallStats
   }
 
@@ -243,6 +249,7 @@ export class Variations {
     v.promos = variation.promos
     v.stock = Variations.mapStats(variation.stock)
     v.sold = Variations.mapStats(variation.sold)
+    v.floating = Variations.mapStats(variation.floating)
     v.image = variation.image
     v.options = (variation.options || []).map(Variations.mapVariation)
     v.empty = false

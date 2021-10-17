@@ -59,45 +59,7 @@
 <script>
 import moment from 'moment'
 import createVariations from '../models/variation'
-
-const getStats = (product, variations) => {
-  let stockTotal = 0
-  let soldTotal = 0
-
-  const stock = variations.isEmpty()
-    ? product.stock
-    : variations.getOverallStats().stock
-  Object.entries(stock).forEach((entry) => {
-    stockTotal += entry[1]
-  })
-
-  const sold = variations.isEmpty()
-    ? product.sold
-    : variations.getOverallStats().stock
-  Object.entries(sold).forEach((entry) => {
-    soldTotal += entry[1]
-  })
-
-  return { stockTotal, soldTotal }
-}
-
-const project = (product) => {
-  const variations = createVariations(product.variations)
-
-  const stats = getStats(product, variations)
-
-  return {
-    id: product.id,
-    name: product.name,
-    price: product.price,
-    stock: stats.stockTotal,
-    sold: stats.soldTotal,
-    mainImage: product.images[0],
-    promos: product.promos,
-    variations: product.variations,
-    hasVariations: !variations.isEmpty(),
-  }
-}
+import { project } from '../models/product'
 
 const productFilters = {
   category(categoryId) {
