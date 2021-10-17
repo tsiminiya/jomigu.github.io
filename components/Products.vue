@@ -4,6 +4,7 @@
       <div class="card-header card-title-header">{{ title }}</div>
       <div class="card-body">
         <div class="container">
+          <p>{{ new Date(currentTime) }}</p>
           <ul class="row list-style-none">
             <li v-if="products.length < 1" class="col-12 p-5 text-center">
               <span>
@@ -109,6 +110,10 @@ export default {
       type: String,
       default: 'Products',
     },
+    currentTime: {
+      type: Number,
+      default: () => new Date().getTime(),
+    },
   },
 
   data() {
@@ -132,10 +137,6 @@ export default {
   computed: {
     promos() {
       const now = moment()
-
-      console.log(`now: ${now}`)
-      console.log(`promo[0]: ${this.promoList[0]}`)
-
       const promos = this.promoList.filter((promo) => {
         const startDate = moment(promo['start-date'])
         const endDate = moment(promo['end-date'])

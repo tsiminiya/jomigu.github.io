@@ -47,7 +47,6 @@ export default {
       promoId: promo.id,
       name: promo.name,
       sharingImage: promo.sharing_image,
-      currentTime: moment().toDate(),
       description: `Jomigu Online Shop ${promo.name}`,
       url: `https://shop.jomigu.com/promos/${promo.id}`,
       hashtags: `${promo.hashtag},jomigu,jomiguonlineshop`,
@@ -89,6 +88,12 @@ export default {
         },
       ],
     }
+  },
+
+  computed: {
+    currentTime() {
+      return moment().toDate().getTime()
+    },
   },
 }
 </script>
