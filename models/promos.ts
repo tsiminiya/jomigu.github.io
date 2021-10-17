@@ -29,6 +29,7 @@ export class PromoListWrapper {
       }
       return startDate.isBefore(now) && endDate.isAfter(now)
     })
+    console.log(result)
     console.log('=====')
     return result
   }
