@@ -113,34 +113,51 @@ export default {
 
   data() {
     return {
-      products: [],
-      promoIds: [],
-      promos: [],
+      productList: [],
+      promoList: [],
     }
   },
 
   async fetch() {
-    const productList = await this.$content('products').fetch()
+    this.productList = await this.$content('products').fetch()
     const now = moment().toDate()
-    this.promos = await this.$content('promos')
+    this.promoList = await this.$content('promos')
       .where({
         'start-date': { $lt: now },
         'end-date': { $gt: now },
       })
       .fetch()
+  },
 
-    const productFilter = productFilters[this.filter]
-    const productFilterFunc =
-      (productFilter && productFilter(this.value)) || (() => true)
-
-    const pushed = {}
-    productList
-      .filter((product) => !pushed[product.id])
-      .filter(productFilterFunc)
-      .forEach((product) => {
-        this.products.push(project(product))
-        pushed[product.id] = product
+  computed: {
+    promos() {
+      const now = moment().toDate()
+      const promos = this.promoList.filter((promo) => {
+        const startDate = moment(promo['start-date'])
+        const endDate = moment(promo['end-date'])
+        return startDate.isBefore(now) && endDate.isAfter(now)
       })
+      return promos
+    },
+
+    products() {
+      const products = []
+      const pushed = {}
+
+      const productFilter = productFilters[this.filter]
+      const productFilterFunc =
+        (productFilter && productFilter(this.value)) || (() => true)
+
+      this.productList
+        .filter((product) => !pushed[product.id])
+        .filter(productFilterFunc)
+        .forEach((product) => {
+          products.push(project(product))
+          pushed[product.id] = product
+        })
+
+      return products
+    },
   },
 }
 </script>
