@@ -4,7 +4,6 @@
       <div class="card-header card-title-header">{{ title }}</div>
       <div class="card-body">
         <div class="container">
-          <p>{{ new Date(currentTime) }}</p>
           <ul class="row list-style-none">
             <li v-if="products.length < 1" class="col-12 p-5 text-center">
               <span>
@@ -58,35 +57,7 @@
   </div>
 </template>
 <script>
-import moment from 'moment'
-import createVariations from '../models/variation'
-import { project } from '../models/product'
-
-const productFilters = {
-  category(categoryId) {
-    return (product) => {
-      const categories = product.categories || []
-      const found = categories.filter((id) => id === categoryId)
-      return found.length > 0
-    }
-  },
-  promo(promoId) {
-    return (product) => {
-      const promos = product.promos || []
-
-      const found = promos
-        .map((promo) => promo.id)
-        .filter((id) => id === promoId)
-      if (found.length > 0) {
-        return true
-      }
-
-      const variations = createVariations(product.variations)
-
-      return variations.isPromoFound(promoId)
-    }
-  },
-}
+import { project, productFilters } from '../models/product'
 
 export default {
   props: {
@@ -110,59 +81,35 @@ export default {
       type: String,
       default: 'Products',
     },
-    currentTime: {
-      type: Number,
-      default: () => new Date().getTime(),
+    promos: {
+      type: Array,
+      default: () => [],
     },
   },
 
   data() {
     return {
-      productList: [],
-      promoList: [],
+      products: [],
     }
   },
 
   async fetch() {
-    this.productList = await this.$content('products').fetch()
-    const now = moment().toDate()
-    this.promoList = await this.$content('promos')
-      .where({
-        'start-date': { $lt: now },
-        'end-date': { $gt: now },
+    const pushed = {}
+    const productList = await this.$content('products').fetch()
+
+    const productFilter = productFilters[this.filter]
+    const productFilterFunc =
+      (productFilter && productFilter(this.value)) || (() => true)
+
+    this.products = []
+
+    productList
+      .filter((product) => !pushed[product.id])
+      .filter(productFilterFunc)
+      .forEach((product) => {
+        this.products.push(project(product))
+        pushed[product.id] = product
       })
-      .fetch()
-  },
-
-  computed: {
-    promos() {
-      const now = moment()
-      const promos = this.promoList.filter((promo) => {
-        const startDate = moment(promo['start-date'])
-        const endDate = moment(promo['end-date'])
-        return startDate.isBefore(now) && endDate.isAfter(now)
-      })
-      return promos
-    },
-
-    products() {
-      const products = []
-      const pushed = {}
-
-      const productFilter = productFilters[this.filter]
-      const productFilterFunc =
-        (productFilter && productFilter(this.value)) || (() => true)
-
-      this.productList
-        .filter((product) => !pushed[product.id])
-        .filter(productFilterFunc)
-        .forEach((product) => {
-          products.push(project(product))
-          pushed[product.id] = product
-        })
-
-      return products
-    },
   },
 }
 </script>

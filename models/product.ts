@@ -67,3 +67,29 @@ export const sort = (
 
   return products
 }
+
+export const productFilters = {
+  category(categoryId: string) {
+    return (product: any) => {
+      const categories = product.categories || []
+      const found = categories.filter((id: string) => id === categoryId)
+      return found.length > 0
+    }
+  },
+  promo(promoId: string) {
+    return (product: any) => {
+      const promos = product.promos || []
+
+      const found = promos
+        .map((promo: any) => promo.id)
+        .filter((id: string) => id === promoId)
+      if (found.length > 0) {
+        return true
+      }
+
+      const variations = createVariations(product.variations)
+
+      return variations.isPromoFound(promoId)
+    }
+  },
+}

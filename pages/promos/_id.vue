@@ -26,7 +26,7 @@
         </ShareNetwork>
       </p>
     </div>
-    <Products :current-time="currentTime" filter="promo" :value="promoId" />
+    <Products filter="promo" :value="promoId" :promos="promos" />
     <Promos
       :exclude-promos="[promoId]"
       additional-style-class="px-3 pb-3 bg-white"
@@ -35,17 +35,19 @@
 </template>
 
 <script>
-import moment from 'moment'
+import createPromoListWrapper from '../../models/promos'
 
 export default {
   async asyncData({ $content, params }) {
-    const promo = (await $content('promos').fetch()).filter(
+    const promoList = (await $content('promos').fetch()).filter(
       (p) => p.id === params.id
-    )[0]
+    )
+    const promo = promoList[0]
 
     return {
       promoId: promo.id,
       name: promo.name,
+      promoList,
       sharingImage: promo.sharing_image,
       description: `Jomigu Online Shop ${promo.name}`,
       url: `https://shop.jomigu.com/promos/${promo.id}`,
@@ -91,8 +93,8 @@ export default {
   },
 
   computed: {
-    currentTime() {
-      return moment().toDate().getTime()
+    promos() {
+      return createPromoListWrapper(this.promoList).getActivePromos()
     },
   },
 }

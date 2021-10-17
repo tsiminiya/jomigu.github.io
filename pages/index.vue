@@ -2,22 +2,31 @@
   <div>
     <Banners />
     <Categories />
-    <Products :show-header="true" />
+    <Products :promos="promos" :show-header="true" />
   </div>
 </template>
 
 <script>
+import moment from 'moment'
+import createPromoListWrapper from '../models/promos'
 import featured from '../assets/images/sharing/facebook-sharing-image-october-2021.png'
 import products from '../assets/videos/products/jomigu-7.7-products.mp4'
 
 export default {
-  asyncData() {
-    const currentTime = new Date()
+  async asyncData({ $content }) {
+    const now = moment().toDate()
+    // The following query will take all promos
+    // on the time the project was build.
+    const promoList = await $content('promos')
+      .where({
+        'start-date': { $lt: now },
+        'end-date': { $gt: now },
+      })
+      .fetch()
 
-    return {
-      currentTime,
-    }
+    return { promoList }
   },
+
   head() {
     return {
       title: 'Jomigu Online Shop',
@@ -60,6 +69,12 @@ export default {
         },
       ],
     }
+  },
+
+  computed: {
+    promos() {
+      return createPromoListWrapper(this.promoList).getActivePromos()
+    },
   },
 }
 </script>

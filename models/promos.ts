@@ -1,3 +1,5 @@
+import moment from 'moment'
+
 export class PromoListWrapper {
   private promos: any[] = []
   private promoMap: { [key: string]: any } = {}
@@ -12,6 +14,15 @@ export class PromoListWrapper {
         return partialResult
       }, {})
     }
+  }
+
+  getActivePromos(): any[] {
+    const now = moment()
+    return this.promos.filter((promo) => {
+      const startDate = moment(promo['start-date'])
+      const endDate = moment(promo['end-date'])
+      return startDate.isBefore(now) && endDate.isAfter(now)
+    })
   }
 
   getProductActivePromos(productPromos: any[] = []) {
