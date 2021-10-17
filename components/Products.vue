@@ -131,7 +131,11 @@ export default {
 
   computed: {
     promos() {
-      const now = moment().toDate()
+      const now = moment()
+
+      console.log(`now: ${now}`)
+      console.log(`promo[0]: ${this.promoList[0]}`)
+
       const promos = this.promoList.filter((promo) => {
         const startDate = moment(promo['start-date'])
         const endDate = moment(promo['end-date'])
