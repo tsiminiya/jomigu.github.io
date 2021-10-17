@@ -18,6 +18,7 @@ export class PromoListWrapper {
 
   getActivePromos(): any[] {
     const now = moment()
+    console.log(now)
     return this.promos.filter((promo) => {
       const startDate = moment(promo['start-date'])
       const endDate = moment(promo['end-date'])
