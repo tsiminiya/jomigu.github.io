@@ -18,16 +18,18 @@ export class PromoListWrapper {
 
   getActivePromos(): any[] {
     const now = moment()
-    console.log('==========')
-    console.log(this.promos)
-    console.log('==========')
+    console.log('=====')
+    console.log(now)
     const result = this.promos.filter((promo) => {
       const startDate = moment(promo['start-date'])
       const endDate = moment(promo['end-date'])
+      if (promo.id === '2cad0a25-e17c-46fe-8bbd-8778f3c935a0') {
+        console.log(startDate)
+        console.log(endDate)
+      }
       return startDate.isBefore(now) && endDate.isAfter(now)
     })
-    console.log(result)
-    console.log('==========')
+    console.log('=====')
     return result
   }
 
