@@ -22,7 +22,11 @@ export class PromoListWrapper {
     return this.promos.filter((promo) => {
       const startDate = moment(promo['start-date'])
       const endDate = moment(promo['end-date'])
-      return startDate.isBefore(now) && endDate.isAfter(now)
+      const result = startDate.isBefore(now) && endDate.isAfter(now)
+      console.log(
+        `startDate: ${startDate}, endDate: ${endDate}, result: ${result}`
+      )
+      return result
     })
   }
 
