@@ -15,8 +15,9 @@ services:
 build:image:
   stage: build image
   image: docker:dind
-  script:
+  before_script:
     - docker login -u tsiminiya -p $DOCKER_ACCESS_TOKEN
+  script:
     - docker build ${PWD} -t tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
     - docker push tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
   # only:

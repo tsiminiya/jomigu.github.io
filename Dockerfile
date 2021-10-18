@@ -1,3 +1,3 @@
 FROM ubuntu:20.04
 
-RUN apt-get install git
+RUN apt update && apt-get install git
