@@ -1,0 +1,14 @@
+stages:
+  - build image
+  - build project
+  - push to github
+
+build:image:
+  stage: build image
+  script:
+    - docker login -u tsiminiya -p $DOCKER_ACCESS_TOKEN
+    - docker build ${PWD} -t tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
+    - docker push tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
+  only:
+    changes:
+      - Dockerfile
