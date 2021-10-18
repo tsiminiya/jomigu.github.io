@@ -3,6 +3,10 @@ stages:
   - build project
   - push to github
 
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
+
 build:image:
   stage: build image
   image: docker:dind
@@ -10,6 +14,6 @@ build:image:
     - docker login -u tsiminiya -p $DOCKER_ACCESS_TOKEN
     - docker build ${PWD} -t tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
     - docker push tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
-  only:
-    changes:
-      - Dockerfile
+  # only:
+  #   changes:
+  #     - Dockerfile
