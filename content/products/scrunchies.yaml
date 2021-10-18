@@ -48,7 +48,7 @@ variations:
         lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 1
         shopee: 0
       promos:
         - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
@@ -99,7 +99,7 @@ variations:
         lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 1
         shopee: 0
       promos:
         - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
