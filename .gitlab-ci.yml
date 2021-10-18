@@ -5,7 +5,7 @@ stages:
 
 build:image:
   stage: build image
-  image: docker:latest
+  image: docker:dind
   script:
     - docker login -u tsiminiya -p $DOCKER_ACCESS_TOKEN
     - docker build ${PWD} -t tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
