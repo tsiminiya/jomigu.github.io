@@ -35,11 +35,13 @@ build:project:
   script:
     - git remote set-url origin ${JOMIGU_WEBSITE_REPO}
     - git fetch
+    - git checkout gh-pages
     - git checkout main
     - git pull
     - npm install
     - npm run generate
     - git stash
+    - git remote -v
     - npm run deploy
   artifacts:
     paths:
