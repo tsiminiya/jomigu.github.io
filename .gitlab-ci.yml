@@ -33,11 +33,7 @@ build:project:
   stage: build project
   image: ${JOMIGU_NODE_IMAGE}
   script:
-    - echo "$(cat /root/.ssh/id_rsa.pub)"
-    - git remote set-url origin git@github.com:tsiminiya/jomigu.git
-    - git fetch
-    - git checkout main
-    - git pull
+    - npm install
   only:
     refs:
       - main
