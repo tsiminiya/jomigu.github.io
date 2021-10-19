@@ -39,7 +39,8 @@ build:project:
     - git pull
     - npm install
     - npm run generate
-    - git status
+    - git restore package-lock.json
+    - npm run deploy
   artifacts:
     paths:
       - dist
