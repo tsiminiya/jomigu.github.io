@@ -33,9 +33,17 @@ build:project:
   stage: build project
   image: ${JOMIGU_NODE_IMAGE}
   script:
+    - mkdir -p temporary
+    - cd temporary
+    - git clone git@github.com:tsiminiya/jomigu.git
+    - cd jomigu
     - npm install
     - npm run generate
-    - whoami
+    - npm run deploy
+  # artifacts:
+  #   paths:
+  #     - dist
+  #   expire_in: 30 days
   only:
     refs:
       - main
