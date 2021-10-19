@@ -10,6 +10,7 @@ variables:
   DOCKER_TLS_CERTDIR: ""
   JOMIGU_NODE_IMAGE: tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
   BACKUP_JOMIGU_NODE_IMAGE: tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
+  JOMIGU_WEBSITE_REPO: https://tsiminiya:${GITHUB_ACCESS_TOKEN}@github.com/tsiminiya/jomigu.git
 
 services:
   - docker:19.03.12-dind
@@ -33,17 +34,17 @@ build:project:
   stage: build project
   image: ${JOMIGU_NODE_IMAGE}
   script:
-    - mkdir -p temporary
-    - cd temporary
-    - git clone https://tsiminiya:${GITHUB_ACCESS_TOKEN}@github.com/tsiminiya/jomigu.git
-    - cd jomigu
-    - npm install
+    - git remote set-url origin ${JOMIGU_WEBSITE_REPO}
+    - git fetch
+    - git checkout main
+    - git pull
+    - npm run install
     - npm run generate
     - npm run deploy
-  # artifacts:
-  #   paths:
-  #     - dist
-  #   expire_in: 30 days
+  artifacts:
+    paths:
+      - dist
+    expire_in: 30 days
   only:
     refs:
       - main
