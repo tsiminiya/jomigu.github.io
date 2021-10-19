@@ -1,6 +1,6 @@
 #! /bin/sh
 
-git push && \
+sh ./push.sh && \
 npm run generate && \
 npm run deploy
 
