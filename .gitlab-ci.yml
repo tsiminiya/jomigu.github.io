@@ -39,6 +39,7 @@ build:project:
     - git pull
     - npm install
     - npm run generate
+    - git status
   artifacts:
     paths:
       - dist
