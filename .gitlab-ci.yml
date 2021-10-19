@@ -25,7 +25,6 @@ build:image:
     - docker push ${BACKUP_JOMIGU_NODE_IMAGE}
     - docker tag ${BACKUP_JOMIGU_NODE_IMAGE} ${JOMIGU_NODE_IMAGE}
     - docker push ${JOMIGU_NODE_IMAGE}
-    - docker run tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME} cat /root/.ssh/id_rsa.pub
   only:
     changes:
       - Dockerfile
@@ -38,7 +37,7 @@ build:project:
     - git fetch
     - git checkout main
     - git pull
-    - npm run install
+    - npm install
     - npm run generate
     - npm run deploy
   artifacts:
