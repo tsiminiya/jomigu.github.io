@@ -35,15 +35,13 @@ build:project:
   script:
     - git remote set-url origin ${JOMIGU_WEBSITE_REPO}
     - git fetch
-    - git checkout gh-pages
     - git checkout main
     - git pull
     - npm install
     - npm run generate
     - git stash
-    - git remote -v
-    - git config --global user.email "romeo.maranan@gmail.com"
-    - git config --global user.name "Romeo H. Maranan Jr."
+    - git config --global user.email "${GIT_CONFIG_EMAIL}"
+    - git config --global user.name "${GIT_CONFIG_NAME}"
     - npm run deploy
   artifacts:
     paths:
