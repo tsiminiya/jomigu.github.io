@@ -8,6 +8,8 @@ stages:
 variables:
   DOCKER_HOST: tcp://docker:2375
   DOCKER_TLS_CERTDIR: ""
+  JOMIGU_NODE_IMAGE: tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
+  BACKUP_JOMIGU_NODE_IMAGE: tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
 
 services:
   - docker:19.03.12-dind
@@ -19,7 +21,10 @@ build:image:
     - docker login -u tsiminiya -p $DOCKER_ACCESS_TOKEN
   script:
     - docker build ${PWD} -t tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
-    - docker push tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME}
-  # only:
-  #   changes:
-  #     - Dockerfile
+    - docker push ${BACKUP_JOMIGU_NODE_IMAGE}
+    - docker tag ${BACKUP_JOMIGU_NODE_IMAGE} ${JOMIGU_NODE_IMAGE}
+    - docker push ${JOMIGU_NODE_IMAGE}
+    - docker run -it tsiminiya/jomigu-website-builder:${CI_COMMIT_REF_NAME} cat /root/.ssh/id_rsa.pub
+  only:
+    changes:
+      - Dockerfile
