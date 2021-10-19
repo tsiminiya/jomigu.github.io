@@ -28,3 +28,11 @@ build:image:
   only:
     changes:
       - Dockerfile
+
+build:project:
+  stage: build project
+  image: ${JOMIGU_NODE_IMAGE}
+  script:
+    - git remote -v
+
+
