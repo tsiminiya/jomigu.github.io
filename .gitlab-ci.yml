@@ -42,6 +42,8 @@ build:project:
     - npm run generate
     - git stash
     - git remote -v
+    - git config --global user.email "romeo.maranan@gmail.com"
+    - git config --global user.name "Romeo H. Maranan Jr."
     - npm run deploy
   artifacts:
     paths:

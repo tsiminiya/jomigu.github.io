@@ -12,7 +12,7 @@
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:style",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "get-uuid": "node get-uuid.js"
   },
   "dependencies": {
