@@ -39,7 +39,7 @@ build:project:
     - git pull
     - npm install
     - npm run generate
-    - git restore package-lock.json
+    - git stash
     - npm run deploy
   artifacts:
     paths:
