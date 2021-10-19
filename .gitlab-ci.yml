@@ -25,6 +25,9 @@ build:image:
     - docker push ${BACKUP_JOMIGU_NODE_IMAGE}
     - docker tag ${BACKUP_JOMIGU_NODE_IMAGE} ${JOMIGU_NODE_IMAGE}
     - docker push ${JOMIGU_NODE_IMAGE}
+  except:
+    variables:
+      - CONTENT_UPDATE == "1"
   only:
     changes:
       - Dockerfile
