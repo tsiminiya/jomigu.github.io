@@ -35,7 +35,7 @@ build:project:
   script:
     - mkdir -p temporary
     - cd temporary
-    - git clone git@github.com:tsiminiya/jomigu.git
+    - git clone https://tsiminiya:${GITHUB_ACCESS_TOKEN}@github.com/tsiminiya/jomigu.git
     - cd jomigu
     - npm install
     - npm run generate
