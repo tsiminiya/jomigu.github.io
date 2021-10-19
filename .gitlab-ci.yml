@@ -27,7 +27,7 @@ build:image:
     - docker push ${JOMIGU_NODE_IMAGE}
   except:
     variables:
-      - CONTENT_UPDATE == "1"
+      - $CONTENT_UPDATE == "1"
   only:
     changes:
       - Dockerfile
