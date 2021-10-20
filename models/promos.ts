@@ -21,18 +21,7 @@ export class PromoListWrapper {
     return this.promos.filter((promo) => {
       const startDate = moment(promo['start-date'])
       const endDate = moment(promo['end-date'])
-      if (promo.id === '2cad0a25-e17c-46fe-8bbd-8778f3c935a0') {
-        console.log('===============')
-        console.log(now)
-        console.log(startDate)
-        console.log(endDate)
-      }
-      const result = startDate.isBefore(now) && endDate.isAfter(now)
-      if (promo.id === '2cad0a25-e17c-46fe-8bbd-8778f3c935a0') {
-        console.log(result)
-        console.log('===============')
-      }
-      return result
+      return startDate.isBefore(now) && endDate.isAfter(now)
     })
   }
 
