@@ -17,13 +17,9 @@ variations:
         lazada: 2
         shopee: 3
       promos:
-        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
-          price: 14
-        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
-          price: 14
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
           price: 15
-        - id: 252d9397-cf32-4423-9c4b-54cc790458e0
+        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
     - name: Animal Scents
       price: 16
@@ -38,13 +34,9 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
-          price: 14
-        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
-          price: 14
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
           price: 15
-        - id: 252d9397-cf32-4423-9c4b-54cc790458e0
+        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
     - name: Custom 12
       price: 16
@@ -59,13 +51,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
-          price: 14
-        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
-          price: 14
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
           price: 15
-        - id: 252d9397-cf32-4423-9c4b-54cc790458e0
+        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
     - name: Custom 24
       price: 25
@@ -80,13 +68,9 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
-          price: 22
-        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
-          price: 22
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
           price: 23
-        - id: 252d9397-cf32-4423-9c4b-54cc790458e0
+        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 23
     - name: Custom 60
       price: 50
@@ -101,14 +85,10 @@ variations:
         lazada: 1
         shopee: 2
       promos:
-        - id: ff93311b-11d5-418e-b9ef-375f8b7a7bcb
-          price: 45
-        - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
-          price: 45
-        - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-          price: 45
-        - id: 252d9397-cf32-4423-9c4b-54cc790458e0
-          price: 45
+        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
+          price: 47
+        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
+          price: 47
 link:
   lazada: https://s.lazada.com.ph/s.dbokf
   shopee: https://shopee.ph/product/131641645/7887674577
