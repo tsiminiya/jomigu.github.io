@@ -4,7 +4,7 @@ featured: 'false'
 price: 185
 stock:
   lazada: 5
-  shopee: 0
+  shopee: 8
 floating:
   lazada: 0
   shopee: 0
@@ -13,11 +13,13 @@ sold:
   shopee: 0
 link:
   lazada: https://s.lazada.com.ph/s.3OTcb
-  shopee:
+  shopee: https://shopee.ph/product/131641645/11963641407
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
   - id: ee84850c-d182-4bd9-a345-6f3289c1400d
+    price: 140
+  - id: af14ee32-3095-4a59-8a72-92f6fd8e0c89
     price: 140
 images:
   - watercolor-notebook/watercolor-notebook_01.png
