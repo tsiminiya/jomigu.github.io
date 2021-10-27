@@ -50,7 +50,7 @@
                   variations[variationIndex].price) | peso_currency
               }}
             </span>
-            <small class="on-sale">
+            <small v-if="variations[variationIndex].hasPromo" class="on-sale">
               {{ variations[variationIndex].price | peso_currency }}
             </small>
           </p>
