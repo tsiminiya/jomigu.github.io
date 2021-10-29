@@ -50,6 +50,63 @@ export class PromoListWrapper {
   }
 }
 
+const hasVariations = (product: any) => {
+  return (
+    product.variations !== undefined &&
+    product.variations !== null &&
+    Object.keys(product.variations).length > 0
+  )
+}
+
+const foundPromoIdOnVariations = (
+  variations: any[] = [],
+  promoId: string
+): boolean => {
+  let found = false
+  for (const variation of variations) {
+    found =
+      (variation.promos || []).filter((promo: any) => promo.id === promoId)
+        .length > 0
+    if (found) {
+      return true
+    }
+    found = foundPromoIdOnVariations(variation.options, promoId)
+  }
+  return found
+}
+
+const filterProducts = (products: any[], promoId: string) => {
+  return products.filter((product: any) => {
+    if (hasVariations(product)) {
+      return foundPromoIdOnVariations(product.variations.options, promoId)
+    } else {
+      return (
+        (product.promos || []).filter((promo: any) => promo.id === promoId)
+          .length > 0
+      )
+    }
+  })
+}
+
+const resolveShop = (shopId: string, shops: any[]) => {
+  for (const shop of shops) {
+    if (shopId === shop.id) {
+      return shop.name
+    }
+  }
+  return ''
+}
+
+export const project = (promo: any, products: any, shops: any[]): any => {
+  return {
+    name: promo.name,
+    startDate: moment(promo['start-date']).format('YYYY-MM-DD HH:mm:ss'),
+    endDate: moment(promo['end-date']).format('YYYY-MM-DD HH:mm:ss'),
+    products: filterProducts(products, promo.id),
+    shop: resolveShop(promo.shop, shops),
+  }
+}
+
 export default (promos: any[]) => {
   const wrapper = new PromoListWrapper()
 
