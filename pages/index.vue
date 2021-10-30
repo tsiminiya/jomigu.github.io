@@ -1,7 +1,6 @@
 <template>
   <div>
     <Banners />
-    <Promos />
     <Categories />
     <Products :promos="promos" :show-header="true" />
   </div>
@@ -72,13 +71,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-#__layout > main > div > div > div.container.promos > div > div > div {
-  border: 0;
-  border-radius: 0;
-}
-div.container.promos > div > div > div > div.card-body.p-0 > a > img {
-  border-radius: 0;
-}
-</style>
