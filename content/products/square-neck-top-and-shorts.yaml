@@ -22,7 +22,7 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 5
       floating:
         lazada: 0
         shopee: 0
@@ -49,6 +49,58 @@ variations:
       stock:
         lazada: 0
         shopee: 1
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Brown
+      price: 230
+      image: square-neck-top-and-shorts/square-neck-top-and-shorts_brown.png
+      stock:
+        lazada: 0
+        shopee: 5
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Grey Pink
+      price: 230
+      image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
+      stock:
+        lazada: 0
+        shopee: 5
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Old Rose
+      price: 230
+      image: square-neck-top-and-shorts/square-neck-top-and-shorts_old-rose.png
+      stock:
+        lazada: 0
+        shopee: 3
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Powder Blue
+      price: 230
+      image: square-neck-top-and-shorts/square-neck-top-and-shorts_powder-blue.png
+      stock:
+        lazada: 0
+        shopee: 2
       floating:
         lazada: 0
         shopee: 0
