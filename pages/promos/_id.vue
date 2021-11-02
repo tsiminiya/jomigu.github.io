@@ -52,6 +52,8 @@ export default {
       description: `Jomigu Online Shop ${promo.name}`,
       url: `https://shop.jomigu.com/promos/${promo.id}`,
       hashtags: `${promo.hashtag},jomigu,jomiguonlineshop`,
+      imageWidth: promo.image_width || 1200,
+      imageHeight: promo.image_height || 630,
     }
   },
 
@@ -87,6 +89,16 @@ export default {
           hid: 'og:description',
           property: 'og:description',
           content: this.description,
+        },
+        {
+          hid: 'og:video:width',
+          property: 'og:video:width',
+          content: this.imageWidth,
+        },
+        {
+          hid: 'og:video:height',
+          property: 'og:video:height',
+          content: this.imageHeight,
         },
       ],
     }
