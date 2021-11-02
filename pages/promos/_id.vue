@@ -91,13 +91,13 @@ export default {
           content: this.description,
         },
         {
-          hid: 'og:video:width',
-          property: 'og:video:width',
+          hid: 'og:image:width',
+          property: 'og:image:width',
           content: this.imageWidth,
         },
         {
-          hid: 'og:video:height',
-          property: 'og:video:height',
+          hid: 'og:image:height',
+          property: 'og:image:height',
           content: this.imageHeight,
         },
       ],
