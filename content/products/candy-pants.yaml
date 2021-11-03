@@ -17,11 +17,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Old Rose
       price: 320
@@ -36,11 +32,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Mustard Yellow
       price: 320
@@ -55,11 +47,7 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Navy Blue
       price: 320
@@ -74,11 +62,7 @@ variations:
         lazada: 0
         shopee: 4
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Peach
       price: 320
@@ -93,11 +77,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Coral Pink
       price: 320
@@ -112,11 +92,7 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Rust
       price: 320
@@ -131,11 +107,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Black
       price: 320
@@ -150,11 +122,7 @@ variations:
         lazada: 0
         shopee: 5
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Gray
       price: 320
@@ -169,11 +137,7 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Moss Green
       price: 320
@@ -188,11 +152,7 @@ variations:
         lazada: 0
         shopee: 6
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Dark Rose
       price: 320
@@ -207,11 +167,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Brown
       price: 320
@@ -226,11 +182,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Pink
       price: 320
@@ -245,11 +197,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: White
       price: 320
@@ -264,11 +212,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Rust Orange
       price: 320
@@ -283,11 +227,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Bluish Cyan
       price: 320
@@ -302,11 +242,7 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
     - name: Pinkish Red
       price: 320
@@ -321,11 +257,7 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 256
-        - id: af1e7b46-4efc-43ce-a8e0-bf32a7138e94
-          price: 240
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 256
 link:
   lazada:

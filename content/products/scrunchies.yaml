@@ -17,10 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Black
       price: 93
       image: scrunchies/scrunchies_black.png
@@ -34,10 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Navy Blue
       price: 93
       image: scrunchies/scrunchies_navy-blue.png
@@ -51,10 +47,8 @@ variations:
         lazada: 1
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Matte Gold
       price: 93
       image: scrunchies/scrunchies_matte-gold.png
@@ -68,10 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Purple
       price: 93
       image: scrunchies/scrunchies_purple.png
@@ -85,10 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Silver Grey
       price: 93
       image: scrunchies/scrunchies_silver-grey.png
@@ -102,10 +92,8 @@ variations:
         lazada: 1
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Old Rose
       price: 93
       image: scrunchies/scrunchies_old-rose.png
@@ -119,10 +107,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Choco Brown
       price: 93
       image: scrunchies/scrunchies_choco-brown.png
@@ -136,10 +122,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Rose Gold
       price: 93
       image: scrunchies/scrunchies_rose-gold.png
@@ -153,10 +137,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Mauve Lilac
       price: 93
       image: scrunchies/scrunchies_mauve-lilac.png
@@ -170,10 +152,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Mocha
       price: 93
       image: scrunchies/scrunchies_mocha.png
@@ -187,10 +167,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
     - name: Maroon
       price: 93
       image: scrunchies/scrunchies_maroon.png
@@ -204,10 +182,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 668f179c-17ed-49ec-8ce5-4ff7e2ae1103
-          price: 65
-        - id: 2cad0a25-e17c-46fe-8bbd-8778f3c935a0
-          price: 65
+        - id: 913eae28-632b-46de-ad4d-b42c47ec4902
+          price: 75
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/9455673903
