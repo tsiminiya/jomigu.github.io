@@ -12,7 +12,7 @@
       <li class="col-md-4">
         <a href="/products/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
           <img
-            title="Best Seller Books"
+            title="Try me!"
             src="~/assets/images/banners/try-my-budget-planner_sharing.png"
           />
         </a>
