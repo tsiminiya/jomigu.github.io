@@ -19,9 +19,13 @@ categories:
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
   - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
-    price: 1100
+    price: 704
   - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
-    price: 1100
+    price: 704
+  - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+    price: 550
+  - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+    price: 550
 images:
   - the-essential-book/the-essential-book_01.png
   - the-essential-book/the-essential-book_02.png

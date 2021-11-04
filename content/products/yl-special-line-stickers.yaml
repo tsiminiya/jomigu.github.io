@@ -21,6 +21,10 @@ variations:
           price: 15
         - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
+        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+          price: 13
+        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+          price: 13
     - name: Animal Scents
       price: 16
       image: yl-special-line-stickers/yl-special-line-stickers_03.png
@@ -38,6 +42,10 @@ variations:
           price: 15
         - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
+        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+          price: 13
+        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+          price: 13
     - name: Custom 12
       price: 16
       image: yl-special-line-stickers/yl-special-line-stickers_custom-12.png
@@ -55,6 +63,10 @@ variations:
           price: 15
         - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 15
+        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+          price: 13
+        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+          price: 13
     - name: Custom 24
       price: 25
       image: yl-special-line-stickers/yl-special-line-stickers_custom-24.png
@@ -72,6 +84,10 @@ variations:
           price: 23
         - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 23
+        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+          price: 19
+        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+          price: 19
     - name: Custom 60
       price: 50
       image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
@@ -89,6 +105,10 @@ variations:
           price: 47
         - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
           price: 47
+        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
+          price: 45
+        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
+          price: 45
 link:
   lazada: https://s.lazada.com.ph/s.dbokf
   shopee: https://shopee.ph/product/131641645/7887674577
