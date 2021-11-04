@@ -2,6 +2,12 @@
   <footer>
     <div class="container-fluid p-4 bg-jomigu-2 text-blue">
       <p class="text-center">
+        Have questions?
+        <a href="mailto:inquire@jomigu.com" class="text-dark">
+          inquire@jomigu.com
+        </a>
+      </p>
+      <p class="text-center">
         Read our <a href="/topics" class="text-dark"><strong>Blog</strong></a>
         <span>|</span>
         <span>Follow us at</span>
@@ -23,7 +29,7 @@
         <li
           v-for="(site, index) in sites"
           :key="site.id"
-          :class="`${index === 0 ? 'offset-md-3 ' : ''}col-12 col-md-3`"
+          :class="`${index === 0 ? 'offset-md-3  ' : ''}col-12 col-md-3`"
         >
           <p>
             <a :href="site.url">

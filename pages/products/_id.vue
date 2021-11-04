@@ -59,6 +59,14 @@
           :link="link"
           :variations="variations"
         />
+        <addons
+          :name="name"
+          :link="link"
+          :shops="shops"
+          :promos="promos"
+          :products="products"
+          :product-id="id"
+        />
         <Promos
           additional-style-class="pt-2"
           :exclude-promos="[productPromoId]"
@@ -81,9 +89,10 @@ import moment from 'moment'
 import createPromoListWrapper from '../../models/promos'
 import createVariations from '../../models/variation'
 import CategoryItems from '~/components/CategoryItems.vue'
+import Addons from '~/components/Addons.vue'
 
 export default {
-  components: { CategoryItems },
+  components: { CategoryItems, Addons },
   async asyncData({ $content, params }) {
     const products = await $content('products').fetch()
     const shops = await $content('shops').fetch()
@@ -127,6 +136,7 @@ export default {
       price: product.price,
       categories: product.categories,
       promos,
+      products,
       activePromos,
       shops,
       promoShops,

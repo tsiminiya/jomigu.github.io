@@ -10,7 +10,10 @@ export class PromoListWrapper {
     if (promos !== undefined && promos.length > 0) {
       this.empty = false
       this.promoMap = promos.reduce((partialResult, promo) => {
-        partialResult[promo.id] = promo
+        partialResult[promo.id] = {
+          ...promo,
+          bundle: promo.type === 'bundle',
+        }
         return partialResult
       }, {})
     }

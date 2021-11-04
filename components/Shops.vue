@@ -8,6 +8,7 @@
             <img
               v-else
               class="product-shop"
+              :title="shop.name"
               :src="require(`~/assets/images/shops/${shop.logo}`)"
             />
           </th>

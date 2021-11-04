@@ -141,5 +141,6 @@ small.on-sale {
 .product-thumbnails {
   width: 15%;
   border-radius: 10%;
+  cursor: pointer;
 }
 </style>

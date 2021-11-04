@@ -26,7 +26,26 @@
         </ShareNetwork>
       </p>
     </div>
-    <Products filter="promo" :value="promoId" :promos="promos" />
+    <Products
+      v-if="type !== 'addon'"
+      filter="promo"
+      :value="promoId"
+      :promos="promos"
+    />
+    <Products
+      v-if="type === 'addon'"
+      title="Main Products"
+      filter="addon-promo"
+      :values="mainProducts"
+      :promos="promos"
+    />
+    <Products
+      v-if="type === 'addon'"
+      title="Add-on Products"
+      filter="addon-promo"
+      :values="addonProducts"
+      :promos="promos"
+    />
     <Promos
       :exclude-promos="[promoId]"
       additional-style-class="px-3 pb-3 bg-white"
@@ -47,6 +66,9 @@ export default {
     return {
       promoId: promo.id,
       name: promo.name,
+      type: promo.type,
+      mainProducts: promo['main-products'] || [],
+      addonProducts: promo['addon-products'] || [],
       promoList,
       sharingImage: promo.sharing_image,
       description: `Jomigu Online Shop ${promo.name}`,

@@ -1,0 +1,16 @@
+id: 255c4e3c-3669-4f75-b9f4-044bc46c144b
+name: Women's Apparrel Add-on Promo
+start-date: 2021-11-10T00:00:00+08:00
+end-date: 2021-11-12T00:00:00+08:00
+shop: 951edf12-f095-49c0-86ba-ea52cee03b0f
+type: addon
+main-products:
+  - id: 7f01d4a5-bdef-4223-8c26-e34d1b3ab944
+  - id: ed77e599-c26e-4fae-8976-e9525b555cbc
+  - id: 23cf41af-9bfa-4717-a88a-02218fa7133d
+addon-products:
+  - id: fc71f3d7-832e-4bc3-b9dc-9043d135d87c
+    discount: 38
+  - id: ecfef09a-2e6f-4a01-b599-aaf098bf46a8
+    discount: 39
+sharing_image: promos/2021/11.11-addons-promo_sharing.png

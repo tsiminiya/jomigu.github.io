@@ -99,7 +99,8 @@ export default {
 
     const productFilter = productFilters[this.filter]
     const productFilterFunc =
-      (productFilter && productFilter(this.value)) || (() => true)
+      (productFilter && productFilter(this.value || this.values)) ||
+      (() => true)
 
     this.products = []
 

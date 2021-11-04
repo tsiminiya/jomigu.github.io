@@ -92,4 +92,11 @@ export const productFilters = {
       return variations.isPromoFound(promoId)
     }
   },
+  'addon-promo'(mainProducts: any[]) {
+    return (product: any) => {
+      return mainProducts
+        .map((mainProduct) => mainProduct.id)
+        .includes(product.id)
+    }
+  },
 }

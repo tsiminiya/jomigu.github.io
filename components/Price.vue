@@ -6,6 +6,15 @@
     <span :class="`price ${onSale ? 'on-sale' : ''}`"
       >{{ priceRange | peso_currency }}
     </span>
+    <a
+      v-if="activePromo !== undefined && activePromo.type === 'bundle'"
+      :href="`/promos/${activePromo.id}`"
+    >
+      <span class="badge badge-dark text-white"
+        >Buy {{ activePromo['bundle-count'] }} and get
+        {{ activePromo['bundle-discount'] }}% off
+      </span>
+    </a>
   </p>
 </template>
 
@@ -47,6 +56,7 @@ export default {
       promoPrice: 0,
       priceRange: undefined,
       promoPriceRange: undefined,
+      activePromo: undefined,
     }
   },
 
@@ -59,8 +69,14 @@ export default {
         this.productPromos || []
       )
       if (activePromos.length > 0) {
+        const activePromo = activePromos[0]
         this.onSale = true
-        this.promoPrice = [activePromos[0].productPrice]
+        this.activePromo = activePromo
+        if (activePromo.bundle) {
+          this.promoPrice = [this.price]
+        } else {
+          this.promoPrice = [activePromo.productPrice]
+        }
       }
     } else {
       const variations = createVariations(this.variations)
