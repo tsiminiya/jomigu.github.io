@@ -95,10 +95,10 @@ variations:
         lazada: 14
         shopee: 18
       floating:
-        lazada: 5
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 1
+        lazada: 6
         shopee: 2
       promos:
         - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
