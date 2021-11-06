@@ -25,6 +25,8 @@ promos:
     price: 45
   - id: c0101785-066c-4e8a-866a-c38d2814ffd4
     price: 45
+  - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
+    price: 37
 images:
   - among-us_kiss-cut/among-us_kiss-cut_01.png
   - among-us_kiss-cut/among-us_kiss-cut_02.png
