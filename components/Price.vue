@@ -80,7 +80,7 @@ export default {
           activePromo = activePromos[0]
         }
 
-        this.onSale = true
+        this.onSale = nonBundlePromos.length > 0
         this.activePromo = activePromo
         if (activePromo.bundle) {
           this.promoPrice = [this.price]
