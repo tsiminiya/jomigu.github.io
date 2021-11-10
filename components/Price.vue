@@ -6,13 +6,10 @@
     <span :class="`price ${onSale ? 'on-sale' : ''}`"
       >{{ priceRange | peso_currency }}
     </span>
-    <a
-      v-if="activePromo !== undefined && activePromo.type === 'bundle'"
-      :href="`/promos/${activePromo.id}`"
-    >
+    <a v-if="bundlePromo !== undefined" :href="`/promos/${bundlePromo.id}`">
       <span class="badge badge-dark text-white"
-        >Buy {{ activePromo['bundle-count'] }} and get
-        {{ activePromo['bundle-discount'] }}% off
+        >Buy {{ bundlePromo['bundle-count'] }} and get
+        {{ bundlePromo['bundle-discount'] }}% off
       </span>
     </a>
   </p>
@@ -57,6 +54,7 @@ export default {
       priceRange: undefined,
       promoPriceRange: undefined,
       activePromo: undefined,
+      bundlePromo: undefined,
     }
   },
 
@@ -69,7 +67,19 @@ export default {
         this.productPromos || []
       )
       if (activePromos.length > 0) {
-        const activePromo = activePromos[0]
+        const bundlePromos = activePromos.filter((promo) => promo.bundle)
+        if (bundlePromos.length > 0) {
+          this.bundlePromo = bundlePromos[0]
+        }
+
+        let activePromo
+        const nonBundlePromos = activePromos.filter((promo) => !promo.bundle)
+        if (nonBundlePromos.length > 0) {
+          activePromo = nonBundlePromos[0]
+        } else {
+          activePromo = activePromos[0]
+        }
+
         this.onSale = true
         this.activePromo = activePromo
         if (activePromo.bundle) {
