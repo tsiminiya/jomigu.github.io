@@ -6,12 +6,12 @@
     <span :class="`price ${onSale ? 'on-sale' : ''}`"
       >{{ priceRange | peso_currency }}
     </span>
-    <a v-if="bundlePromo !== undefined" :href="`/promos/${bundlePromo.id}`">
+    <!-- <a v-if="bundlePromo !== undefined" :href="`/promos/${bundlePromo.id}`">
       <span class="badge badge-dark text-white"
         >Buy {{ bundlePromo['bundle-count'] }} and get
         {{ bundlePromo['bundle-discount'] }}% off
       </span>
-    </a>
+    </a> -->
   </p>
 </template>
 
