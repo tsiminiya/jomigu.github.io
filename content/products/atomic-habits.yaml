@@ -3,10 +3,10 @@ name: "James Clear's Atomic Habits - Paperback"
 featured: 'false'
 price: 1330
 stock:
-  lazada: 1
+  lazada: 0
   shopee: 0
 floating:
-  lazada: 1
+  lazada: 2
   shopee: 0
 sold:
   lazada: 3
