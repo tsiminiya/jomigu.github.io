@@ -128,10 +128,10 @@ variations:
       image: candy-pants/candy-pants_black.png
       stock:
         lazada: 0
-        shopee: 9
+        shopee: 8
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 5
