@@ -29,6 +29,8 @@ promos:
     price: 80
   - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
     price: 63
+  - id: 3b88bf1e-af36-4744-b882-3c68d619739c
+    price: 80
 images:
   - yl-most-wanted-stickers/yl-most-wanted-stickers_01.png
   - yl-most-wanted-stickers/yl-most-wanted-stickers_02.png

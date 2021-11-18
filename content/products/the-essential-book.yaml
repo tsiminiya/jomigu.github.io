@@ -26,6 +26,8 @@ promos:
     price: 550
   - id: c0101785-066c-4e8a-866a-c38d2814ffd4
     price: 550
+  - id: 3b88bf1e-af36-4744-b882-3c68d619739c
+    price: 1010
 images:
   - the-essential-book/the-essential-book_01.png
   - the-essential-book/the-essential-book_02.png
