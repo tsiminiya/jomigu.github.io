@@ -77,10 +77,10 @@ variations:
       image: melanie-terno/melanie-terno_rust.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 0
