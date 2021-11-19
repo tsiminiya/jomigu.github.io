@@ -21,6 +21,8 @@ variations:
           price: 240
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 237
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 219
     - name: Black
       price: 300
       image: maine-jumpsuit/maine-jumpsuit_black.png
@@ -38,6 +40,8 @@ variations:
           price: 240
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 237
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 219
     - name: Tan
       price: 300
       image: maine-jumpsuit/maine-jumpsuit_tan.png
@@ -55,6 +59,8 @@ variations:
           price: 240
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 237
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 219
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/3013237568

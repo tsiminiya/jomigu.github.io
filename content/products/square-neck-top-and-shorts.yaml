@@ -23,6 +23,8 @@ variations:
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
           price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 150
     - name: Black
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
@@ -39,6 +41,8 @@ variations:
         - id: 913eae28-632b-46de-ad4d-b42c47ec4902
           price: 184
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
+          price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
     - name: White
       price: 230
@@ -59,6 +63,8 @@ variations:
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
           price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 150
     - name: Maroon
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_maroon.png
@@ -77,6 +83,8 @@ variations:
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
+          price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
     - name: Brown
       price: 230
@@ -97,6 +105,8 @@ variations:
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
           price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 150
     - name: Grey Pink
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
@@ -115,6 +125,8 @@ variations:
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
+          price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
     - name: Old Rose
       price: 230
@@ -135,6 +147,8 @@ variations:
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
           price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
+          price: 150
     - name: Powder Blue
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_powder-blue.png
@@ -153,6 +167,8 @@ variations:
         - id: 296cf8ff-0833-4938-98ac-325c05e3ea40
           price: 181
         - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
+          price: 150
+        - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
 link:
   lazada:
