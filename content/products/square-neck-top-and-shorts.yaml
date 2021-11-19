@@ -25,6 +25,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Black
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
@@ -44,6 +46,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: White
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_white.png
@@ -65,6 +69,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Maroon
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_maroon.png
@@ -86,6 +92,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Brown
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_brown.png
@@ -107,6 +115,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Grey Pink
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
@@ -128,6 +138,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Old Rose
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_old-rose.png
@@ -149,6 +161,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
     - name: Powder Blue
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_powder-blue.png
@@ -170,6 +184,8 @@ variations:
           price: 150
         - id: baa7acf5-af45-4aa5-bc2f-ac84208cd67e
           price: 150
+        - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+          price: 135
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/10864478169

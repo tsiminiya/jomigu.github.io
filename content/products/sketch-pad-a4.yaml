@@ -25,6 +25,8 @@ promos:
     price: 90
   - id: 3b88bf1e-af36-4744-b882-3c68d619739c
     price: 95
+  - id: bae3795b-448f-4658-9b0c-af820d20a337
+    price: 100
 images:
   - sketch-pad-a4/sketch-pad_01.png
   - sketch-pad-a4/sketch-pad_02.png

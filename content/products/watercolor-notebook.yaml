@@ -29,6 +29,10 @@ promos:
     price: 115
   - id: 3b88bf1e-af36-4744-b882-3c68d619739c
     price: 140
+  - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+    price: 135
+  - id: bae3795b-448f-4658-9b0c-af820d20a337
+    price: 140
 images:
   - watercolor-notebook/watercolor-notebook_01.png
   - watercolor-notebook/watercolor-notebook_02.png

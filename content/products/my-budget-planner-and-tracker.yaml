@@ -27,6 +27,10 @@ promos:
     price: 375
   - id: 3b88bf1e-af36-4744-b882-3c68d619739c
     price: 374
+  - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
+    price: 373
+  - id: bae3795b-448f-4658-9b0c-af820d20a337
+    price: 386
 images:
   - my-budget-planner-and-tracker/my-budget-planner-and-tracker_01.png
   - my-budget-planner-and-tracker/my-budget-planner-and-tracker_02.png
