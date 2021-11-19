@@ -35,6 +35,8 @@ promos:
     price: 1050
   - id: c0101785-066c-4e8a-866a-c38d2814ffd4
     price: 1050
+  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
+    price: 1045
 images:
   - bible-in-52-weeks/bible-in-52-weeks_01.png
   - bible-in-52-weeks/bible-in-52-weeks_02.png

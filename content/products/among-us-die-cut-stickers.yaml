@@ -23,6 +23,8 @@ promos:
     price: 45
   - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
     price: 37
+  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
+    price: 45
 images:
   - among-us_die-cut/among-us_die-cut_01.png
   - among-us_die-cut/among-us_die-cut_02.png

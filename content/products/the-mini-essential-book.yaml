@@ -26,6 +26,8 @@ promos:
     price: 215
   - id: c0101785-066c-4e8a-866a-c38d2814ffd4
     price: 215
+  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
+    price: 225
 images:
   - the-mini-essential-book/the-mini-essential-book_01.png
   - the-mini-essential-book/the-mini-essential-book_02.png
