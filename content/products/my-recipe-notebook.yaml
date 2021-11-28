@@ -1,0 +1,40 @@
+id: 4fe184fc-a500-4bdf-883d-bf1b5f180ba3
+name: My Recipe Notebook
+featured: 'false'
+price: 148
+stock:
+  lazada: 10
+  shopee: 10
+floating:
+  lazada: 0
+  shopee: 0
+sold:
+  lazada: 0
+  shopee: 0
+link:
+  lazada: https://s.lazada.com.ph/s.eRgCQ
+  shopee: https://shopee.ph/product/131641645/12155685720
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+promos: []
+images:
+  - my-recipe-notebook/my-recipe-notebook_01.png
+  - my-recipe-notebook/my-recipe-notebook_02.png
+  - my-recipe-notebook/my-recipe-notebook_03.png
+  - my-recipe-notebook/my-recipe-notebook_04.png
+  - my-recipe-notebook/my-recipe-notebook_05.png
+  - my-recipe-notebook/my-recipe-notebook_06.png
+sharing_image: my-recipe-notebook/my-recipe-notebook_sharing.png
+tags:
+  - myrecipenotebook
+  - notebook
+  - recipe
+  - food
+description: |+
+  Even if you memorized your recipe by heart, it is best to have a back-up and a record where you can always go back and review whenever you need.
+
+  Write your recipes on this notebook and compute the costing and pricing if you want to earn money from your recipes.
+
+  Notebook inclues x25 recipe sheets.
+
+  Each pad of the notebook is 70 gsm.
