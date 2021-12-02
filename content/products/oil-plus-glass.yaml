@@ -18,18 +18,10 @@ categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
-  - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
-    price: 1700
-  - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
-    price: 1700
-  - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-    price: 1600
-  - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-    price: 1600
-  - id: 3b88bf1e-af36-4744-b882-3c68d619739c
-    price: 1600
-  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-    price: 1700
+  - id: 1d801bde-da50-4f63-aca7-d474e0553045
+    price: 1450
+  - id: 3a15a937-db7b-4a29-b717-2647381cc783
+    price: 1450
 images:
   - oil-plus-glass/oil-plus-glass_01.png
   - oil-plus-glass/oil-plus-glass_02.png
