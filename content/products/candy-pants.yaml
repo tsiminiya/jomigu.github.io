@@ -4,7 +4,7 @@ featured: 'false'
 variations:
   name: Color
   options:
-    - name: Purple
+    - name: Faded Purple
       price: 320
       image: candy-pants/candy-pants_purple.png
       stock:
@@ -292,6 +292,6 @@ description: |+
   * Dark Rose
   * Coral Pink
   * Rust
-  * Purple
+  * Faded Purple
   * Bluish Cyan
   * Pinkish Red
