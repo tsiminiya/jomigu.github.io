@@ -174,7 +174,7 @@ variations:
       image: candy-pants/candy-pants_brown.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 5
       floating:
         lazada: 0
         shopee: 1
