@@ -9,10 +9,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_sage-green.png
       stock:
         lazada: 0
-        shopee: 6
+        shopee: 5
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 0
@@ -24,10 +24,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 4
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 0
