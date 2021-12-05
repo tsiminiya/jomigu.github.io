@@ -23,6 +23,8 @@ variations:
               price: 315
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 315
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 252
         - name: Design created by Jomigu
           price: 1250
           image: custom-stickers/custom-stickers_1x1_design-on-us.png
@@ -40,6 +42,8 @@ variations:
               price: 1125
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1125
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 900
     - name: 1.5 inch x 1.5 inch
       options:
         - name: Design provided by customer
@@ -58,7 +62,9 @@ variations:
             - id: 0f3e1b2a-0b58-4861-9343-22af6efd8dd3
               price: 270
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-              price: 270
+              price: 
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 216
         - name: Design created by Jomigu
           price: 1200
           image: custom-stickers/custom-stickers_1.5x1.5_design-on-us.png
@@ -76,6 +82,8 @@ variations:
               price: 1080
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1080
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 864
     - name: 2 inch x 2 inch
       options:
         - name: Design provided by customer
@@ -95,6 +103,8 @@ variations:
               price: 225
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 225
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 180
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_2x2_design-on-us.png
@@ -112,6 +122,8 @@ variations:
               price: 1035
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 828
     - name: 3 inch x 3 inch
       options:
         - name: Design provided by customer
@@ -131,6 +143,8 @@ variations:
               price: 225
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 225
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 180
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_3x3_design-on-us.png
@@ -148,6 +162,8 @@ variations:
               price: 1035
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 828
     - name: 2 inch x 4 inch
       options:
         - name: Design provided by customer
@@ -167,6 +183,8 @@ variations:
               price: 225
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 225
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 180
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_2x4_design-on-us.png
@@ -184,6 +202,8 @@ variations:
               price: 1035
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 828
     - name: 4 inch x 6 inch
       options:
         - name: Design provided by customer
@@ -203,6 +223,8 @@ variations:
               price: 225
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 225
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 180
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_4x6_design-on-us.png
@@ -220,6 +242,8 @@ variations:
               price: 1035
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 828
     - name: 5 inch x 7 inch
       options:
         - name: Design provided by customer
@@ -239,6 +263,8 @@ variations:
               price: 225
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 225
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 180
         - name: Design created by Jomigu
           price: 1150
           image: custom-stickers/custom-stickers_5x7_design-on-us.png
@@ -256,6 +282,8 @@ variations:
               price: 1035
             - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
               price: 1035
+            - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
+              price: 828
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/6892929480
