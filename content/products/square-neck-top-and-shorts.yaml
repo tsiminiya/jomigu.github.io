@@ -12,10 +12,10 @@ variations:
         shopee: 5
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 0
+        shopee: 1
       promos:
         - id: ddd14955-979b-4fa4-bae1-d9a09d57f14f
           price: 125
@@ -27,10 +27,10 @@ variations:
         shopee: 4
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 0
+        shopee: 1
       promos:
         - id: ddd14955-979b-4fa4-bae1-d9a09d57f14f
           price: 125
