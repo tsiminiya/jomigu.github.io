@@ -9,7 +9,7 @@ variations:
       image: candy-pants/candy-pants_purple.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 3
       floating:
         lazada: 0
         shopee: 0
