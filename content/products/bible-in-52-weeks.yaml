@@ -17,28 +17,10 @@ link:
 categories:
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
-  - id: 8aca4b65-bb81-43aa-8e22-d1476d0a023c
-    price: 1060
-  - id: 9a56cfe1-82b9-42c6-92c3-1382c8c3c40a
-    price: 1060
-  - id: b3786142-669a-476d-983a-1c930756733f
-    price: 1070
-  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-    price: 981
-  - id: 252d9397-cf32-4423-9c4b-54cc790458e0
-    price: 981
-  - id: 516ff340-2804-46e8-ab80-a4ec25976afa
-    price: 1070
-  - id: 7c14a2b0-ad90-4b65-a807-6bd027c67aad
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
     price: 990
-  - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-    price: 1050
-  - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-    price: 1050
-  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-    price: 1045
-  - id: 09539cbd-3b7d-4140-94fc-87a17c20d3e5
-    price: 1030
+  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
+    price: 802.50
 images:
   - bible-in-52-weeks/bible-in-52-weeks_01.png
   - bible-in-52-weeks/bible-in-52-weeks_02.png

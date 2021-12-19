@@ -17,26 +17,10 @@ link:
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
-  - id: af14ee32-3095-4a59-8a72-92f6fd8e0c89
-    price: 386
-  - id: ee84850c-d182-4bd9-a345-6f3289c1400d
-    price: 386
-  - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-    price: 375
-  - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-    price: 375
-  - id: 3b88bf1e-af36-4744-b882-3c68d619739c
-    price: 374
-  - id: 7d68069e-c49a-44ea-bda9-cb085754d50c
-    price: 373
-  - id: bae3795b-448f-4658-9b0c-af820d20a337
-    price: 386
-  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-    price: 400
-  - id: 09539cbd-3b7d-4140-94fc-87a17c20d3e5
-    price: 370
-  - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
-    price: 316
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
+    price: 330
+  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
+    price: 329.25
 images:
   - my-budget-planner-and-tracker/my-budget-planner-and-tracker_01.png
   - my-budget-planner-and-tracker/my-budget-planner-and-tracker_02.png

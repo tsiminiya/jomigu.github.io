@@ -17,15 +17,7 @@ link:
 categories:
   - dbefabad-c4be-4a4b-aeed-79feb1c6c517
 promos:
-  - id: 4996763d-4439-48ff-8085-2e2127e000d9
-    price: 1385
-  - id: fd2cfac1-d2c5-4330-b5c2-eaeec03ed800
-    price: 1000
-  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-    price: 2493
-  - id: 2a2d58ab-6284-4776-b032-20e854d63bcd
-    price: 1662
-  - id: d0db9555-af3f-49a5-ad2c-7b1bab01b6b3
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
     price: 1650
 images:
   - pneat-magnetic-calendar/pneat-magnetic-calendar_01.png

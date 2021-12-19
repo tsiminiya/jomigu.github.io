@@ -17,18 +17,10 @@ link:
 categories:
   - 25dbe6a1-67e7-4c9f-a314-49a3e4369bea
 promos:
-  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
-    price: 45
-  - id: 252d9397-cf32-4423-9c4b-54cc790458e0
-    price: 45
-  - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
-    price: 37
-  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-    price: 45
-  - id: 09539cbd-3b7d-4140-94fc-87a17c20d3e5
-    price: 42
-  - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
-    price: 36
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
+    price: 38
+  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
+    price: 37.50
 images:
   - among-us_die-cut/among-us_die-cut_01.png
   - among-us_die-cut/among-us_die-cut_02.png

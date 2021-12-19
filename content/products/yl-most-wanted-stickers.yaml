@@ -18,25 +18,10 @@ categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
   - 25dbe6a1-67e7-4c9f-a314-49a3e4369bea
 promos:
-  - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
-    price: 23
-  - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
-    price: 23
-  - id: 582956b5-f219-453c-90e3-3a4b3335266d
-  - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-    price: 80
-  - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-    price: 80
-  - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
-    price: 63
-  - id: 3b88bf1e-af36-4744-b882-3c68d619739c
-    price: 80
-  - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-    price: 80
-  - id: 09539cbd-3b7d-4140-94fc-87a17c20d3e5
-    price: 75
-  - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
-    price: 61
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
+    price: 19
+  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
+    price: 18.75
 images:
   - yl-most-wanted-stickers/yl-most-wanted-stickers_01.png
   - yl-most-wanted-stickers/yl-most-wanted-stickers_02.png

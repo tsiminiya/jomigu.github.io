@@ -18,12 +18,10 @@ categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
-  - id: 1d801bde-da50-4f63-aca7-d474e0553045
-    price: 1450
-  - id: 3a15a937-db7b-4a29-b717-2647381cc783
-    price: 1450
-  - id: b0bac172-a7dd-4cec-b543-e2bc8ac2d323
-    price: 1461
+  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
+    price: 1523
+  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
+    price: 1522.50
 images:
   - oil-plus-glass/oil-plus-glass_01.png
   - oil-plus-glass/oil-plus-glass_02.png
