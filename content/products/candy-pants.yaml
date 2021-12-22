@@ -281,10 +281,10 @@ variations:
       image: candy-pants/candy-pants_pinkish-red.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
