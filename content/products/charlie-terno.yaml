@@ -5,7 +5,7 @@ variations:
   name: Color
   options:
     - name: Green
-      price: 320
+      price: 380
       image: charlie-terno/charlie-terno_green.png
       stock:
         lazada: 0
@@ -27,8 +27,10 @@ variations:
           price: 285
         - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
           price: 277
+        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
+          price: 320
     - name: Black
-      price: 320
+      price: 380
       image: charlie-terno/charlie-terno_black.png
       stock:
         lazada: 0
@@ -50,8 +52,10 @@ variations:
           price: 285
         - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
           price: 277
+        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
+          price: 320
     - name: Coral Pink
-      price: 320
+      price: 380
       image: charlie-terno/charlie-terno_coral-pink.png
       stock:
         lazada: 0
@@ -73,8 +77,10 @@ variations:
           price: 285
         - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
           price: 277
+        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
+          price: 320
     - name: Mustard Yellow
-      price: 320
+      price: 380
       image: charlie-terno/charlie-terno_mustard-yellow.png
       stock:
         lazada: 0
@@ -96,8 +102,10 @@ variations:
           price: 285
         - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
           price: 277
+        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
+          price: 320
     - name: Rust
-      price: 320
+      price: 380
       image: charlie-terno/charlie-terno_rust.png
       stock:
         lazada: 0
@@ -119,6 +127,8 @@ variations:
           price: 285
         - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
           price: 277
+        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
+          price: 320
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/9220896826
