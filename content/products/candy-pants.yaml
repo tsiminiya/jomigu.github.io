@@ -21,6 +21,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Old Rose
       price: 320
       image: candy-pants/candy-pants_old-rose.png
@@ -38,6 +40,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Mustard Yellow
       price: 320
       image: candy-pants/candy-pants_mustard-yellow.png
@@ -55,6 +59,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Navy Blue
       price: 320
       image: candy-pants/candy-pants_navy-blue.png
@@ -72,6 +78,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Peach
       price: 320
       image: candy-pants/candy-pants_peach.png
@@ -89,6 +97,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Coral Pink
       price: 320
       image: candy-pants/candy-pants_coral-pink.png
@@ -106,6 +116,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Rust
       price: 320
       image: candy-pants/candy-pants_rust.png
@@ -123,6 +135,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Black
       price: 320
       image: candy-pants/candy-pants_black.png
@@ -140,6 +154,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Gray
       price: 320
       image: candy-pants/candy-pants_gray.png
@@ -157,6 +173,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Moss Green
       price: 320
       image: candy-pants/candy-pants_moss-green.png
@@ -174,6 +192,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Dark Rose
       price: 320
       image: candy-pants/candy-pants_dark-rose.png
@@ -191,6 +211,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Brown
       price: 320
       image: candy-pants/candy-pants_brown.png
@@ -208,6 +230,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Pink
       price: 320
       image: candy-pants/candy-pants_pink.png
@@ -225,6 +249,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: White
       price: 320
       image: candy-pants/candy-pants_white.png
@@ -242,6 +268,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Rust Orange
       price: 320
       image: candy-pants/candy-pants_rust-orange.png
@@ -259,6 +287,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Bluish Cyan
       price: 320
       image: candy-pants/candy-pants_bluish-cyan.png
@@ -276,6 +306,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Pinkish Red
       price: 320
       image: candy-pants/candy-pants_pinkish-red.png
@@ -293,6 +325,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
     - name: Pinkish Grey
       price: 320
       image: candy-pants/candy-pants_pinkish-grey.png
@@ -310,6 +344,8 @@ variations:
           price: 240
         - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
           price: 230
+        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+          price: 256
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/8820858052
