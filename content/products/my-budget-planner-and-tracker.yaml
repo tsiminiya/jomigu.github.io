@@ -3,10 +3,10 @@ name: My Budget Planner and Tracker with Savings and Debt Tracker
 featured: 'false'
 price: 439
 stock:
-  lazada: 4
+  lazada: 3
   shopee: 6
 floating:
-  lazada: 4
+  lazada: 5
   shopee: 0
 sold:
   lazada: 11
