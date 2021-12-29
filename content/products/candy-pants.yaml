@@ -96,10 +96,10 @@ variations:
         shopee: 1
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 1
       sold:
         lazada: 0
-        shopee: 6
+        shopee: 7
       promos:
         - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
           price: 240
