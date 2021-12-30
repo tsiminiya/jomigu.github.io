@@ -9,10 +9,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_sage-green.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 4
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 1
@@ -32,10 +32,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 4
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 1
@@ -78,10 +78,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_maroon.png
       stock:
         lazada: 0
-        shopee: 0
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -101,10 +101,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_brown.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 5
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -124,10 +124,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 5
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -147,10 +147,10 @@ variations:
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_old-rose.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 3
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
