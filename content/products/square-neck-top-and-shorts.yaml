@@ -58,7 +58,7 @@ variations:
         shopee: 5
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
@@ -173,7 +173,7 @@ variations:
         shopee: 1
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
         shopee: 0
