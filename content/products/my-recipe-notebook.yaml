@@ -4,10 +4,10 @@ featured: 'false'
 price: 148
 stock:
   lazada: 15
-  shopee: 21
+  shopee: 19
 floating:
   lazada: 2
-  shopee: 3
+  shopee: 5
 sold:
   lazada: 3
   shopee: 6
