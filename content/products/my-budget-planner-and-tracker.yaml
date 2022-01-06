@@ -6,10 +6,10 @@ stock:
   lazada: 4
   shopee: 0
 floating:
-  lazada: 10
+  lazada: 4
   shopee: 0
 sold:
-  lazada: 14
+  lazada: 24
   shopee: 1
 link:
   lazada: https://s.lazada.com.ph/s.3dGoz
