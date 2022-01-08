@@ -17,18 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: Mickey Mouse White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_white.png
@@ -42,18 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: Mickey and Friends White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_white.png
@@ -67,18 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: Mickey and Friends Blue
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_blue.png
@@ -92,16 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: Chanel Brown
       price: 68
       image: new-normal-facemask/new-normal-facemask_chanel_brown.png
@@ -115,18 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: Mickey Mouse Red
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_red.png
@@ -140,18 +92,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: XOXO Light Pink
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_light-pink.png
@@ -165,18 +107,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: XOXO Pastel Green
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
@@ -190,18 +122,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
     - name: LV White
       price: 68
       image: new-normal-facemask/new-normal-facemask_lv_white.png
@@ -215,18 +137,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-          price: 51
-        - id: c6e3ba22-787f-4257-b30c-93113b1e4c23
-          price: 48
-        - id: e079809b-12a9-4e43-989c-dd4b93a17e42
-          price: 48
-        - id: 13ffe9ea-fac3-4141-bb05-296d8a03b9c5
+        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
           price: 54
-        - id: ffd24f34-ba50-4b88-8da0-6b4ceb769f50
-          price: 49
-        - id: b86641da-08f1-4ba4-9389-2ee3f1549bd5
-          price: 58
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/11804554078
