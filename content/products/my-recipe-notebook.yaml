@@ -21,6 +21,8 @@ promos:
     price: 125
   - id: 44589213-5cd8-4b66-8f63-d6c117499a3f
     price: 134
+  - id: 9a56cfe1-82b9-42c6-92c3-1382c8c3c40a
+    price: 120
 images:
   - my-recipe-notebook/my-recipe-notebook_01.png
   - my-recipe-notebook/my-recipe-notebook_02.png
