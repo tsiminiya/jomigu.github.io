@@ -17,12 +17,8 @@ link:
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
-  - id: 42fca529-96d9-47d1-9532-6ed2c16e5951
-    price: 120
-  - id: 223023eb-0be3-410f-a7f8-89053fe456d5
-    price: 120
-  - id: a3d4e18d-56bf-4332-92e0-5f0939ac200e
-    price: 110.40
+  - id: 44589213-5cd8-4b66-8f63-d6c117499a3f
+    price: 100
 images:
   - sketch-pad-a4/sketch-pad_01.png
   - sketch-pad-a4/sketch-pad_02.png
