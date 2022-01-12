@@ -66,10 +66,10 @@ variations:
       image: scrunchies/scrunchies_matte-gold.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
@@ -161,10 +161,10 @@ variations:
       image: scrunchies/scrunchies_rose-gold.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 0
