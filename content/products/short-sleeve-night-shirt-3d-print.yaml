@@ -17,10 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
-          price: 256
-        - id: 5c4ff44c-8381-4c2f-b7e8-46bdc45456e3
-          price: 192
+        - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
     - name: Mickey Mouse Stay Real
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_mickey-mouse-stay-real.png
@@ -34,10 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
-          price: 256
-        - id: 5c4ff44c-8381-4c2f-b7e8-46bdc45456e3
-          price: 192
+        - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
     - name: Reterpak
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_reterpak.png
@@ -51,10 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
-          price: 256
-        - id: 5c4ff44c-8381-4c2f-b7e8-46bdc45456e3
-          price: 192
+        - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
     - name: Reterpan
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_reterpan.png
@@ -68,10 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
-          price: 256
-        - id: 5c4ff44c-8381-4c2f-b7e8-46bdc45456e3
-          price: 192
+        - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
     - name: Minne Roma Mouse
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_minne-roma-mouse.png
@@ -85,10 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: a7db7e77-9c90-4290-b59b-5dd9268b8b0e
-          price: 256
-        - id: 5c4ff44c-8381-4c2f-b7e8-46bdc45456e3
-          price: 192
+        - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/11664785826
