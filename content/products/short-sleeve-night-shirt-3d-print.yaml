@@ -19,6 +19,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 252
     - name: Mickey Mouse Stay Real
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_mickey-mouse-stay-real.png
@@ -33,6 +35,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 252
     - name: Reterpak
       price: 320
@@ -49,6 +53,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 252
     - name: Reterpan
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_reterpan.png
@@ -64,6 +70,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 252
     - name: Minne Roma Mouse
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_minne-roma-mouse.png
@@ -78,6 +86,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 252
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 252
 link:
   lazada:

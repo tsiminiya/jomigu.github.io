@@ -19,6 +19,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 181
     - name: Black
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
@@ -33,6 +35,8 @@ variations:
         shopee: 1
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 181
     - name: White
       price: 230
@@ -49,6 +53,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 181
     - name: Maroon
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_maroon.png
@@ -63,6 +69,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 181
     - name: Brown
       price: 230
@@ -79,6 +87,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 181
     - name: Grey Pink
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
@@ -93,6 +103,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 181
     - name: Old Rose
       price: 230
@@ -109,6 +121,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 181
     - name: Powder Blue
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_powder-blue.png
@@ -123,6 +137,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 181
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 181
 link:
   lazada:

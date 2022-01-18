@@ -19,6 +19,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 53
     - name: Mickey Mouse White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_white.png
@@ -33,6 +35,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 53
     - name: Mickey and Friends White
       price: 68
@@ -49,6 +53,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 53
     - name: Mickey and Friends Blue
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_blue.png
@@ -63,6 +69,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 53
     - name: Chanel Brown
       price: 68
@@ -79,6 +87,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 53
     - name: Mickey Mouse Red
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_red.png
@@ -93,6 +103,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 53
     - name: XOXO Light Pink
       price: 68
@@ -109,6 +121,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 53
     - name: XOXO Pastel Green
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
@@ -124,6 +138,8 @@ variations:
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
+          price: 53
     - name: LV White
       price: 68
       image: new-normal-facemask/new-normal-facemask_lv_white.png
@@ -138,6 +154,8 @@ variations:
         shopee: 0
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
+          price: 53
+        - id: 6dc3ebff-47f9-43cb-8360-df2dc41d49d1
           price: 53
 link:
   lazada:
