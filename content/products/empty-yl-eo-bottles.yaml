@@ -1,0 +1,372 @@
+id: ecfee283-8ce5-43a3-baf3-90921846abff
+name: Empty Young Living Essential Oil Bottle Unwashed
+featured: 'false'
+variations:
+  name: Size
+  options:
+    - name: Christmas Spirit
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_christmas-spirit_5ml.png
+          stock:
+            lazada: 0
+            shopee: 2
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Citrus Fresh
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_citrus-fresh_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Copaiba
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_copaiba_5ml.png
+          stock:
+            lazada: 0
+            shopee: 2
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Digize
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_digize_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Frankincense
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_frankincense_5ml.png
+          stock:
+            lazada: 0
+            shopee: 5
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Grapefruit
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_grapefruit_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: KidScents Sniffle Ease
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_kidscents-sniffle-ease_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Lavender
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_5ml.png
+          stock:
+            lazada: 0
+            shopee: 12
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_15ml.png
+          stock:
+            lazada: 0
+            shopee: 5
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Lemon
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemon_5ml.png
+          stock:
+            lazada: 0
+            shopee: 5
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemon_15ml.png
+          stock:
+            lazada: 0
+            shopee: 4
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Lemon Vitality
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemon-vitality_5ml.png
+          stock:
+            lazada: 0
+            shopee: 3
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Lemon Grass
+      options:
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemongrass_15ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Orange
+      options:
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_orange_15ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Peace & Calming
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_peace-and-calming_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Peppermint
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_peppermint_5ml.png
+          stock:
+            lazada: 0
+            shopee: 4
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_peppermint_15ml.png
+          stock:
+            lazada: 0
+            shopee: 4
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Purification
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_purification_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: RC
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_rc_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_rc_15ml.png
+          stock:
+            lazada: 0
+            shopee: 5
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Spearmint
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_spearmint_5ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Stress Away
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_stress-away_5ml.png
+          stock:
+            lazada: 0
+            shopee: 4
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+    - name: Thieves
+      options:
+        - name: 5 mL
+          price: 50
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_thieves_5ml.png
+          stock:
+            lazada: 0
+            shopee: 8
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_thieves_15ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
+link:
+  lazada:
+  shopee: https://shopee.ph/product/131641645/14545392906
+categories:
+  - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
+images:
+  - empty-yl-eo-bottles/empty-yl-eo-bottles_01.png
+  - empty-yl-eo-bottles/empty-yl-eo-bottles_01.png
+sharing_image: empty-yl-eo-bottles/empty-yl-eo-bottles_sharing.png
+tags:
+  - youngliving
+  - essentialoils
+  - emptyunwashedylbottles
+description: |+
+  Clarification: We are not selling essential oils. We are selling empty, unwashed essential oil bottles.
+  The bottles are unwashed and the labels are still attached.
