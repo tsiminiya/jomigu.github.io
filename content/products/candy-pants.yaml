@@ -332,13 +332,13 @@ variations:
       image: candy-pants/candy-pants_pinkish-grey.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 4
       floating:
         lazada: 0
         shopee: 0
       sold:
         lazada: 0
-        shopee: 0
+        shopee: 1
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
