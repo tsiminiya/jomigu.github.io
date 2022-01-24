@@ -6,10 +6,10 @@ stock:
   lazada: 8
   shopee: 8
 floating:
-  lazada: 1
+  lazada: 0
   shopee: 1
 sold:
-  lazada: 16
+  lazada: 17
   shopee: 6
 link:
   lazada: https://s.lazada.com.ph/s.db80L
