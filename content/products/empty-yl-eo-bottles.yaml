@@ -18,7 +18,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Citrus Fresh
       options:
         - name: 5 mL
@@ -33,7 +35,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Copaiba
       options:
         - name: 5 mL
@@ -48,7 +52,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Digize
       options:
         - name: 5 mL
@@ -63,7 +69,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Frankincense
       options:
         - name: 5 mL
@@ -78,7 +86,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Grapefruit
       options:
         - name: 5 mL
@@ -93,7 +103,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: KidScents Sniffle Ease
       options:
         - name: 5 mL
@@ -108,7 +120,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Lavender
       options:
         - name: 5 mL
@@ -123,7 +137,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
         - name: 15 mL
           price: 90
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_15ml.png
@@ -136,7 +152,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
     - name: Lemon
       options:
         - name: 5 mL
@@ -151,7 +169,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
         - name: 15 mL
           price: 90
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemon_15ml.png
@@ -179,7 +199,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Lemon Grass
       options:
         - name: 15 mL
@@ -194,7 +216,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
     - name: Orange
       options:
         - name: 15 mL
@@ -209,7 +233,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
     - name: Peace & Calming
       options:
         - name: 5 mL
@@ -224,7 +250,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Peppermint
       options:
         - name: 5 mL
@@ -239,7 +267,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
         - name: 15 mL
           price: 90
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_peppermint_15ml.png
@@ -252,7 +282,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
     - name: Purification
       options:
         - name: 5 mL
@@ -267,7 +299,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: RC
       options:
         - name: 5 mL
@@ -282,7 +316,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
         - name: 15 mL
           price: 90
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_rc_15ml.png
@@ -295,7 +331,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
     - name: Spearmint
       options:
         - name: 5 mL
@@ -310,7 +348,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Stress Away
       options:
         - name: 5 mL
@@ -325,7 +365,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
     - name: Thieves
       options:
         - name: 5 mL
@@ -340,7 +382,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 30
         - name: 15 mL
           price: 90
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_thieves_15ml.png
@@ -353,7 +397,9 @@ variations:
           sold:
             lazada: 0
             shopee: 0
-          promos: []
+          promos:
+            - id: eb0b49d6-82de-4046-b532-15c89c07a02d
+              price: 54
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/14545392906
