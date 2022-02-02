@@ -60,7 +60,7 @@ export default {
         .where({
           'end-date': { $gt: now },
         })
-        .sortBy('start-date', 'desc')
+        .sortBy('start-date', 'asc')
         .fetch()
     )
       .filter((promo) => promo.sharing_image !== undefined)
