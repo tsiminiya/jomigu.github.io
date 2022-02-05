@@ -28,6 +28,10 @@ promos:
     price: 1625
   - id: 219fdc15-924a-492c-863d-972483088751
     price: 2133
+  - id: c3b7bbed-5c3a-412a-b04f-3e41c8883ee6
+    price: 1955
+  - id: de1c762c-86e5-4076-8a76-f7e102fb1a25
+    price: 1955
 images:
   - essential-oils-pocket-reference/essential-oils-pocket-reference_01.png
   - essential-oils-pocket-reference/essential-oils-pocket-reference_02.png
