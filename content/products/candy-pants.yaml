@@ -400,10 +400,10 @@ variations:
       image: candy-pants/candy-pants_pinkish-grey.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 3
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
