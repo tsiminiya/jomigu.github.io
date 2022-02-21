@@ -87,10 +87,10 @@ variations:
         shopee: 2
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 1
       sold:
         lazada: 0
-        shopee: 7
+        shopee: 8
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
@@ -112,10 +112,10 @@ variations:
         shopee: 0
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 7
+        shopee: 9
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
@@ -187,10 +187,10 @@ variations:
         shopee: 2
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 11
+        shopee: 12
       promos:
         - id: bb6cf392-8c61-4bcf-9370-ba295cf6c771
           price: 252
