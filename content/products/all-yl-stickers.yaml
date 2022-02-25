@@ -24,6 +24,8 @@ promos:
     price: 112
   - id: 2664667a-171a-4a99-b861-9b84293fb9e9
     price: 110
+  - id: e0031641-5235-40e1-873a-16a20757735c
+    price: 110.46
 images:
   - all-yl-stickers/all-yl-stickers_01.png
   - all-yl-stickers/all-yl-stickers_02.png
