@@ -18,18 +18,8 @@ categories:
   - 2d45aac8-2d54-4a5b-a9f3-1b73ce57510e
   - 579ea7c4-8a93-4797-89c2-35744ffec3b6
 promos:
-  - id: 8f44d1fe-ee00-4a3d-a606-b0737c02c400
-    price: 174
-  - id: d9892fc3-7682-4fb7-b3bb-9695c1704a4f
-    price: 174
-  - id: 219fdc15-924a-492c-863d-972483088751
-    price: 240
-  - id: c3b7bbed-5c3a-412a-b04f-3e41c8883ee6
+  - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
     price: 221
-  - id: de1c762c-86e5-4076-8a76-f7e102fb1a25
-    price: 221
-  - id: 129ab8fd-675f-4268-861b-7e19395b3c99
-    price: 200
 images:
   - the-mini-essential-book/the-mini-essential-book_01.png
   - the-mini-essential-book/the-mini-essential-book_02.png
