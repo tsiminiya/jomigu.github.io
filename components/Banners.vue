@@ -1,19 +1,19 @@
 <template>
   <div class="banners container">
     <ul class="row list-style-none">
-      <li class="col-md-8">
-        <a href="/categories/0229bef0-bef5-4c2b-80e2-aa5c5d31f174">
+      <li class="col-md-4">
+        <a href="/products/4fe184fc-a500-4bdf-883d-bf1b5f180ba3">
           <img
-            title="Just for you"
-            src="~/assets/images/banners/just-for-you-jomigu_sharing.png"
+            title="Try me!"
+            src="~/assets/images/banners/my-recipe-notebook_banner.png"
           />
         </a>
       </li>
-      <li class="col-md-4">
-        <a href="/products/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
+      <li class="col-md-8">
+        <a href="/categories/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
           <img
-            title="Try me!"
-            src="~/assets/images/banners/try-my-budget-planner_sharing.png"
+            title="Just for you"
+            src="~/assets/images/banners/my-budget-planner_banner.png"
           />
         </a>
       </li>
