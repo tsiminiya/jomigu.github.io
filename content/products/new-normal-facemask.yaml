@@ -21,6 +21,8 @@ variations:
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
           price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
+          price: 60
     - name: Mickey Mouse White
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_white.png
@@ -37,6 +39,8 @@ variations:
         - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
+          price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
           price: 60
     - name: Mickey and Friends White
       price: 68
@@ -55,6 +59,8 @@ variations:
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
           price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
+          price: 60
     - name: Mickey and Friends Blue
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-and-friends_blue.png
@@ -71,6 +77,8 @@ variations:
         - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
+          price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
           price: 60
     - name: Chanel Brown
       price: 68
@@ -89,6 +97,8 @@ variations:
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
           price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
+          price: 60
     - name: Mickey Mouse Red
       price: 68
       image: new-normal-facemask/new-normal-facemask_mickey-mouse_red.png
@@ -105,6 +115,8 @@ variations:
         - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
+          price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
           price: 60
     - name: XOXO Light Pink
       price: 68
@@ -123,6 +135,8 @@ variations:
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
           price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
+          price: 60
     - name: XOXO Pastel Green
       price: 68
       image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
@@ -140,6 +154,8 @@ variations:
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
           price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
+          price: 60
     - name: LV White
       price: 68
       image: new-normal-facemask/new-normal-facemask_lv_white.png
@@ -156,6 +172,8 @@ variations:
         - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
           price: 53
         - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
+          price: 60
+        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
           price: 60
 link:
   lazada:
