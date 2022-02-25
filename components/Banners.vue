@@ -10,7 +10,7 @@
         </a>
       </li>
       <li class="col-md-8">
-        <a href="/categories/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
+        <a href="/products/5ac258d0-6f96-46ab-92c5-2c9b7c601383">
           <img
             title="Just for you"
             src="~/assets/images/banners/my-budget-planner_banner.png"
