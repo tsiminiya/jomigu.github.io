@@ -4,7 +4,7 @@ featured: 'false'
 price: 157
 stock:
   lazada: 5
-  shopee: 0
+  shopee: 10
 floating:
   lazada: 0
   shopee: 0
@@ -18,6 +18,8 @@ categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
   - id: a94de769-b525-4e9d-9c38-433bd726e89d
+    price: 140
+  - id: 9adc65e5-2bde-4bb3-a98a-3b48e5e0c338
     price: 140
 images:
   - word-puzzles/word-puzzles_01.png
