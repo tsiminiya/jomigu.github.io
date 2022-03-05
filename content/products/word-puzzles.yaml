@@ -1,0 +1,37 @@
+id: 1a0f6905-6001-4e9a-9fd5-2fe4d3a4987e
+name: Jeremy and The Beanstalk Word Puzzles
+featured: 'false'
+price: 157
+stock:
+  lazada: 5
+  shopee: 0
+floating:
+  lazada: 0
+  shopee: 0
+sold:
+  lazada: 0
+  shopee: 0
+link:
+  lazada: https://s.lazada.com.ph/s.447rr
+  shopee:
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+promos:
+  - id: a94de769-b525-4e9d-9c38-433bd726e89d
+    price: 140
+images:
+  - word-puzzles/word-puzzles_01.png
+  - word-puzzles/word-puzzles_02.png
+  - word-puzzles/word-puzzles_03.png
+sharing_image: word-puzzles/word-puzzles_sharing.png
+tags:
+  - wordpuzzles
+  - crossword
+  - learning
+description: |+
+  Here is something you and your kids - age seven and above - can enjoy doing while learning and improving their skills.
+  Among these skills are word recognition, pattern recognition, vocabulary, and spelling.
+  Originally Created by Jomigu.
+  We added colorful graphics and the content came from various topics we have found - making sure that not just the young ones will enjoy this unique word puzzle book but also the adults.
+  40 x word-search puzzles
+  4 x crossword puzzles
