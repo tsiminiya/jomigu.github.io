@@ -1,7 +1,7 @@
 id: 1a0f6905-6001-4e9a-9fd5-2fe4d3a4987e
-name: Jeremy and The Beanstalk Word Puzzles
+name: Jeremy and The Beanstalk Word Puzzles Activity Book
 featured: 'false'
-price: 157
+price: 251
 stock:
   lazada: 5
   shopee: 10
@@ -13,14 +13,14 @@ sold:
   shopee: 0
 link:
   lazada: https://s.lazada.com.ph/s.447rr
-  shopee:
+  shopee: https://shopee.ph/product/131641645/13280898043
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
   - id: a94de769-b525-4e9d-9c38-433bd726e89d
-    price: 140
+    price: 188
   - id: 9adc65e5-2bde-4bb3-a98a-3b48e5e0c338
-    price: 140
+    price: 188
 images:
   - word-puzzles/word-puzzles_01.png
   - word-puzzles/word-puzzles_02.png
