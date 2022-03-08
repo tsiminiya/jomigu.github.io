@@ -17,12 +17,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
-          price: 237
-        - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
-          price: 239
-        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
-          price: 239
+        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+          price: 240
     - name: Black
       price: 300
       image: maine-jumpsuit/maine-jumpsuit_black.png
@@ -36,12 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
-          price: 237
-        - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
-          price: 239
-        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
-          price: 239
+        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+          price: 240
     - name: Tan
       price: 300
       image: maine-jumpsuit/maine-jumpsuit_tan.png
@@ -55,12 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 5d981e93-c5cf-4f0c-9f2c-642a6ec39978
-          price: 237
-        - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
-          price: 239
-        - id: 2664667a-171a-4a99-b861-9b84293fb9e9
-          price: 239
+        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+          price: 240
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/3013237568
