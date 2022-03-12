@@ -17,7 +17,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
+          price: 287
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
           price: 287
     - name: Black
       price: 380
@@ -32,7 +34,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
+          price: 287
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
           price: 287
     - name: Coral Pink
       price: 380
@@ -47,7 +51,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
+          price: 287
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
           price: 287
     - name: Mustard Yellow
       price: 380
@@ -62,7 +68,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
+          price: 287
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
           price: 287
     - name: Rust
       price: 380
@@ -77,7 +85,9 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
+          price: 287
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
           price: 287
 link:
   lazada:

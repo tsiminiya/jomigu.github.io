@@ -17,8 +17,10 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Old Rose
       price: 320
       image: candy-pants/candy-pants_old-rose.png
@@ -32,8 +34,10 @@ variations:
         lazada: 0
         shopee: 6
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Mustard Yellow
       price: 320
       image: candy-pants/candy-pants_mustard-yellow.png
@@ -47,8 +51,10 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Navy Blue
       price: 320
       image: candy-pants/candy-pants_navy-blue.png
@@ -62,8 +68,10 @@ variations:
         lazada: 0
         shopee: 9
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Peach
       price: 320
       image: candy-pants/candy-pants_peach.png
@@ -77,8 +85,10 @@ variations:
         lazada: 0
         shopee: 9
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Coral Pink
       price: 320
       image: candy-pants/candy-pants_coral-pink.png
@@ -92,8 +102,10 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Rust
       price: 320
       image: candy-pants/candy-pants_rust.png
@@ -107,8 +119,10 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Black
       price: 320
       image: candy-pants/candy-pants_black.png
@@ -122,8 +136,10 @@ variations:
         lazada: 0
         shopee: 12
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Gray
       price: 320
       image: candy-pants/candy-pants_gray.png
@@ -137,8 +153,10 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Moss Green
       price: 320
       image: candy-pants/candy-pants_moss-green.png
@@ -152,8 +170,10 @@ variations:
         lazada: 0
         shopee: 6
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Dark Rose
       price: 320
       image: candy-pants/candy-pants_dark-rose.png
@@ -167,8 +187,10 @@ variations:
         lazada: 0
         shopee: 4
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Brown
       price: 320
       image: candy-pants/candy-pants_brown.png
@@ -182,8 +204,10 @@ variations:
         lazada: 0
         shopee: 7
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Pink
       price: 320
       image: candy-pants/candy-pants_pink.png
@@ -197,8 +221,10 @@ variations:
         lazada: 0
         shopee: 5
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: White
       price: 320
       image: candy-pants/candy-pants_white.png
@@ -212,8 +238,10 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Rust Orange
       price: 320
       image: candy-pants/candy-pants_rust-orange.png
@@ -227,8 +255,10 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Bluish Cyan
       price: 320
       image: candy-pants/candy-pants_bluish-cyan.png
@@ -242,8 +272,10 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Pinkish Red
       price: 320
       image: candy-pants/candy-pants_pinkish-red.png
@@ -257,8 +289,10 @@ variations:
         lazada: 0
         shopee: 2
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
     - name: Pinkish Grey
       price: 320
       image: candy-pants/candy-pants_pinkish-grey.png
@@ -272,8 +306,10 @@ variations:
         lazada: 0
         shopee: 3
       promos:
-        - id: b2ecb721-cf14-4c92-b248-7f268dfebf08
+        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
+        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
+          price: 198
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/8820858052
