@@ -28,10 +28,10 @@ variations:
       image: candy-pants/candy-pants_old-rose.png
       stock:
         lazada: 0
-        shopee: 8
+        shopee: 7
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 6
@@ -237,13 +237,13 @@ variations:
       image: candy-pants/candy-pants_pink.png
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 3
       floating:
         lazada: 0
         shopee: 1
       sold:
         lazada: 0
-        shopee: 5
+        shopee: 6
       promos:
         - id: 47b4167e-f062-472c-81d7-84a68bb69df6
           price: 256
@@ -256,10 +256,10 @@ variations:
       image: candy-pants/candy-pants_white.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 2
@@ -275,10 +275,10 @@ variations:
       image: candy-pants/candy-pants_rust-orange.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 2
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 0
@@ -313,10 +313,10 @@ variations:
       image: candy-pants/candy-pants_pinkish-red.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 2
