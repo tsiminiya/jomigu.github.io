@@ -6,10 +6,10 @@ stock:
   lazada: 5
   shopee: 0
 floating:
-  lazada: 1
+  lazada: 0
   shopee: 1
 sold:
-  lazada: 84
+  lazada: 85
   shopee: 8
 link:
   lazada: https://s.lazada.com.ph/s.3dGMO
