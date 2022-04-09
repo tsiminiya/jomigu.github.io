@@ -17,14 +17,8 @@ link:
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
 promos:
-  - id: 0d4cf581-bb2d-429b-9332-232ed476022b
-    price: 130
-  - id: 2be32bbd-95d7-4b2d-a971-478655d64f87
-    price: 133
-  - id: 2664667a-171a-4a99-b861-9b84293fb9e9
-    price: 130
-  - id: e0031641-5235-40e1-873a-16a20757735c
-    price: 137
+  - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
+    price: 140
 images:
   - my-recipe-notebook/my-recipe-notebook_01.png
   - my-recipe-notebook/my-recipe-notebook_02.png
