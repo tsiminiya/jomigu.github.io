@@ -17,12 +17,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 201
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 169
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 266
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 240
     - name: Mickey Mouse Stay Real
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_mickey-mouse-stay-real.png
@@ -36,12 +32,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 201
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 169
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 266
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 240
     - name: Reterpak
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_reterpak.png
@@ -55,12 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 201
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 169
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 266
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 240
     - name: Reterpan
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_reterpan.png
@@ -74,12 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 201
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 169
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 266
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 240
     - name: Minne Roma Mouse
       price: 320
       image: short-sleeve-night-shirt-3d-print/short-sleeve-night-shirt-3d-print_minne-roma-mouse.png
@@ -93,12 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 201
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 169
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 266
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 240
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/11664785826

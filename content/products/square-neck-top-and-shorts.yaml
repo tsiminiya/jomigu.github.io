@@ -17,12 +17,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Black
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_black.png
@@ -36,12 +32,8 @@ variations:
         lazada: 0
         shopee: 1
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: White
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_white.png
@@ -55,12 +47,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Maroon
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_maroon.png
@@ -74,12 +62,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Brown
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_brown.png
@@ -93,12 +77,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Grey Pink
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_grey-pink.png
@@ -112,12 +92,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Old Rose
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_old-rose.png
@@ -131,12 +107,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
     - name: Powder Blue
       price: 230
       image: square-neck-top-and-shorts/square-neck-top-and-shorts_powder-blue.png
@@ -150,12 +122,8 @@ variations:
         lazada: 0
         shopee: 0
       promos:
-        - id: 47b4167e-f062-472c-81d7-84a68bb69df6
-          price: 149
-        - id: 2e90739e-3642-40d7-b234-ca5e8d9bd531
-          price: 121
-        - id: aea5850f-7953-4b37-bc57-e8c3b56d5714
-          price: 191
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 172
 link:
   lazada:
   shopee: https://shopee.ph/product/131641645/10864478169

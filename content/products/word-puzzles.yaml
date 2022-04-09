@@ -19,6 +19,8 @@ categories:
 promos:
   - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
     price: 132
+  - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+    price: 188
 images:
   - word-puzzles/word-puzzles_01.png
   - word-puzzles/word-puzzles_02.png
