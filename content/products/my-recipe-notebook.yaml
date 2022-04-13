@@ -3,7 +3,7 @@ name: My Recipe Notebook
 featured: 'false'
 price: 148
 stock:
-  lazada: 21
+  lazada: 25
   shopee: 30
 floating:
   lazada: 5
