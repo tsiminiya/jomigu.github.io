@@ -1,26 +1,57 @@
 id: 4fe184fc-a500-4bdf-883d-bf1b5f180ba3
 name: My Recipe Notebook
 featured: 'false'
-price: 148
-stock:
-  lazada: 21
-  shopee: 26
-floating:
-  lazada: 3
-  shopee: 2
-sold:
-  lazada: 45
-  shopee: 26
+variations:
+  name: Design
+  options:
+    - name: Original
+      price: 160
+      image: my-recipe-notebook/my-recipe-notebook_original.png
+      stock:
+        lazada: 21
+        shopee: 26
+      floating:
+        lazada: 3
+        shopee: 2
+      sold:
+        lazada: 45
+        shopee: 26
+      promos:
+        - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
+          price: 140
+        - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
+          price: 144
+    - name: Baking
+      price: 175
+      image: my-recipe-notebook/my-recipe-notebook_baking.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Cooking
+      price: 175
+      image: my-recipe-notebook/my-recipe-notebook_cooking.png
+      stock:
+        lazada: 3
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
 link:
   lazada: https://s.lazada.com.ph/s.eRgCQ
   shopee: https://shopee.ph/product/131641645/12155685720
 categories:
   - a8c58908-d2be-45ae-9904-00176e6e1452
-promos:
-  - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
-    price: 140
-  - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
-    price: 144
 images:
   - my-recipe-notebook/my-recipe-notebook_01.png
   - my-recipe-notebook/my-recipe-notebook_02.png
@@ -28,6 +59,9 @@ images:
   - my-recipe-notebook/my-recipe-notebook_04.png
   - my-recipe-notebook/my-recipe-notebook_05.png
   - my-recipe-notebook/my-recipe-notebook_06.png
+  - my-recipe-notebook/my-recipe-notebook_07.png
+  - my-recipe-notebook/my-recipe-notebook_08.png
+  - my-recipe-notebook/my-recipe-notebook_09.png
 sharing_image: my-recipe-notebook/my-recipe-notebook_sharing.png
 tags:
   - myrecipenotebook
@@ -42,3 +76,8 @@ description: |+
   Notebook inclues x25 recipe sheets.
 
   Each pad of the notebook is 70 gsm.
+
+  Available Versions:
+  * Original
+  * Baking
+  * Cooking
