@@ -8,10 +8,10 @@ variations:
       price: 160
       image: my-recipe-notebook/my-recipe-notebook_original.png
       stock:
-        lazada: 12
+        lazada: 10
         shopee: 23
       floating:
-        lazada: 2
+        lazada: 3
         shopee: 1
       sold:
         lazada: 52
@@ -28,7 +28,7 @@ variations:
         lazada: 12
         shopee: 0
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
       sold:
         lazada: 3
@@ -41,7 +41,7 @@ variations:
         lazada: 16
         shopee: 0
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
       sold:
         lazada: 1
