@@ -4,13 +4,13 @@ featured: 'false'
 price: 50
 stock:
   lazada: 7
-  shopee: 7
+  shopee: 6
 floating:
   lazada: 0
   shopee: 0
 sold:
   lazada: 3
-  shopee: 3
+  shopee: 4
 link:
   lazada: https://s.lazada.com.ph/s.WAF2O
   shopee: https://shopee.ph/product/131641645/9630480102
