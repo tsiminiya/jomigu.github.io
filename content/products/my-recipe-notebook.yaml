@@ -8,13 +8,13 @@ variations:
       price: 160
       image: my-recipe-notebook/my-recipe-notebook_original.png
       stock:
-        lazada: 16
+        lazada: 15
         shopee: 10
       floating:
-        lazada: 7
+        lazada: 1
         shopee: 2
       sold:
-        lazada: 52
+        lazada: 59
         shopee: 30
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -28,10 +28,10 @@ variations:
         lazada: 6
         shopee: 0
       floating:
-        lazada: 4
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 6
+        lazada: 10
         shopee: 0
       promos: []
     - name: Cooking
@@ -41,10 +41,10 @@ variations:
         lazada: 14
         shopee: 0
       floating:
-        lazada: 2
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 2
+        lazada: 4
         shopee: 0
       promos: []
 link:
