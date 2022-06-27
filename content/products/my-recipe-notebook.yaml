@@ -5,7 +5,7 @@ variations:
   name: Design
   options:
     - name: Original
-      price: 160
+      price: 160 
       image: my-recipe-notebook/my-recipe-notebook_original.png
       stock:
         lazada: 9
