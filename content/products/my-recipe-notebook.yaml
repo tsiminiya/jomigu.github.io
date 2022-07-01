@@ -11,11 +11,11 @@ variations:
         lazada: 5
         shopee: 9
       floating:
-        lazada: 11
-        shopee: 2
+        lazada: 0
+        shopee: 0
       sold:
-        lazada: 59
-        shopee: 31
+        lazada: 70
+        shopee: 32
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
           price: 140
@@ -28,10 +28,10 @@ variations:
         lazada: 6
         shopee: 0
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 10
+        lazada: 13
         shopee: 0
       promos: []
     - name: Cooking
@@ -41,10 +41,10 @@ variations:
         lazada: 13
         shopee: 0
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 4
+        lazada: 5
         shopee: 0
       promos: []
 link:
