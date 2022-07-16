@@ -5,7 +5,7 @@ variations:
   name: Design
   options:
     - name: Alex Golden Armor
-      price: 100
+      price: 150
       image: my-world-building-blocks/my-world-building-blocks_alex-golden-armor.png
       stock:
         lazada: 2
@@ -18,7 +18,7 @@ variations:
         shopee: 0
       promos: []
     - name: Zombie Pigmen with Stone Sword
-      price: 100
+      price: 150
       image: my-world-building-blocks/my-world-building-blocks_pigmen-stone-sword.png
       stock:
         lazada: 2
@@ -31,7 +31,7 @@ variations:
         shopee: 0
       promos: []
     - name: Steve in Stone Armor
-      price: 100
+      price: 150
       image: my-world-building-blocks/my-world-building-blocks_steve-stone-armor.png
       stock:
         lazada: 2
@@ -44,7 +44,7 @@ variations:
         shopee: 0
       promos: []
     - name: Zombie with Golden Pickaxe
-      price: 100
+      price: 150
       image: my-world-building-blocks/my-world-building-blocks_zombie-golden-pickaxe.png
       stock:
         lazada: 2
