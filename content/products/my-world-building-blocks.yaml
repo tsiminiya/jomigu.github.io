@@ -1,0 +1,93 @@
+id: 86492bb3-8343-44cb-9c50-4a26063b2d91
+name: My World Building Blocks
+featured: 'false'
+variations:
+  name: Design
+  options:
+    - name: Alex Golden Armor
+      price: 100
+      image: my-world-building-blocks/my-world-building-blocks_alex-golden-armor.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Zombie Pigmen with Stone Sword
+      price: 100
+      image: my-world-building-blocks/my-world-building-blocks_pigmen-stone-sword.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Steve in Stone Armor
+      price: 100
+      image: my-world-building-blocks/my-world-building-blocks_steve-stone-armor.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Zombie with Golden Pickaxe
+      price: 100
+      image: my-world-building-blocks/my-world-building-blocks_zombie-golden-pickaxe.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.UhHmn
+  shopee: 
+categories:
+  - dbefabad-c4be-4a4b-aeed-79feb1c6c517
+promos:
+  - id: 9b9a5e4d-7f4a-4677-ab6e-cdaa3108d6e4
+    price: 1236
+  - id: 4996763d-4439-48ff-8085-2e2127e000d9
+    price: 1030
+  - id: fd2cfac1-d2c5-4330-b5c2-eaeec03ed800
+    price: 1000
+  - id: a2033a88-f56a-4489-8e30-7e4d03bc725e
+    price: 1854
+  - id: 2a2d58ab-6284-4776-b032-20e854d63bcd
+    price: 1648
+images:
+  - my-world-building-blocks/my-world-building-blocks_01.png
+  - my-world-building-blocks/my-world-building-blocks_02.png
+  - my-world-building-blocks/my-world-building-blocks_03.png
+sharing_image: my-world-building-blocks/my-world-building-blocks_sharing.png
+tags:
+  - myworld
+  - minecraft
+  - alex
+  - steve
+  - zombiepigmen
+description: |+ 
+  Your kids favorite game can now be built on blocks!
+
+  Featuring popular Minecraft characters - Alex, Steve, the Zombie, the Zombie Pigmen and more (coming up)!
+
+  Each set includes a theme - like Steve who is near The Nether portal, Alex in golden armor guarding a village, the Zombie Pigmen in a Guard Tower, and the Zombie with golden Pickaxe near a waterfall.
+
+  Each set will be truly enjoyed by your Minecraft-fanatic kids - enhancing their motor skills, puzzle solving and creativity.
