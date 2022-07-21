@@ -1,0 +1,83 @@
+id: 86492bb3-8343-44cb-9c50-4a26063b2d91
+name: My World Building Blocks
+featured: 'false'
+variations:
+  name: Design
+  options:
+    - name: Belle
+      price: 150
+      image: happy-princess-building-blocks/happy-princess-building-blocks_belle.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Elsa
+      price: 150
+      image: happy-princess-building-blocks/happy-princess-building-blocks_elsa.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Elsa 2
+      price: 150
+      image: happy-princess-building-blocks/happy-princess-building-blocks_elsa-2.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Rapunzel
+      price: 150
+      image: happy-princess-building-blocks/happy-princess-building-blocks_rapunzel.png
+      stock:
+        lazada: 2
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.UhHmn
+  shopee: 
+categories:
+  - dbefabad-c4be-4a4b-aeed-79feb1c6c517
+promos: []
+images:
+  - happy-princess-building-blocks/happy-princess-building-blocks_01.png
+  - happy-princess-building-blocks/happy-princess-building-blocks_02.png
+  - happy-princess-building-blocks/happy-princess-building-blocks_03.png
+sharing_image: happy-princess-building-blocks/happy-princess-building-blocks_sharing.png
+tags:
+  - myworld
+  - minecraft
+  - alex
+  - steve
+  - zombiepigmen
+description: |+ 
+  Your kids favorite game can now be built on blocks!
+
+  Featuring popular Minecraft characters - Alex, Steve, the Zombie, the Zombie Pigmen and more (coming up)!
+
+  Each set includes a theme - like Steve who is near The Nether portal, Alex in golden armor guarding a village, the Zombie Pigmen in a Guard Tower, and the Zombie with golden Pickaxe near a waterfall.
+
+  Each set will be truly enjoyed by your Minecraft-fanatic kids - enhancing their motor skills, puzzle solving and creativity.
