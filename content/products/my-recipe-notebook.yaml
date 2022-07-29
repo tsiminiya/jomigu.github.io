@@ -25,10 +25,10 @@ variations:
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
-        lazada: 27
+        lazada: 26
         shopee: 0
       floating:
-        lazada: 2
+        lazada: 3
         shopee: 0
       sold:
         lazada: 17
