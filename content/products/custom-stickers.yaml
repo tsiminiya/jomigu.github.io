@@ -251,10 +251,10 @@ variations:
           image: custom-stickers/custom-stickers_5x7.png
           stock:
             lazada: 0
-            shopee: 20
+            shopee: 13
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 7
           sold:
             lazada: 0
             shopee: 0
