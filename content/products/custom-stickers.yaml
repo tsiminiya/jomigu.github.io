@@ -91,7 +91,7 @@ variations:
           image: custom-stickers/custom-stickers_2x2.png
           stock:
             lazada: 0
-            shopee: 18
+            shopee: 28
           floating:
             lazada: 0
             shopee: 0
@@ -251,7 +251,7 @@ variations:
           image: custom-stickers/custom-stickers_5x7.png
           stock:
             lazada: 0
-            shopee: 13
+            shopee: 26
           floating:
             lazada: 0
             shopee: 7
