@@ -5,11 +5,11 @@ variations:
   name: Design
   options:
     - name: Floral
-      price: 439
+      price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       stock:
-        lazada: 8
-        shopee: 9
+        lazada: 12
+        shopee: 13
       floating:
         lazada: 1
         shopee: 0
@@ -22,11 +22,11 @@ variations:
         - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
           price: 395
     - name: Pie Graph
-      price: 439
+      price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
       stock:
         lazada: 2
-        shopee: 0
+        shopee: 2
       floating:
         lazada: 0
         shopee: 0
