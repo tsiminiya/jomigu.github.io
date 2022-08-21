@@ -4,56 +4,6 @@ featured: 'false'
 variations:
   name: Collection
   options:
-    - name: YL KidScents
-      price: 16
-      image: yl-special-line-stickers/yl-special-line-stickers_02.png
-      stock:
-        lazada: 6
-        shopee: 3
-      floating:
-        lazada: 0
-        shopee: 0
-      sold:
-        lazada: 4
-        shopee: 7
-      promos:
-        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
-          price: 15
-        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
-          price: 15
-        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-          price: 13
-        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-          price: 13
-        - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
-          price: 12
-        - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-          price: 14
-    - name: Animal Scents
-      price: 16
-      image: yl-special-line-stickers/yl-special-line-stickers_03.png
-      stock:
-        lazada: 10
-        shopee: 7
-      floating:
-        lazada: 0
-        shopee: 0
-      sold:
-        lazada: 0
-        shopee: 3
-      promos:
-        - id: f9784324-e5fe-41fd-8e16-53d26de77c6e
-          price: 15
-        - id: 143b9c75-c7c5-44e7-ad43-1e9da1a90220
-          price: 15
-        - id: 8190b429-f6af-45bb-9e0c-19b17d56a924
-          price: 13
-        - id: c0101785-066c-4e8a-866a-c38d2814ffd4
-          price: 13
-        - id: c13c5aa8-c5c7-4124-9fb5-28b531f44584
-          price: 12
-        - id: 60c82d23-dfb9-4c0e-a0a1-dc204ae8f1ee
-          price: 14
     - name: Custom 12
       price: 16
       image: yl-special-line-stickers/yl-special-line-stickers_custom-12.png
