@@ -53,10 +53,10 @@ variations:
       price: 222
       image: notebook-with-baller-fanart-cover/notebook-with-baller-fanart-cover_curry-2974.png
       stock:
-        lazada: 1
+        lazada: 0
         shopee: 0
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
       sold:
         lazada: 0
