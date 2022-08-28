@@ -7,10 +7,10 @@ stock:
   shopee: 0
 floating:
   lazada: 1
-  shopee: 2
+  shopee: 0
 sold:
   lazada: 92
-  shopee: 10
+  shopee: 12
 link:
   lazada: https://s.lazada.com.ph/s.3dGMO
   shopee: https://shopee.ph/product/131641645/3981288410?smtt=0.134284870-1624795072.9
@@ -31,7 +31,7 @@ tags:
   - biblestudy
   - kimberlydmoore
   - readerscorner
-description: |+ 
+description: |+
   A 52-week plan for Women on studying the Bible in one book.
 
   Written by Dr. Kimberly D. Moore, pastor from South Carolina, the book illustrates how to reflect on the teachings of the Bible and to apply these teachings in daily life.
@@ -39,7 +39,7 @@ description: |+
   A review called the book "... practical and life changing."
 
   Another review described it as a great tool to understand the Bible easier and makes you stop and think on every section.
-  
+
   Language : English
   Paperback : 208 pages
   ISBN-10 : 164152815X
