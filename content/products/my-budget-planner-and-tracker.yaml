@@ -25,7 +25,7 @@ variations:
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
       stock:
-        lazada: 2
+        lazada: 3
         shopee: 2
       floating:
         lazada: 3
