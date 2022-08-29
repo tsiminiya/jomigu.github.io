@@ -3,10 +3,10 @@ name: Sketch Pad 60 sheets A4 size 100 gsm
 featured: 'false'
 price: 160
 stock:
-  lazada: 10
+  lazada: 8
   shopee: 4
 floating:
-  lazada: 0
+  lazada: 2
   shopee: 0
 sold:
   lazada: 6
@@ -28,7 +28,7 @@ tags:
   - sketchpad
   - stationery
   - drawing
-description: |+ 
+description: |+
   There are 60 sheets of A4-sized 100 gsm bond paper to unleash the artist in you.
   We also left the 300 gsm kraft board covers blank, so you can create your own cover art.
 
