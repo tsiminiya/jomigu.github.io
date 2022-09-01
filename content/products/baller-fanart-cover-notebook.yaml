@@ -41,10 +41,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 1
         shopee: 0
       promos:
         - id: 0ea9529e-ef27-4605-99ea-ca60d2b8a9da
@@ -56,10 +56,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 1
         shopee: 0
       promos:
         - id: 0ea9529e-ef27-4605-99ea-ca60d2b8a9da
@@ -86,10 +86,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 1
         shopee: 0
       promos:
         - id: 0ea9529e-ef27-4605-99ea-ca60d2b8a9da

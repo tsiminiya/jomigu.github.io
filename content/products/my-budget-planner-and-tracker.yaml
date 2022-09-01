@@ -28,10 +28,10 @@ variations:
         lazada: 3
         shopee: 2
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 4
+        lazada: 7
         shopee: 0
       promos: []
 link:
