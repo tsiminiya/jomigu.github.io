@@ -25,10 +25,10 @@ variations:
       price: 239
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
       stock:
-        lazada: 17
+        lazada: 16
         shopee: 14
       floating:
-        lazada: 2
+        lazada: 3
         shopee: 0
       sold:
         lazada: 4
