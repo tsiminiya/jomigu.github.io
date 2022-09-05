@@ -4,6 +4,21 @@ featured: 'false'
 variations:
   name: Size
   options:
+    - name: Abundance
+      options:
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_abundance_15ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
     - name: Christmas Spirit
       options:
         - name: 5 mL
@@ -11,10 +26,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_christmas-spirit_5ml.png
           stock:
             lazada: 0
-            shopee: 2
+            shopee: 1
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
@@ -28,7 +43,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_citrus-fresh_5ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 2
           floating:
             lazada: 0
             shopee: 0
@@ -96,7 +111,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_grapefruit_5ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 2
           floating:
             lazada: 0
             shopee: 0
@@ -292,10 +307,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_purification_5ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 0
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
