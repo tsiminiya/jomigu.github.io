@@ -52,7 +52,7 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_cooking.png
       stock:
         lazada: 6
-        shopee: 0
+        shopee: 4
       floating:
         lazada: 3
         shopee: 0
