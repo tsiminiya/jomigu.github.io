@@ -39,7 +39,7 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
         lazada: 15
-        shopee: 0
+        shopee: 8
       floating:
         lazada: 4
         shopee: 0
