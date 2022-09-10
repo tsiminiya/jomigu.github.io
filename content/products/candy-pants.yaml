@@ -219,10 +219,10 @@ variations:
       image: candy-pants/candy-pants_rust-orange.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1
@@ -267,10 +267,10 @@ variations:
         shopee: 0
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 4
+        shopee: 5
       promos:
         - id: ed2dc6e7-db3e-45de-9cb6-7ab1b1a5754a
           price: 240
