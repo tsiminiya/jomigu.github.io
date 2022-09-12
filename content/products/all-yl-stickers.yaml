@@ -4,10 +4,10 @@ featured: 'false'
 price: 125
 stock:
   lazada: 12
-  shopee: 10
+  shopee: 9
 floating:
   lazada: 0
-  shopee: 0
+  shopee: 1
 sold:
   lazada: 24
   shopee: 25
@@ -48,4 +48,3 @@ description: |+
   Have you already spent more than a minute just to find your 5-mL Lemon Essential Oil bottle?
 
   With this label stickers, you can easily find the essential oil that you want from your sea of essential oil bottles.
-  
