@@ -5,7 +5,7 @@ variations:
   name: Collection
   options:
     - name: Custom 12
-      price: 16
+      price: 20
       image: yl-special-line-stickers/yl-special-line-stickers_custom-12.png
       stock:
         lazada: 0
@@ -31,7 +31,7 @@ variations:
         shopee: 2
       promos: []
     - name: Custom 60
-      price: 50
+      price: 65
       image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
       stock:
         lazada: 0
@@ -88,4 +88,3 @@ description: |+
   Package includes:
   - For KidScents and Anima Scents: 2 x identical sheets of the selected set of label stickers
   - For Custom Sticker Sets: 1 x sheet of selected label stickers
-  
