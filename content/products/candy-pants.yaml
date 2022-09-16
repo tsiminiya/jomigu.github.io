@@ -24,10 +24,10 @@ variations:
       image: candy-pants/candy-pants_old-rose.png
       stock:
         lazada: 0
-        shopee: 5
+        shopee: 4
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 9
@@ -189,10 +189,10 @@ variations:
       image: candy-pants/candy-pants_pink.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 11
@@ -234,10 +234,10 @@ variations:
       image: candy-pants/candy-pants_bluish-cyan.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 2
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 2
