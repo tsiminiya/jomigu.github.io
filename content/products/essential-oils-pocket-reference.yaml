@@ -3,10 +3,10 @@ name: Essential Oils Pocket Reference
 featured: 'false'
 price: 2370.00
 stock:
-  lazada: 1
+  lazada: 0
   shopee: 0
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 7
