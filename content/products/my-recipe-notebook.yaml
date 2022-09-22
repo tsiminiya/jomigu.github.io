@@ -28,11 +28,11 @@ variations:
         lazada: 15
         shopee: 10
       floating:
-        lazada: 10
-        shopee: 4
+        lazada: 0
+        shopee: 1
       sold:
-        lazada: 11
-        shopee: 0
+        lazada: 21
+        shopee: 3
       promos: []
     - name: Baking
       price: 175
@@ -41,11 +41,11 @@ variations:
         lazada: 13
         shopee: 15
       floating:
-        lazada: 14
-        shopee: 1
-      sold:
-        lazada: 30
+        lazada: 0
         shopee: 0
+      sold:
+        lazada: 44
+        shopee: 1
       promos: []
     - name: Cooking
       price: 175
@@ -54,10 +54,10 @@ variations:
         lazada: 9
         shopee: 8
       floating:
-        lazada: 8
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 16
+        lazada: 24
         shopee: 0
       promos: []
 link:
