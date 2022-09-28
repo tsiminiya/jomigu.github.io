@@ -1,0 +1,59 @@
+id: b7629f03-429d-44a7-995b-c2f04a3db8cd
+name: My Travel Planner with Travel Savings Tracking Stickers
+featured: 'false'
+variations:
+  name: Design
+  options:
+    - name: Planner and Stickers
+      price: 346
+      image: my-travel-planner/my-travel-planner_planner-and-stickers.png
+      stock:
+        lazada: 10
+        shopee: 10
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Stickers
+      price: 82
+      image: my-travel-planner/my-travel-planner_stickers.png
+      stock:
+        lazada: 20
+        shopee: 20
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.53MPG
+  shopee: https://shopee.ph/product/131641645/20850097419
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+images:
+  - my-travel-planner/my-travel-planner_01.png
+  - my-travel-planner/my-travel-planner_02.png
+  - my-travel-planner/my-travel-planner_03.png
+  - my-travel-planner/my-travel-planner_04.png
+  - my-travel-planner/my-travel-planner_05.png
+  - my-travel-planner/my-travel-planner_06.png
+  - my-travel-planner/my-travel-planner_07.png
+sharing_image: my-travel-planner/my-travel-planner_sharing.png
+tags:
+  - mytravelplanner
+  - notebook
+  - travel
+  - vacation
+description: |+
+  Avoid regrets. Avoid feeling sorry for not being able to travel. To do so, you must plan your very next vacation. We will help you with this notebook planner which we built for anyone for any kind of travel, anywhere.
+
+  Contents
+  - Sample pages
+  - 12 x Set of Travel Planner Sheets
+  - 16 x Travel Journal Sheets
+  - 1 x Travel Savings Tracking Stickers
