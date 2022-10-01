@@ -94,10 +94,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_frankincense_5ml.png
           stock:
             lazada: 0
-            shopee: 5
+            shopee: 4
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
@@ -373,10 +373,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_stress-away_5ml.png
           stock:
             lazada: 0
-            shopee: 4
+            shopee: 3
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
@@ -390,10 +390,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_thieves_5ml.png
           stock:
             lazada: 0
-            shopee: 8
+            shopee: 7
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
