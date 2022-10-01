@@ -41,10 +41,10 @@ variations:
         lazada: 16
         shopee: 14
       floating:
-        lazada: 4
+        lazada: 2
         shopee: 1
       sold:
-        lazada: 44
+        lazada: 46
         shopee: 1
       promos: []
     - name: Cooking
