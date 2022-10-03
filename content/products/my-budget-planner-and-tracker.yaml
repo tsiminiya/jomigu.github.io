@@ -8,7 +8,7 @@ variations:
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       stock:
-        lazada: 11
+        lazada: 16
         shopee: 14
       floating:
         lazada: 1
@@ -26,7 +26,7 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
       stock:
         lazada: 15
-        shopee: 13
+        shopee: 15
       floating:
         lazada: 1
         shopee: 0
