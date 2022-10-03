@@ -39,10 +39,10 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
         lazada: 16
-        shopee: 12
+        shopee: 11
       floating:
         lazada: 2
-        shopee: 3
+        shopee: 4
       sold:
         lazada: 46
         shopee: 1
