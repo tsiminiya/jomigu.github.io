@@ -24,10 +24,10 @@ variations:
       image: candy-pants/candy-pants_old-rose.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 2
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 11
