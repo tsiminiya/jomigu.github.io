@@ -8,8 +8,8 @@ variations:
       price: 150
       image: my-world-building-blocks/my-world-building-blocks_alex-golden-armor.png
       stock:
-        lazada: 2
-        shopee: 0
+        lazada: 0
+        shopee: 2
       floating:
         lazada: 0
         shopee: 0
@@ -21,8 +21,8 @@ variations:
       price: 150
       image: my-world-building-blocks/my-world-building-blocks_pigmen-stone-sword.png
       stock:
-        lazada: 2
-        shopee: 0
+        lazada: 0
+        shopee: 2
       floating:
         lazada: 0
         shopee: 0
@@ -34,7 +34,7 @@ variations:
       price: 150
       image: my-world-building-blocks/my-world-building-blocks_steve-stone-armor.png
       stock:
-        lazada: 2
+        lazada: 0
         shopee: 0
       floating:
         lazada: 0
@@ -47,8 +47,8 @@ variations:
       price: 150
       image: my-world-building-blocks/my-world-building-blocks_zombie-golden-pickaxe.png
       stock:
-        lazada: 2
-        shopee: 0
+        lazada: 0
+        shopee: 2
       floating:
         lazada: 0
         shopee: 0
