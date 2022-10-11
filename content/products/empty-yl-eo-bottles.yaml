@@ -87,6 +87,21 @@ variations:
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
+    - name: Eucalyptus Radiata
+      options:
+        - name: 15 mL
+          price: 90
+          image: empty-yl-eo-bottles/empty-yl-eo-bottles_eucalyptus-radiata_15ml.png
+          stock:
+            lazada: 0
+            shopee: 1
+          floating:
+            lazada: 0
+            shopee: 0
+          sold:
+            lazada: 0
+            shopee: 0
+          promos: []
     - name: Frankincense
       options:
         - name: 5 mL
@@ -94,7 +109,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_frankincense_5ml.png
           stock:
             lazada: 0
-            shopee: 4
+            shopee: 5
           floating:
             lazada: 0
             shopee: 1
@@ -177,7 +192,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemon_5ml.png
           stock:
             lazada: 0
-            shopee: 5
+            shopee: 6
           floating:
             lazada: 0
             shopee: 0
@@ -324,7 +339,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_rc_5ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 2
           floating:
             lazada: 0
             shopee: 0
