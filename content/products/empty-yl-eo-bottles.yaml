@@ -26,10 +26,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_christmas-spirit_5ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 0
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 1
@@ -160,10 +160,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_5ml.png
           stock:
             lazada: 0
-            shopee: 14
+            shopee: 13
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
