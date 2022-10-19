@@ -11,11 +11,11 @@ variations:
         lazada: 10
         shopee: 13
       floating:
-        lazada: 7
-        shopee: 2
+        lazada: 2
+        shopee: 0
       sold:
-        lazada: 89
-        shopee: 1
+        lazada: 94
+        shopee: 3
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
           price: 417
@@ -28,11 +28,11 @@ variations:
         lazada: 11
         shopee: 14
       floating:
-        lazada: 5
-        shopee: 1
-      sold:
-        lazada: 10
+        lazada: 0
         shopee: 0
+      sold:
+        lazada: 15
+        shopee: 1
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.3dGoz

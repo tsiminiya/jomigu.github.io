@@ -14,10 +14,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos: []
     - name: Christmas Spirit
       options:
@@ -29,10 +29,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 1
+            shopee: 2
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -112,10 +112,10 @@ variations:
             shopee: 5
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -163,10 +163,10 @@ variations:
             shopee: 13
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -391,10 +391,10 @@ variations:
             shopee: 3
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -408,10 +408,10 @@ variations:
             shopee: 7
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30

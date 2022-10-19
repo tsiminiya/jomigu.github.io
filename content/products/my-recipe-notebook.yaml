@@ -11,10 +11,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 2
+        lazada: 1
         shopee: 0
       sold:
-        lazada: 80
+        lazada: 81
         shopee: 37
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -28,11 +28,11 @@ variations:
         lazada: 21
         shopee: 20
       floating:
-        lazada: 4
-        shopee: 3
+        lazada: 1
+        shopee: 0
       sold:
-        lazada: 21
-        shopee: 3
+        lazada: 24
+        shopee: 6
       promos: []
     - name: Baking
       price: 175
@@ -41,11 +41,11 @@ variations:
         lazada: 12
         shopee: 9
       floating:
-        lazada: 6
-        shopee: 6
+        lazada: 0
+        shopee: 2
       sold:
-        lazada: 46
-        shopee: 1
+        lazada: 52
+        shopee: 6
       promos: []
     - name: Cooking
       price: 175
@@ -54,11 +54,11 @@ variations:
         lazada: 14
         shopee: 5
       floating:
-        lazada: 3
-        shopee: 3
-      sold:
-        lazada: 24
+        lazada: 1
         shopee: 0
+      sold:
+        lazada: 26
+        shopee: 3
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.eRgCQ

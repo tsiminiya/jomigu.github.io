@@ -11,11 +11,11 @@ variations:
         lazada: 9
         shopee: 9
       floating:
-        lazada: 1
-        shopee: 1
-      sold:
         lazada: 0
         shopee: 0
+      sold:
+        lazada: 1
+        shopee: 1
       promos: []
     - name: Mini Planner and Stickers
       price: 180
