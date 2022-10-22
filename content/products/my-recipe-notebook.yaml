@@ -38,26 +38,26 @@ variations:
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
-        lazada: 18
-        shopee: 9
+        lazada: 17
+        shopee: 10
       floating:
         lazada: 1
         shopee: 2
       sold:
-        lazada: 52
+        lazada: 53
         shopee: 6
       promos: []
     - name: Cooking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking.png
       stock:
-        lazada: 14
-        shopee: 6
+        lazada: 12
+        shopee: 12
       floating:
         lazada: 1
         shopee: 0
       sold:
-        lazada: 26
+        lazada: 28
         shopee: 3
       promos: []
 link:
