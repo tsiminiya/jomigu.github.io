@@ -11,10 +11,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 81
+        lazada: 82
         shopee: 37
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -25,39 +25,39 @@ variations:
       price: 239
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
       stock:
-        lazada: 22
+        lazada: 18
         shopee: 20
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 24
+        lazada: 32
         shopee: 6
       promos: []
     - name: Baking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
-        lazada: 15
-        shopee: 8
+        lazada: 22
+        shopee: 19
       floating:
-        lazada: 3
-        shopee: 4
+        lazada: 0
+        shopee: 2
       sold:
-        lazada: 53
-        shopee: 6
+        lazada: 56
+        shopee: 8
       promos: []
     - name: Cooking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking.png
       stock:
-        lazada: 10
-        shopee: 12
+        lazada: 16
+        shopee: 15
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 28
+        lazada: 31
         shopee: 3
       promos: []
 link:
