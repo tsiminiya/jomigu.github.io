@@ -22,13 +22,13 @@ variations:
       image: yl-special-line-stickers/yl-special-line-stickers_custom-24.png
       stock:
         lazada: 0
-        shopee: 30
+        shopee: 28
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
-        shopee: 2
+        shopee: 3
       promos: []
     - name: Custom 60
       price: 65
