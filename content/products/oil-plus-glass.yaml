@@ -3,10 +3,10 @@ name: The Essential Collective Oil + Glass Recipe Book Recipes Using Essential O
 featured: 'false'
 price: 2030
 stock:
-  lazada: 11
+  lazada: 10
   shopee: 0
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 3
@@ -51,4 +51,3 @@ description: |+
   !!! Available on-hand until stock lasts !!!
 
   Note: This is not photocopied. Please don't buy photocopied books. Let's support the publishing industry so, they can give us more quality materials.
-  
