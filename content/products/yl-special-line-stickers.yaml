@@ -25,10 +25,10 @@ variations:
         shopee: 28
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 0
-        shopee: 3
+        shopee: 4
       promos: []
     - name: Custom 60
       price: 65

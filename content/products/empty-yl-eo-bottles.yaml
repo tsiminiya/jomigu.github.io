@@ -256,7 +256,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_orange_15ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 2
           floating:
             lazada: 0
             shopee: 0
@@ -305,7 +305,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_peppermint_15ml.png
           stock:
             lazada: 0
-            shopee: 4
+            shopee: 5
           floating:
             lazada: 0
             shopee: 0

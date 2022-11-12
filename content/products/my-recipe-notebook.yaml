@@ -41,11 +41,11 @@ variations:
         lazada: 15
         shopee: 19
       floating:
-        lazada: 7
-        shopee: 2
+        lazada: 5
+        shopee: 1
       sold:
-        lazada: 56
-        shopee: 8
+        lazada: 58
+        shopee: 9
       promos: []
     - name: Cooking
       price: 175
@@ -55,10 +55,10 @@ variations:
         shopee: 14
       floating:
         lazada: 1
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 31
-        shopee: 3
+        shopee: 4
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.eRgCQ

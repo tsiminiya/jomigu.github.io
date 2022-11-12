@@ -6,7 +6,7 @@ stock:
   lazada: 0
   shopee: 0
 floating:
-  lazada: 1
+  lazada: 2
   shopee: 0
 sold:
   lazada: 95
