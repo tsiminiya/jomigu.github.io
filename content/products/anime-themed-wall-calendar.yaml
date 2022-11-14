@@ -10,10 +10,10 @@ variations:
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_spy-family.png
           stock:
-            lazada: 20
+            lazada: 18
             shopee: 20
           floating:
-            lazada: 0
+            lazada: 2
             shopee: 0
           sold:
             lazada: 0
