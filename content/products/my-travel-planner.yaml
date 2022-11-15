@@ -9,10 +9,10 @@ variations:
       image: my-travel-planner/my-travel-planner_planner-and-stickers.png
       stock:
         lazada: 12
-        shopee: 9
+        shopee: 8
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 1
         shopee: 1
