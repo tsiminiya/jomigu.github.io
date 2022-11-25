@@ -47,6 +47,19 @@ variations:
         lazada: 58
         shopee: 9
       promos: []
+    - name: Baking with 65 Sheets
+      price: 175
+      image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
+      stock:
+        lazada: 6
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
     - name: Cooking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking.png
@@ -59,6 +72,19 @@ variations:
       sold:
         lazada: 31
         shopee: 4
+      promos: []
+    - name: Cooking with 65 Sheets
+      price: 175
+      image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
+      stock:
+        lazada: 5
+        shopee: 0
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.eRgCQ
