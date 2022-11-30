@@ -26,7 +26,7 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_christmas-spirit_5ml.png
           stock:
             lazada: 0
-            shopee: 0
+            shopee: 1
           floating:
             lazada: 0
             shopee: 0
