@@ -41,10 +41,10 @@ variations:
         lazada: 10
         shopee: 18
       floating:
-        lazada: 10
+        lazada: 4
         shopee: 2
       sold:
-        lazada: 58
+        lazada: 64
         shopee: 9
       promos: []
     - name: Baking with 65 Sheets
@@ -67,10 +67,10 @@ variations:
         lazada: 14
         shopee: 13
       floating:
-        lazada: 7
+        lazada: 3
         shopee: 1
       sold:
-        lazada: 31
+        lazada: 35
         shopee: 4
       promos: []
     - name: Cooking with 65 Sheets
