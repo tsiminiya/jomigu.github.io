@@ -37,10 +37,10 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_one-piece.png
           stock:
             lazada: 20
-            shopee: 20
+            shopee: 19
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
