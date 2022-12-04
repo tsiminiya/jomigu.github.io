@@ -4,10 +4,10 @@ featured: 'false'
 price: 185
 stock:
   lazada: 4
-  shopee: 7
+  shopee: 6
 floating:
   lazada: 0
-  shopee: 0
+  shopee: 1
 sold:
   lazada: 3
   shopee: 1
@@ -28,7 +28,7 @@ tags:
   - watercolornotebook
   - stationery
   - drawing
-description: |+ 
+description: |+
   Pages were manually cut from 190 gsm water color paper, wire-bound together and covered by 300 gsm blank kraft board.
   You may use it for taking notes during a meeting or when you want to do watercolor painting.
   Or, for whatever reason you want - our goal in mind is to allow your creativity to flow anytime you use this watercolor notebook.
