@@ -52,7 +52,7 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
       stock:
         lazada: 7
-        shopee: 0
+        shopee: 6
       floating:
         lazada: 2
         shopee: 0
