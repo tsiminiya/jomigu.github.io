@@ -13,11 +13,11 @@ variations:
             lazada: 18
             shopee: 19
           floating:
-            lazada: 2
-            shopee: 1
-          sold:
             lazada: 0
             shopee: 0
+          sold:
+            lazada: 2
+            shopee: 1
           promos: []
         - name: Demon Slayer
           price: 90
