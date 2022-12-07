@@ -4,10 +4,10 @@ featured: 'false'
 price: 160
 stock:
   lazada: 6
-  shopee: 1
+  shopee: 0
 floating:
   lazada: 0
-  shopee: 3
+  shopee: 4
 sold:
   lazada: 21
   shopee: 1
