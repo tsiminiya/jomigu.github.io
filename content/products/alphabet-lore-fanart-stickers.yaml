@@ -1,0 +1,92 @@
+id: 3aa597ad-d0f9-400a-bf64-233d45543380
+name: Alphabet Lore Fanart Stickers
+featured: 'false'
+variations:
+  name: Material
+  options:
+    - name: Finish
+      options:
+        - name: Waterproof
+          options:
+            - name: Uppercase
+              price: 35
+              image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-waterproof.png
+              stock:
+                lazada: 20
+                shopee: 20
+              floating:
+                lazada: 0
+                shopee: 0
+              sold:
+                lazada: 0
+                shopee: 0
+              promos: []
+            - name: Lowercase
+              price: 35
+              image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-waterproof.png
+              stock:
+                lazada: 20
+                shopee: 20
+              floating:
+                lazada: 0
+                shopee: 0
+              sold:
+                lazada: 0
+                shopee: 0
+              promos: []
+        - name: Waterproof+Scratch Proof
+          options:
+            - name: Uppercase
+              price: 60
+              image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-scratch-proof.png
+              stock:
+                lazada: 20
+                shopee: 20
+              floating:
+                lazada: 0
+                shopee: 0
+              sold:
+                lazada: 0
+                shopee: 0
+              promos: []
+            - name: Lowercase
+              price: 60
+              image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-scratch-proof.png
+              stock:
+                lazada: 20
+                shopee: 20
+              floating:
+                lazada: 0
+                shopee: 0
+              sold:
+                lazada: 0
+                shopee: 0
+              promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.g8Sig
+  shopee: https://shopee.ph/product/131641645/19168358108
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+images:
+  - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_01.png
+  - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_02.png
+  - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_03.png
+sharing_image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_sharing.png
+tags:
+  - anime
+  - wallcalendar
+  - planner
+  - calendar
+description: |+
+  Plan your new year ahead with this A5-size Wall Calendar.
+
+  We designed it with your favorite anime characters like Anya, Nezuko, Tanjiro and Monkey D. Luffy
+  Perfect for Christmas/New Year Day gifts.
+
+  Made of Kraft Paper - 300gsm for the cover and 150gsm for the contents.
+
+  Currently, we have the following themes available
+  * One Piece
+  * My Hero Academia
+  * Demon Slayer
+  * and, Spy Family
