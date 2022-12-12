@@ -9,7 +9,7 @@ variations:
       image: ballers-fanart-stickers/ballers-fanart-stickers_05.png
       stock:
         lazada: 20
-        shopee: 0
+        shopee: 20
       floating:
         lazada: 0
         shopee: 0
@@ -22,7 +22,7 @@ variations:
       image: ballers-fanart-stickers/ballers-fanart-stickers_06.png
       stock:
         lazada: 19
-        shopee: 0
+        shopee: 20
       floating:
         lazada: 0
         shopee: 0
@@ -32,7 +32,7 @@ variations:
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.UhOrz
-  shopee: 
+  shopee:
 categories:
   - 25dbe6a1-67e7-4c9f-a314-49a3e4369bea
 images:
@@ -58,9 +58,9 @@ description: |+
 
   Batch One:
   LaMelo Ball,
-  Luka Dončić, 
-  Stephen Curry, 
+  Luka Dončić,
+  Stephen Curry,
   Kevin Durant,
-  LeBron James, 
+  LeBron James,
   Ja Morant,
   Giannis Antetokounmpo
