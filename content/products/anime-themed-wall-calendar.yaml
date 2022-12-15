@@ -24,10 +24,10 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
           stock:
             lazada: 19
-            shopee: 19
+            shopee: 18
           floating:
             lazada: 1
-            shopee: 1
+            shopee: 2
           sold:
             lazada: 0
             shopee: 0
@@ -50,10 +50,10 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_my-hero-academia.png
           stock:
             lazada: 20
-            shopee: 20
+            shopee: 19
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
