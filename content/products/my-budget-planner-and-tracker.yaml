@@ -26,10 +26,10 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
       stock:
         lazada: 2
-        shopee: 14
+        shopee: 13
       floating:
         lazada: 8
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 21
         shopee: 1
