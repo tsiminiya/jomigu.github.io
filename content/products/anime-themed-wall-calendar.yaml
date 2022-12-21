@@ -11,10 +11,10 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_spy-family.png
           stock:
             lazada: 18
-            shopee: 19
+            shopee: 18
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 2
             shopee: 1
