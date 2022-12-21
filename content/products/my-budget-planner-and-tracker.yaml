@@ -8,10 +8,10 @@ variations:
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       stock:
-        lazada: 8
-        shopee: 5
+        lazada: 11
+        shopee: 10
       floating:
-        lazada: 30
+        lazada: 33
         shopee: 12
       sold:
         lazada: 114
