@@ -21,10 +21,10 @@ variations:
       price: 180
       image: my-travel-planner/my-travel-planner_mini-planner-and-stickers.png
       stock:
-        lazada: 10
+        lazada: 9
         shopee: 8
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 2
       sold:
         lazada: 0

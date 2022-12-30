@@ -23,10 +23,10 @@ variations:
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
           stock:
-            lazada: 18
+            lazada: 17
             shopee: 16
           floating:
-            lazada: 2
+            lazada: 3
             shopee: 4
           sold:
             lazada: 0

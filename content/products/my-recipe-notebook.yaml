@@ -29,10 +29,10 @@ variations:
         shopee: 6
       floating:
         lazada: 6
-        shopee: 4
+        shopee: 3
       sold:
         lazada: 45
-        shopee: 16
+        shopee: 17
       promos: []
     - name: Baking
       price: 175
