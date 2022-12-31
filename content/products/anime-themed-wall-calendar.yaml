@@ -14,10 +14,10 @@ variations:
             shopee: 17
           floating:
             lazada: 1
-            shopee: 2
+            shopee: 1
           sold:
             lazada: 2
-            shopee: 1
+            shopee: 2
           promos: []
         - name: Demon Slayer
           price: 90
@@ -27,10 +27,10 @@ variations:
             shopee: 16
           floating:
             lazada: 3
-            shopee: 4
+            shopee: 3
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos: []
         - name: One Piece
           price: 90
@@ -40,10 +40,10 @@ variations:
             shopee: 17
           floating:
             lazada: 0
-            shopee: 3
+            shopee: 2
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos: []
         - name: My Hero Academia
           price: 90
@@ -53,10 +53,10 @@ variations:
             shopee: 18
           floating:
             lazada: 0
-            shopee: 2
+            shopee: 1
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos: []
 link:
   lazada: https://s.lazada.com.ph/s.5GyRg
