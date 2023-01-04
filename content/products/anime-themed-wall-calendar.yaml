@@ -11,10 +11,10 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_spy-family.png
           stock:
             lazada: 17
-            shopee: 17
+            shopee: 16
           floating:
             lazada: 1
-            shopee: 1
+            shopee: 2
           sold:
             lazada: 2
             shopee: 2
@@ -23,10 +23,10 @@ variations:
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
           stock:
-            lazada: 17
+            lazada: 16
             shopee: 16
           floating:
-            lazada: 3
+            lazada: 4
             shopee: 3
           sold:
             lazada: 0
@@ -36,11 +36,11 @@ variations:
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_one-piece.png
           stock:
-            lazada: 20
-            shopee: 17
+            lazada: 19
+            shopee: 14
           floating:
-            lazada: 0
-            shopee: 2
+            lazada: 1
+            shopee: 5
           sold:
             lazada: 0
             shopee: 1
@@ -49,11 +49,11 @@ variations:
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_my-hero-academia.png
           stock:
-            lazada: 20
-            shopee: 18
+            lazada: 19
+            shopee: 17
           floating:
-            lazada: 0
-            shopee: 1
+            lazada: 1
+            shopee: 2
           sold:
             lazada: 0
             shopee: 1
