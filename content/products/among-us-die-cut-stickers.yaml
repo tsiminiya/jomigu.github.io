@@ -3,10 +3,10 @@ name: Among Us Stickers - Die Cut - Waterproof and Scratch-proof
 featured: 'false'
 price: 60
 stock:
-  lazada: 25
+  lazada: 24
   shopee: 26
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 5

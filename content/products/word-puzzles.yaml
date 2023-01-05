@@ -3,10 +3,10 @@ name: Jeremy and The Beanstalk Word Puzzles Activity Book
 featured: 'false'
 price: 251
 stock:
-  lazada: 15
+  lazada: 14
   shopee: 14
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 0
