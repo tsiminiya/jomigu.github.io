@@ -28,10 +28,10 @@ variations:
         lazada: 0
         shopee: 1
       floating:
-        lazada: 11
+        lazada: 5
         shopee: 8
       sold:
-        lazada: 45
+        lazada: 51
         shopee: 17
       promos: []
     - name: Baking
@@ -54,10 +54,10 @@ variations:
         lazada: 1
         shopee: 4
       floating:
-        lazada: 8
+        lazada: 3
         shopee: 5
       sold:
-        lazada: 8
+        lazada: 13
         shopee: 0
       promos: []
     - name: Cooking
@@ -80,10 +80,10 @@ variations:
         lazada: 2
         shopee: 5
       floating:
-        lazada: 7
+        lazada: 3
         shopee: 1
       sold:
-        lazada: 6
+        lazada: 10
         shopee: 0
       promos: []
 link:

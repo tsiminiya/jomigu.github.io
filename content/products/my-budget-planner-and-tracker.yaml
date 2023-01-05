@@ -11,10 +11,10 @@ variations:
         lazada: 0
         shopee: 1
       floating:
-        lazada: 49
+        lazada: 17
         shopee: 10
       sold:
-        lazada: 142
+        lazada: 174
         shopee: 18
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -28,10 +28,10 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 21
+        lazada: 6
         shopee: 7
       sold:
-        lazada: 21
+        lazada: 36
         shopee: 1
       promos: []
 link:
