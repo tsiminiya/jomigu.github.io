@@ -1,0 +1,62 @@
+id: 57411e25-3ced-4858-9ede-687cdaccc16e
+name: e-Wallet Passbook
+featured: 'false'
+variations:
+  name: Wallet
+  options:
+    - name: GCash
+      price: 110
+      image: e-wallet-passbook/e-wallet-passbook_gcash.png
+      stock:
+        lazada: 40
+        shopee: 17
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+    - name: Maya
+      price: 110
+      image: e-wallet-passbook/e-wallet-passbook_maya.png
+      stock:
+        lazada: 39
+        shopee: 20
+      floating:
+        lazada: 0
+        shopee: 0
+      sold:
+        lazada: 0
+        shopee: 0
+      promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.gFRxV
+  shopee: https://shopee.ph/product/131641645/21670211758
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+images:
+  - e-wallet-passbook/e-wallet-passbook_01.png
+  - e-wallet-passbook/e-wallet-passbook_02.png
+  - e-wallet-passbook/e-wallet-passbook_03.png
+  - e-wallet-passbook/e-wallet-passbook_04.png
+  - e-wallet-passbook/e-wallet-passbook_05.png
+sharing_image: e-wallet-passbook/e-wallet-passbook_sharing.png
+tags:
+  - myrecipenotebook
+  - notebook
+  - recipe
+  - food
+description: |+
+  Even if you memorized your recipe by heart, it is best to have a back-up and a record where you can always go back and review whenever you need.
+
+  Write your recipes on this notebook and compute the costing and pricing if you want to earn money from your recipes.
+
+  Notebook inclues x25 recipe sheets.
+
+  Each pad of the notebook is 70 gsm.
+
+  Available Versions:
+  * Original
+  * Baking
+  * Cooking
