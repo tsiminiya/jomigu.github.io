@@ -109,13 +109,13 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_frankincense_5ml.png
           stock:
             lazada: 0
-            shopee: 4
+            shopee: 1
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 3
           sold:
             lazada: 0
-            shopee: 1
+            shopee: 2
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -160,10 +160,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_5ml.png
           stock:
             lazada: 0
-            shopee: 13
+            shopee: 12
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 1
@@ -175,10 +175,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lavender_15ml.png
           stock:
             lazada: 0
-            shopee: 5
+            shopee: 4
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
@@ -239,10 +239,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_lemongrass_15ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 0
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
@@ -290,10 +290,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_peppermint_5ml.png
           stock:
             lazada: 0
-            shopee: 4
+            shopee: 1
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 3
           sold:
             lazada: 0
             shopee: 0
@@ -339,10 +339,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_rc_5ml.png
           stock:
             lazada: 0
-            shopee: 2
+            shopee: 0
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 2
           sold:
             lazada: 0
             shopee: 0
@@ -420,10 +420,10 @@ variations:
           image: empty-yl-eo-bottles/empty-yl-eo-bottles_thieves_15ml.png
           stock:
             lazada: 0
-            shopee: 1
+            shopee: 0
           floating:
             lazada: 0
-            shopee: 0
+            shopee: 1
           sold:
             lazada: 0
             shopee: 0
