@@ -51,7 +51,7 @@ variations:
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
       stock:
-        lazada: 0
+        lazada: 2
         shopee: 4
       floating:
         lazada: 4
