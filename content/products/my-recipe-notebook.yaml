@@ -26,10 +26,10 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 5
-        shopee: 8
+        shopee: 9
       sold:
         lazada: 51
         shopee: 17
@@ -39,10 +39,10 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       stock:
         lazada: 8
-        shopee: 14
+        shopee: 13
       floating:
         lazada: 10
-        shopee: 6
+        shopee: 7
       sold:
         lazada: 68
         shopee: 9
