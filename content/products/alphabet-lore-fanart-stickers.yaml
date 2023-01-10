@@ -11,56 +11,72 @@ variations:
             - name: Uppercase
               price: 35
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-waterproof.png
+              actual-stock: 0
               stock:
                 lazada: 8
                 shopee: 20
+                tiktok: 20
               floating:
                 lazada: 2
                 shopee: 0
+                tiktok: 0
               sold:
                 lazada: 10
                 shopee: 0
+                tiktok: 0
               promos: []
             - name: Lowercase
               price: 35
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-waterproof.png
+              actual-stock: 0
               stock:
-                lazada: 20
-                shopee: 20
+                lazada: 0
+                shopee: 0
+                tiktok: 0
               floating:
                 lazada: 0
                 shopee: 0
+                tiktok: 0
               sold:
                 lazada: 0
                 shopee: 0
+                tiktok: 0
               promos: []
         - name: Waterproof+Scratch Proof
           options:
             - name: Uppercase
               price: 60
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-scratch-proof.png
+              actual-stock: 0
               stock:
-                lazada: 4
+                lazada: 6
                 shopee: 20
+                tiktok: 20
               floating:
                 lazada: 1
                 shopee: 0
+                tiktok: 0
               sold:
                 lazada: 15
                 shopee: 0
+                tiktok: 0
               promos: []
             - name: Lowercase
               price: 60
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-scratch-proof.png
+              actual-stock: 0
               stock:
-                lazada: 20
-                shopee: 20
+                lazada: 0
+                shopee: 0
+                tiktok: 0
               floating:
                 lazada: 0
                 shopee: 0
+                tiktok: 0
               sold:
                 lazada: 0
                 shopee: 0
+                tiktok: 0
               promos: []
 link:
   lazada: https://s.lazada.com.ph/s.g8Sig

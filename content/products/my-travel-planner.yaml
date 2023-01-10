@@ -7,41 +7,53 @@ variations:
     - name: Planner and Stickers
       price: 346
       image: my-travel-planner/my-travel-planner_planner-and-stickers.png
+      actual-stock: 9
       stock:
-        lazada: 11
-        shopee: 5
+        lazada: 30
+        shopee: 25
+        tiktok: 20
       floating:
         lazada: 0
         shopee: 1
+        tiktok: 0
       sold:
         lazada: 2
         shopee: 4
+        tiktok: 0
       promos: []
     - name: Mini Planner and Stickers
       price: 180
       image: my-travel-planner/my-travel-planner_mini-planner-and-stickers.png
+      actual-stock: 0
       stock:
-        lazada: 8
-        shopee: 7
+        lazada: 28
+        shopee: 27
+        tiktok: 20
       floating:
         lazada: 1
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 1
         shopee: 3
+        tiktok: 0
       promos: []
     - name: Stickers
       price: 82
       image: my-travel-planner/my-travel-planner_stickers.png
+      actual-stock: 0
       stock:
-        lazada: 16
-        shopee: 20
+        lazada: 36
+        shopee: 40
+        tiktok: 20
       floating:
         lazada: 0
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 4
         shopee: 0
+        tiktok: 0
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.53MPG

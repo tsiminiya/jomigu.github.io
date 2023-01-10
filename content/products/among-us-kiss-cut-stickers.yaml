@@ -2,15 +2,19 @@ id: 90a679ab-927f-4f8a-97cd-26e50de826da
 name: Among Us Stickers - Kiss Cut - Waterproof and Scratch-proof
 featured: 'false'
 price: 60
+actual-stock: 0
 stock:
   lazada: 8
   shopee: 9
+  tiktok: 20
 floating:
   lazada: 0
   shopee: 0
+  tiktok: 0
 sold:
   lazada: 2
   shopee: 1
+  tiktok: 0
 link:
   lazada: https://s.lazada.com.ph/s.WAvt5
   shopee: https://shopee.ph/product/131641645/3484186979

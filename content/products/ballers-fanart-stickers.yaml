@@ -7,28 +7,36 @@ variations:
     - name: Medium
       price: 100
       image: ballers-fanart-stickers/ballers-fanart-stickers_05.png
+      actual-stock: 0
       stock:
         lazada: 20
         shopee: 20
+        tiktok: 20
       floating:
         lazada: 0
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 0
         shopee: 0
+        tiktok: 0
       promos: []
     - name: Small
       price: 100
       image: ballers-fanart-stickers/ballers-fanart-stickers_06.png
+      actual-stock: 0
       stock:
         lazada: 19
         shopee: 20
+        tiktok: 20
       floating:
         lazada: 0
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 1
         shopee: 0
+        tiktok: 0
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.UhOrz

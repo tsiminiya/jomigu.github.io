@@ -9,54 +9,70 @@ variations:
         - name: Spy Family
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_spy-family.png
+          actual-stock: 0
           stock:
             lazada: 17
             shopee: 14
+            tiktok: 20
           floating:
             lazada: 0
             shopee: 2
+            tiktok: 0
           sold:
             lazada: 3
             shopee: 4
+            tiktok: 0
           promos: []
         - name: Demon Slayer
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
+          actual-stock: 0
           stock:
             lazada: 14
             shopee: 16
+            tiktok: 20
           floating:
             lazada: 1
             shopee: 0
+            tiktok: 0
           sold:
             lazada: 5
             shopee: 4
+            tiktok: 0
           promos: []
         - name: One Piece
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_one-piece.png
+          actual-stock: 0
           stock:
             lazada: 16
             shopee: 13
+            tiktok: 20
           floating:
             lazada: 1
             shopee: 1
+            tiktok: 0
           sold:
             lazada: 3
             shopee: 6
+            tiktok: 0
           promos: []
         - name: My Hero Academia
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_my-hero-academia.png
+          actual-stock: 0
           stock:
             lazada: 18
             shopee: 15
+            tiktok: 20
           floating:
             lazada: 1
             shopee: 0
+            tiktok: 0
           sold:
             lazada: 2
             shopee: 4
+            tiktok: 0
           promos: []
 link:
   lazada: https://s.lazada.com.ph/s.5GyRg
