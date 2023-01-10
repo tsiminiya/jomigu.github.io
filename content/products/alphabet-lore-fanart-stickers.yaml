@@ -12,10 +12,10 @@ variations:
               price: 35
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-waterproof.png
               stock:
-                lazada: 10
+                lazada: 8
                 shopee: 20
               floating:
-                lazada: 10
+                lazada: 12
                 shopee: 0
               sold:
                 lazada: 0
