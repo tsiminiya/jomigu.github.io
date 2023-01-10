@@ -15,10 +15,10 @@ variations:
                 lazada: 8
                 shopee: 20
               floating:
-                lazada: 12
+                lazada: 2
                 shopee: 0
               sold:
-                lazada: 0
+                lazada: 10
                 shopee: 0
               promos: []
             - name: Lowercase
@@ -43,10 +43,10 @@ variations:
                 lazada: 4
                 shopee: 20
               floating:
-                lazada: 16
+                lazada: 1
                 shopee: 0
               sold:
-                lazada: 0
+                lazada: 15
                 shopee: 0
               promos: []
             - name: Lowercase

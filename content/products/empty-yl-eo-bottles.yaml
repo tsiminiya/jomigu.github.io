@@ -29,10 +29,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 2
+            shopee: 3
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -80,10 +80,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -112,10 +112,10 @@ variations:
             shopee: 1
           floating:
             lazada: 0
-            shopee: 3
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 2
+            shopee: 5
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -146,10 +146,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -163,10 +163,10 @@ variations:
             shopee: 12
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 1
+            shopee: 2
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -178,10 +178,10 @@ variations:
             shopee: 4
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 54
@@ -242,10 +242,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 54
@@ -293,10 +293,10 @@ variations:
             shopee: 1
           floating:
             lazada: 0
-            shopee: 3
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 3
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -342,10 +342,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 2
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 2
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -391,10 +391,10 @@ variations:
             shopee: 2
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 1
+            shopee: 2
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 30
@@ -423,10 +423,10 @@ variations:
             shopee: 0
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
           sold:
             lazada: 0
-            shopee: 0
+            shopee: 1
           promos:
             - id: eb0b49d6-82de-4046-b532-15c89c07a02d
               price: 54

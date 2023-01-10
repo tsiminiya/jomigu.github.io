@@ -28,11 +28,11 @@ variations:
         lazada: 0
         shopee: 0
       floating:
-        lazada: 5
-        shopee: 9
+        lazada: 0
+        shopee: 2
       sold:
-        lazada: 51
-        shopee: 17
+        lazada: 56
+        shopee: 24
       promos: []
     - name: Baking
       price: 175
@@ -41,11 +41,11 @@ variations:
         lazada: 7
         shopee: 13
       floating:
-        lazada: 11
-        shopee: 7
+        lazada: 1
+        shopee: 2
       sold:
-        lazada: 68
-        shopee: 9
+        lazada: 87
+        shopee: 14
       promos: []
     - name: Baking with 65 Sheets
       price: 175
@@ -54,11 +54,11 @@ variations:
         lazada: 1
         shopee: 4
       floating:
-        lazada: 5
-        shopee: 5
-      sold:
-        lazada: 13
+        lazada: 2
         shopee: 0
+      sold:
+        lazada: 16
+        shopee: 5
       promos: []
     - name: Cooking
       price: 175
@@ -67,11 +67,11 @@ variations:
         lazada: 3
         shopee: 5
       floating:
-        lazada: 7
-        shopee: 4
+        lazada: 1
+        shopee: 0
       sold:
-        lazada: 42
-        shopee: 9
+        lazada: 48
+        shopee: 13
       promos: []
     - name: Cooking with 65 Sheets
       price: 175
@@ -80,11 +80,11 @@ variations:
         lazada: 1
         shopee: 5
       floating:
-        lazada: 4
-        shopee: 1
-      sold:
-        lazada: 10
+        lazada: 2
         shopee: 0
+      sold:
+        lazada: 12
+        shopee: 1
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.eRgCQ
