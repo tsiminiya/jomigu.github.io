@@ -45,13 +45,13 @@ variations:
     - name: Baking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking.png
-      actual-stock: 17
+      actual-stock: 15
       stock:
-        lazada: 5
+        lazada: 3
         shopee: 12
         tiktok: 20
       floating:
-        lazada: 2
+        lazada: 4
         shopee: 2
         tiktok: 0
       sold:
@@ -98,11 +98,11 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
       actual-stock: 0
       stock:
-        lazada: 20
+        lazada: 19
         shopee: 24
         tiktok: 0
       floating:
-        lazada: 2
+        lazada: 3
         shopee: 1
         tiktok: 0
       sold:
