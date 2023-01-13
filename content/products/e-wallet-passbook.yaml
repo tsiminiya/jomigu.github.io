@@ -8,10 +8,10 @@ variations:
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
       stock:
-        lazada: 40
+        lazada: 37
         shopee: 17
       floating:
-        lazada: 0
+        lazada: 3
         shopee: 0
       sold:
         lazada: 0
