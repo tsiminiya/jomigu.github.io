@@ -38,10 +38,10 @@ variations:
         shopee: 23
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 6
-        shopee: 6
+        shopee: 7
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.dbokf

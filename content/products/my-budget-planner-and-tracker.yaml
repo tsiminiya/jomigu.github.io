@@ -13,13 +13,13 @@ variations:
         shopee: 24
         tiktok: 20
       floating:
-        lazada: 7
-        shopee: 2
-        tiktok: 2
-      sold:
-        lazada: 191
-        shopee: 27
+        lazada: 3
+        shopee: 1
         tiktok: 0
+      sold:
+        lazada: 195
+        shopee: 28
+        tiktok: 2
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
           price: 417
@@ -34,13 +34,13 @@ variations:
         shopee: 21
         tiktok: 20
       floating:
-        lazada: 4
-        shopee: 2
-        tiktok: 1
-      sold:
-        lazada: 42
-        shopee: 7
+        lazada: 2
+        shopee: 1
         tiktok: 0
+      sold:
+        lazada: 44
+        shopee: 8
+        tiktok: 1
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.3dGoz

@@ -11,10 +11,10 @@ variations:
         lazada: 37
         shopee: 17
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
       sold:
-        lazada: 0
+        lazada: 3
         shopee: 0
       promos: []
     - name: Maya
