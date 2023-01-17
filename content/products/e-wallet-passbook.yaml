@@ -7,12 +7,12 @@ variations:
     - name: GCash
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
-      actual-stock: 2
+      actual-stock: 0
       stock:
-        lazada: 36
+        lazada: 28
         shopee: 16
       floating:
-        lazada: 1
+        lazada: 9
         shopee: 1
       sold:
         lazada: 3
@@ -21,12 +21,12 @@ variations:
     - name: Maya
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_maya.png
-      actual-stock: 5
+      actual-stock: 1
       stock:
-        lazada: 39
+        lazada: 33
         shopee: 19
       floating:
-        lazada: 0
+        lazada: 6
         shopee: 1
       sold:
         lazada: 0
