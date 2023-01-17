@@ -13,11 +13,11 @@ variations:
         shopee: 22
         tiktok: 20
       floating:
-        lazada: 6
+        lazada: 1
         shopee: 3
         tiktok: 0
       sold:
-        lazada: 195
+        lazada: 200
         shopee: 28
         tiktok: 2
       promos:
@@ -34,13 +34,30 @@ variations:
         shopee: 21
         tiktok: 20
       floating:
-        lazada: 2
+        lazada: 0
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 44
+        lazada: 46
         shopee: 8
         tiktok: 1
+      promos: []
+    - name: Piggy Bank
+      price: 348
+      image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
+      actual-stock: 2
+      stock:
+        lazada: 20
+        shopee: 20
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.3dGoz

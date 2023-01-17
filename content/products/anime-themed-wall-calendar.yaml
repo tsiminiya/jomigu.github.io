@@ -33,11 +33,11 @@ variations:
             tiktok: 20
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
             tiktok: 0
           sold:
             lazada: 6
-            shopee: 4
+            shopee: 5
             tiktok: 0
           promos: []
         - name: One Piece
@@ -50,11 +50,11 @@ variations:
             tiktok: 20
           floating:
             lazada: 0
-            shopee: 1
+            shopee: 0
             tiktok: 0
           sold:
             lazada: 4
-            shopee: 7
+            shopee: 8
             tiktok: 0
           promos: []
         - name: My Hero Academia
