@@ -60,7 +60,7 @@ variations:
         - name: My Hero Academia
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_my-hero-academia.png
-          actual-stock: 0
+          actual-stock: 2
           stock:
             lazada: 18
             shopee: 15
