@@ -4,6 +4,7 @@ export const getStats = (product: any, variations: any) => {
   let stockTotal = 0
   let floatingTotal = 0
   let soldTotal = 0
+  let actualStockTotal = 0
 
   const stock = variations.isEmpty()
     ? product.stock
@@ -26,7 +27,14 @@ export const getStats = (product: any, variations: any) => {
     floatingTotal += entry[1]
   })
 
-  return { stockTotal, soldTotal, floatingTotal }
+  const actualStock = variations.isEmpty()
+    ? product['actual-stock'] || 0
+    : variations.getOverallStats()['actual-stock'] || 0
+  Object.entries(actualStock).forEach((entry: [any, any]) => {
+    actualStockTotal += entry[1]
+  })
+
+  return { stockTotal, soldTotal, floatingTotal, actualStockTotal }
 }
 
 export const project = (product: any) => {
@@ -41,6 +49,7 @@ export const project = (product: any) => {
     stock: stats.stockTotal,
     sold: stats.soldTotal,
     floating: stats.floatingTotal,
+    readyToShip: stats.actualStockTotal,
     mainImage: product.images[0],
     promos: product.promos,
     variations: product.variations,

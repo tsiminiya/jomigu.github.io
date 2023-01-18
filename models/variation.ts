@@ -32,6 +32,7 @@ export class Variations {
   name: string = ''
   price: number | undefined
   stock: { [key: string]: number } = {}
+  'actual-stock': number = 0
   sold: { [key: string]: number } = {}
   floating: { [key: string]: number } = {}
   image: string | undefined
@@ -173,6 +174,15 @@ export class Variations {
       overallStats,
       'floating'
     )
+
+    const actualStock: { [key: string]: number } = {
+      lazada: variation['actual-stock'],
+    }
+    overallStats = this.addStatsToField(
+      actualStock,
+      overallStats,
+      'actual-stock'
+    )
     return overallStats
   }
 
@@ -248,6 +258,7 @@ export class Variations {
     v.price = variation.price
     v.promos = variation.promos
     v.stock = Variations.mapStats(variation.stock)
+    v['actual-stock'] = variation['actual-stock']
     v.sold = Variations.mapStats(variation.sold)
     v.floating = Variations.mapStats(variation.floating)
     v.image = variation.image

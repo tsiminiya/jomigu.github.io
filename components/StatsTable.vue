@@ -22,6 +22,15 @@
         </th>
         <th>
           <table-header-sort-link
+            name="readyToShip"
+            title="Ready To Ship"
+            :sort-by="sortBy"
+            :ascending="ascending"
+            :on-change-sort="onChangeSort"
+          />
+        </th>
+        <th>
+          <table-header-sort-link
             name="floating"
             title="Floating"
             :sort-by="sortBy"
@@ -44,6 +53,7 @@
       <tr v-for="product in sortedProducts" :key="product.id">
         <td>{{ product.name }}</td>
         <td>{{ product.stock }}</td>
+        <td>{{ product.readyToShip || 0 }}</td>
         <td
           :class="`${
             product.floating > 0 ? 'text-warning font-weight-bold' : ''
