@@ -43,7 +43,7 @@ variations:
         - name: One Piece
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_one-piece.png
-          actual-stock: 1
+          actual-stock: 0
           stock:
             lazada: 16
             shopee: 12
