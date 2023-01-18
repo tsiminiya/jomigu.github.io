@@ -96,13 +96,13 @@ variations:
     - name: Cooking with 65 Sheets
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
-      actual-stock: 2
+      actual-stock: 0
       stock:
-        lazada: 17
+        lazada: 15
         shopee: 23
         tiktok: 0
       floating:
-        lazada: 2
+        lazada: 4
         shopee: 1
         tiktok: 0
       sold:
