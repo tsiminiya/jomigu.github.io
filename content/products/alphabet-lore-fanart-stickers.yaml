@@ -30,9 +30,9 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-waterproof.png
               actual-stock: 0
               stock:
-                lazada: 0
-                shopee: 0
-                tiktok: 0
+                lazada: 20
+                shopee: 20
+                tiktok: 20
               floating:
                 lazada: 0
                 shopee: 0
@@ -66,9 +66,9 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-scratch-proof.png
               actual-stock: 0
               stock:
-                lazada: 0
-                shopee: 0
-                tiktok: 0
+                lazada: 20
+                shopee: 20
+                tiktok: 20
               floating:
                 lazada: 0
                 shopee: 0
@@ -87,6 +87,7 @@ images:
   - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_01.png
   - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_02.png
   - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_03.png
+  - alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_04.png
 sharing_image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_sharing.png
 tags:
   - anime
