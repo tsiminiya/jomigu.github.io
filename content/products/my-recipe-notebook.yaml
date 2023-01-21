@@ -30,11 +30,11 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
       actual-stock: 2
       stock:
-        lazada: 18
+        lazada: 17
         shopee: 16
         tiktok: 20
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 4
         tiktok: 0
       sold:
