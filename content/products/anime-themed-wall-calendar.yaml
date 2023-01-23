@@ -26,7 +26,7 @@ variations:
         - name: Demon Slayer
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
-          actual-stock: 0
+          actual-stock: 1
           stock:
             lazada: 14
             shopee: 15
