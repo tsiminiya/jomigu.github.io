@@ -28,14 +28,14 @@ variations:
     - name: Original with 65 Sheets
       price: 239
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
-      actual-stock: 7
+      actual-stock: 6
       stock:
         lazada: 17
-        shopee: 15
+        shopee: 14
         tiktok: 20
       floating:
         lazada: 1
-        shopee: 4
+        shopee: 5
         tiktok: 0
       sold:
         lazada: 58
