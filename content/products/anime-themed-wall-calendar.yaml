@@ -16,11 +16,11 @@ variations:
             tiktok: 20
           floating:
             lazada: 0
-            shopee: 2
+            shopee: 1
             tiktok: 0
           sold:
             lazada: 3
-            shopee: 6
+            shopee: 7
             tiktok: 0
           promos: []
         - name: Demon Slayer
@@ -49,11 +49,11 @@ variations:
             shopee: 12
             tiktok: 20
           floating:
-            lazada: 1
+            lazada: 0
             shopee: 0
             tiktok: 0
           sold:
-            lazada: 4
+            lazada: 5
             shopee: 8
             tiktok: 0
           promos: []
