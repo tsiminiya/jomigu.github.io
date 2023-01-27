@@ -28,11 +28,11 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_demon-slayer.png
           actual-stock: 1
           stock:
-            lazada: 14
+            lazada: 13
             shopee: 13
             tiktok: 20
           floating:
-            lazada: 0
+            lazada: 1
             shopee: 2
             tiktok: 0
           sold:
@@ -45,11 +45,11 @@ variations:
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_one-piece.png
           actual-stock: 0
           stock:
-            lazada: 15
+            lazada: 14
             shopee: 12
             tiktok: 20
           floating:
-            lazada: 0
+            lazada: 1
             shopee: 0
             tiktok: 0
           sold:
