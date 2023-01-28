@@ -28,7 +28,7 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 8
+      actual-stock: 9
       stock:
         lazada: 28
         shopee: 29
@@ -45,7 +45,7 @@ variations:
     - name: Piggy Bank
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
-      actual-stock: 6
+      actual-stock: 9
       stock:
         lazada: 21
         shopee: 28
