@@ -114,10 +114,10 @@ variations:
       image: new-normal-facemask/new-normal-facemask_xoxo_pastel-green.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
       sold:
         lazada: 0
         shopee: 1

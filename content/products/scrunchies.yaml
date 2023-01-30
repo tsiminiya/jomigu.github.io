@@ -9,10 +9,10 @@ variations:
       image: scrunchies/scrunchies_beige.png
       stock:
         lazada: 0
-        shopee: 1
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
       sold:
         lazada: 0
         shopee: 1
@@ -84,10 +84,10 @@ variations:
       image: scrunchies/scrunchies_silver-grey.png
       stock:
         lazada: 0
-        shopee: 2
+        shopee: 0
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 1
         shopee: 0
@@ -144,10 +144,10 @@ variations:
       image: scrunchies/scrunchies_mauve-lilac.png
       stock:
         lazada: 0
-        shopee: 3
+        shopee: 1
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 0
         shopee: 0

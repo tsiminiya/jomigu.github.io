@@ -16,11 +16,11 @@ variations:
             tiktok: 20
           floating:
             lazada: 0
-            shopee: 2
+            shopee: 1
             tiktok: 0
           sold:
             lazada: 3
-            shopee: 7
+            shopee: 8
             tiktok: 0
           promos: []
         - name: Demon Slayer
@@ -33,11 +33,11 @@ variations:
             tiktok: 20
           floating:
             lazada: 1
-            shopee: 1
+            shopee: 0
             tiktok: 0
           sold:
             lazada: 6
-            shopee: 6
+            shopee: 7
             tiktok: 0
           promos: []
         - name: One Piece
