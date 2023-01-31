@@ -13,10 +13,10 @@ variations:
         shopee: 15
       floating:
         lazada: 2
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 12
-        shopee: 1
+        shopee: 2
       promos: []
     - name: Maya
       price: 110
@@ -27,10 +27,10 @@ variations:
         shopee: 18
       floating:
         lazada: 2
-        shopee: 1
+        shopee: 0
       sold:
         lazada: 6
-        shopee: 1
+        shopee: 2
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.gFRxV

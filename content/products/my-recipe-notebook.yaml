@@ -69,11 +69,11 @@ variations:
         tiktok: 0
       floating:
         lazada: 5
-        shopee: 6
+        shopee: 5
         tiktok: 0
       sold:
         lazada: 23
-        shopee: 7
+        shopee: 8
         tiktok: 0
       promos: []
     - name: Cooking
