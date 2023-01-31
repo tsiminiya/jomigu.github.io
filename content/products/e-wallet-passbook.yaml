@@ -15,7 +15,7 @@ variations:
         lazada: 2
         shopee: 0
       sold:
-        lazada: 12
+        lazada: 17
         shopee: 2
       promos: []
     - name: Maya
@@ -29,7 +29,7 @@ variations:
         lazada: 2
         shopee: 0
       sold:
-        lazada: 6
+        lazada: 11
         shopee: 2
       promos: []
 link:
