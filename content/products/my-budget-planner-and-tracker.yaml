@@ -7,7 +7,7 @@ variations:
     - name: Floral
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
-      actual-stock: 3
+      actual-stock: 5
       stock:
         lazada: 15
         shopee: 26
