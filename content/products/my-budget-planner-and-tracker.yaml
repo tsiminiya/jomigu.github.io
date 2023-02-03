@@ -45,13 +45,13 @@ variations:
     - name: Piggy Bank
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
-      actual-stock: 9
+      actual-stock: 7
       stock:
-        lazada: 16
+        lazada: 14
         shopee: 28
         tiktok: 20
       floating:
-        lazada: 2
+        lazada: 4
         shopee: 0
         tiktok: 0
       sold:
