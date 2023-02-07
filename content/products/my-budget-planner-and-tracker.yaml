@@ -14,11 +14,11 @@ variations:
         tiktok: 19
       floating:
         lazada: 7
-        shopee: 4
+        shopee: 0
         tiktok: 1
       sold:
         lazada: 208
-        shopee: 32
+        shopee: 36
         tiktok: 2
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -28,18 +28,18 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 4
+      actual-stock: 3
       stock:
-        lazada: 24
+        lazada: 23
         shopee: 27
         tiktok: 20
       floating:
-        lazada: 5
-        shopee: 3
+        lazada: 6
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 47
-        shopee: 10
+        shopee: 11
         tiktok: 1
       promos: []
     - name: Piggy Bank
