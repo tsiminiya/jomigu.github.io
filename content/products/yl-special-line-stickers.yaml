@@ -35,10 +35,10 @@ variations:
       image: yl-special-line-stickers/yl-special-line-stickers_custom-60.png
       stock:
         lazada: 0
-        shopee: 23
+        shopee: 21
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 2
       sold:
         lazada: 6
         shopee: 7
