@@ -8,11 +8,11 @@ stock:
   shopee: 19
   tiktok: 20
 floating:
-  lazada: 3
+  lazada: 1
   shopee: 1
   tiktok: 0
 sold:
-  lazada: 0
+  lazada: 2
   shopee: 0
   tiktok: 0
 link:
