@@ -11,26 +11,32 @@ variations:
       stock:
         lazada: 18
         shopee: 43
+        tiktok: 20
       floating:
         lazada: 0
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 23
         shopee: 4
+        tiktok: 0
       promos: []
     - name: Maya
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_maya.png
-      actual-stock: 4
+      actual-stock: 2
       stock:
-        lazada: 30
+        lazada: 28
         shopee: 48
+        tiktok: 20
       floating:
-        lazada: 0
+        lazada: 2
         shopee: 0
+        tiktok: 0
       sold:
         lazada: 13
         shopee: 2
+        tiktok: 0
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.gFRxV

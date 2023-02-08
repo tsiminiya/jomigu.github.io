@@ -79,14 +79,14 @@ variations:
     - name: Cooking
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking.png
-      actual-stock: 1
+      actual-stock: 0
       stock:
         lazada: 0
-        shopee: 4
+        shopee: 0
         tiktok: 19
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
         tiktok: 1
       sold:
         lazada: 54
