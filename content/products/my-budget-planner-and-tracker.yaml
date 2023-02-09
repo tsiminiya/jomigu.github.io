@@ -28,13 +28,13 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 3
+      actual-stock: 2
       stock:
-        lazada: 23
+        lazada: 22
         shopee: 27
         tiktok: 20
       floating:
-        lazada: 3
+        lazada: 4
         shopee: 1
         tiktok: 0
       sold:

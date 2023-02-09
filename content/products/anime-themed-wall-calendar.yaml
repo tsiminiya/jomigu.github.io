@@ -9,13 +9,13 @@ variations:
         - name: Spy Family
           price: 90
           image: anime-themed-wall-calendar/anime-themed-wall-calendar_spy-family.png
-          actual-stock: 2
+          actual-stock: 1
           stock:
-            lazada: 17
+            lazada: 16
             shopee: 11
             tiktok: 20
           floating:
-            lazada: 0
+            lazada: 1
             shopee: 1
             tiktok: 0
           sold:
