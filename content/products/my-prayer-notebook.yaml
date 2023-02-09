@@ -9,11 +9,11 @@ stock:
   tiktok: 20
 floating:
   lazada: 1
-  shopee: 1
+  shopee: 0
   tiktok: 0
 sold:
   lazada: 2
-  shopee: 0
+  shopee: 1
   tiktok: 0
 link:
   lazada: https://s.lazada.com.ph/s.TUAzw
