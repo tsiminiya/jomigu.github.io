@@ -35,11 +35,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 4
+        shopee: 3
         tiktok: 0
       sold:
         lazada: 67
-        shopee: 32
+        shopee: 33
         tiktok: 0
       promos: []
     - name: Baking
@@ -62,7 +62,7 @@ variations:
     - name: Baking with 65 Sheets
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
-      actual-stock: 11
+      actual-stock: 13
       stock:
         lazada: 29
         shopee: 30
@@ -96,7 +96,7 @@ variations:
     - name: Cooking with 65 Sheets
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
-      actual-stock: 6
+      actual-stock: 8
       stock:
         lazada: 9
         shopee: 28
