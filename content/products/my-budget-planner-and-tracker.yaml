@@ -9,8 +9,8 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       actual-stock: 5
       stock:
-        lazada: 12
-        shopee: 25
+        lazada: 34
+        shopee: 28
         tiktok: 18
       floating:
         lazada: 2
@@ -30,8 +30,8 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
       actual-stock: 1
       stock:
-        lazada: 22
-        shopee: 27
+        lazada: 41
+        shopee: 32
         tiktok: 20
       floating:
         lazada: 4
@@ -47,8 +47,8 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
       actual-stock: 3
       stock:
-        lazada: 11
-        shopee: 26
+        lazada: 31
+        shopee: 31
         tiktok: 20
       floating:
         lazada: 1
