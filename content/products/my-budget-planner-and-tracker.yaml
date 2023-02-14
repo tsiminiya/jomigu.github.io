@@ -14,11 +14,11 @@ variations:
         tiktok: 18
       floating:
         lazada: 3
-        shopee: 1
+        shopee: 0
         tiktok: 2
       sold:
         lazada: 214
-        shopee: 36
+        shopee: 37
         tiktok: 2
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
