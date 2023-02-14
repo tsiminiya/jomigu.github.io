@@ -7,14 +7,14 @@ variations:
     - name: GCash
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
-      actual-stock: 4
+      actual-stock: 2
       stock:
         lazada: 35
-        shopee: 43
+        shopee: 41
         tiktok: 20
       floating:
         lazada: 3
-        shopee: 0
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 23
