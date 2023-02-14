@@ -7,17 +7,17 @@ variations:
     - name: Floral
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
-      actual-stock: 7
+      actual-stock: 11
       stock:
         lazada: 33
         shopee: 28
         tiktok: 18
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 0
         tiktok: 2
       sold:
-        lazada: 214
+        lazada: 217
         shopee: 37
         tiktok: 2
       promos:
@@ -34,11 +34,11 @@ variations:
         shopee: 32
         tiktok: 20
       floating:
-        lazada: 5
+        lazada: 2
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 50
+        lazada: 53
         shopee: 12
         tiktok: 1
       promos: []
@@ -51,11 +51,11 @@ variations:
         shopee: 31
         tiktok: 20
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 0
         tiktok: 0
       sold:
-        lazada: 16
+        lazada: 19
         shopee: 4
         tiktok: 0
       promos: []
