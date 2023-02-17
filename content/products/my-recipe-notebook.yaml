@@ -103,11 +103,11 @@ variations:
         tiktok: 0
       floating:
         lazada: 2
-        shopee: 1
+        shopee: 0
         tiktok: 0
       sold:
         lazada: 27
-        shopee: 4
+        shopee: 5
         tiktok: 0
       promos: []
 link:
