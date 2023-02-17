@@ -13,11 +13,11 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-waterproof.png
               actual-stock: 0
               stock:
-                lazada: 10
+                lazada: 8
                 shopee: 19
                 tiktok: 20
               floating:
-                lazada: 3
+                lazada: 5
                 shopee: 1
                 tiktok: 0
               sold:
@@ -30,11 +30,11 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_lowercase-waterproof.png
               actual-stock: 0
               stock:
-                lazada: 13
+                lazada: 11
                 shopee: 20
                 tiktok: 20
               floating:
-                lazada: 3
+                lazada: 5
                 shopee: 0
                 tiktok: 0
               sold:
