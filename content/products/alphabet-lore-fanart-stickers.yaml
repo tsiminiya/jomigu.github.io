@@ -13,16 +13,16 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-waterproof.png
               actual-stock: 0
               stock:
-                lazada: 8
+                lazada: 7
                 shopee: 19
                 tiktok: 20
               floating:
-                lazada: 5
-                shopee: 1
+                lazada: 6
+                shopee: 0
                 tiktok: 0
               sold:
                 lazada: 24
-                shopee: 0
+                shopee: 1
                 tiktok: 0
               promos: []
             - name: Lowercase
