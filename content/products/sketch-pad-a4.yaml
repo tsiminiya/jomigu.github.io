@@ -3,10 +3,10 @@ name: Sketch Pad 60 sheets A4 size 100 gsm
 featured: 'false'
 price: 160
 stock:
-  lazada: 0
-  shopee: 0
+  lazada: 14
+  shopee: 15
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 28

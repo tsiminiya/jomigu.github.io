@@ -9,11 +9,11 @@ variations:
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
       actual-stock: 0
       stock:
-        lazada: 30
+        lazada: 29
         shopee: 41
         tiktok: 20
       floating:
-        lazada: 2
+        lazada: 3
         shopee: 0
         tiktok: 0
       sold:
@@ -24,13 +24,13 @@ variations:
     - name: Maya
       price: 110
       image: e-wallet-passbook/e-wallet-passbook_maya.png
-      actual-stock: 2
+      actual-stock: 1
       stock:
-        lazada: 28
+        lazada: 27
         shopee: 48
         tiktok: 20
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
         tiktok: 0
       sold:
