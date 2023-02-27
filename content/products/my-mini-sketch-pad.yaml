@@ -1,0 +1,122 @@
+id: d2821f53-0e5a-4954-8eb1-4aab47a37c1f
+name: My Mini Sketch Pad with Fanart Cover
+featured: 'false'
+variations:
+  name: Design
+  options:
+    - name: Anya Forger
+      price: 105
+      image: my-mini-sketch-pad/my-mini-sketch-pad_anya-forger.png
+      actual-stock: 0
+      stock:
+        lazada: 20
+        shopee: 30
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 6
+        tiktok: 0
+      promos: []
+    - name: Yor Forger
+      price: 105
+      image: my-mini-sketch-pad/my-mini-sketch-pad_yor-forger.png
+      actual-stock: 0
+      stock:
+        lazada: 20
+        shopee: 30
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      promos: []
+    - name: Nezuko
+      price: 105
+      image: my-mini-sketch-pad/my-mini-sketch-pad_nezuko.png
+      actual-stock: 0
+      stock:
+        lazada: 20
+        shopee: 30
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      promos: []
+    - name: BTS Dynamite
+      price: 105
+      image: my-mini-sketch-pad/my-mini-sketch-pad_bts-dynamite.png
+      actual-stock: 0
+      stock:
+        lazada: 20
+        shopee: 30
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      promos: []
+    - name: LeBron and Luka
+      price: 105
+      image: my-mini-sketch-pad/my-mini-sketch-pad_lebron-and-luka.png
+      actual-stock: 0
+      stock:
+        lazada: 20
+        shopee: 30
+        tiktok: 20
+      floating:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      sold:
+        lazada: 0
+        shopee: 0
+        tiktok: 0
+      promos: []
+link:
+  lazada: https://s.lazada.com.ph/s.6dA8Y
+  shopee: https://shp.ee/g3ms9bi
+categories:
+  - a8c58908-d2be-45ae-9904-00176e6e1452
+images:
+  - my-mini-sketch-pad/my-mini-sketch-pad_01.png
+  - my-mini-sketch-pad/my-mini-sketch-pad_02.png
+  - my-mini-sketch-pad/my-mini-sketch-pad_03.png
+  - my-mini-sketch-pad/my-mini-sketch-pad_04.png
+sharing_image: my-mini-sketch-pad/my-mini-sketch-pad_sharing.png
+tags:
+  - sketchpad
+  - drawing
+  - sketching
+  - fanart
+description: |+
+  These sketch pads are made for kids and adults who have drawing and/or sketching as a hobby and, at the same time, fans of different Anime characters, NBA players, KPop idols and many more.
+
+  Specifications:
+  Size of the pad is A5 or 210mm x 148mm with 30 sheets of 100gsm white bond paper.
+  The fanart cover is made of 250gsm white cardstock printed with image we designed.
+
+  Available Designs:
+  * Anya Forger
+  * Yor Forger
+  * Nezuko
+  * BTS Dynamite
+  * LeBron and Luka
+
+  More designs will be available soon.
