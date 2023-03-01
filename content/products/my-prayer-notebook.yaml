@@ -2,17 +2,17 @@ id: 40fc8ed0-7ff2-41e7-9346-1e7d274892e4
 name: My Prayer Notebook
 featured: 'false'
 price: 200
-actual-stock: 1
+actual-stock: 0
 stock:
-  lazada: 11
+  lazada: 10
   shopee: 18
   tiktok: 20
 floating:
-  lazada: 6
+  lazada: 3
   shopee: 0
   tiktok: 0
 sold:
-  lazada: 3
+  lazada: 7
   shopee: 2
   tiktok: 0
 link:
