@@ -7,7 +7,7 @@ variations:
     - name: Planner and Stickers
       price: 346
       image: my-travel-planner/my-travel-planner_planner-and-stickers.png
-      actual-stock: 8
+      actual-stock: 6
       stock:
         lazada: 28
         shopee: 25
@@ -24,7 +24,7 @@ variations:
     - name: Mini Planner and Stickers
       price: 180
       image: my-travel-planner/my-travel-planner_mini-planner-and-stickers.png
-      actual-stock: 1
+      actual-stock: 2
       stock:
         lazada: 28
         shopee: 25
