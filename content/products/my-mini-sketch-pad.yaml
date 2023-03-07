@@ -9,11 +9,11 @@ variations:
       image: my-mini-sketch-pad/my-mini-sketch-pad_anya-forger.png
       actual-stock: 0
       stock:
-        lazada: 20
+        lazada: 19
         shopee: 30
         tiktok: 20
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 0
         tiktok: 0
       sold:
