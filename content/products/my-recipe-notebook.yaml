@@ -34,11 +34,11 @@ variations:
         shopee: 27
         tiktok: 20
       floating:
-        lazada: 10
+        lazada: 6
         shopee: 2
         tiktok: 0
       sold:
-        lazada: 71
+        lazada: 75
         shopee: 42
         tiktok: 0
       promos: []
@@ -68,11 +68,11 @@ variations:
         shopee: 43
         tiktok: 0
       floating:
-        lazada: 7
+        lazada: 5
         shopee: 2
         tiktok: 0
       sold:
-        lazada: 40
+        lazada: 42
         shopee: 21
         tiktok: 0
       promos: []
@@ -102,11 +102,11 @@ variations:
         shopee: 44
         tiktok: 0
       floating:
-        lazada: 13
+        lazada: 7
         shopee: 2
         tiktok: 0
       sold:
-        lazada: 31
+        lazada: 37
         shopee: 6
         tiktok: 0
       promos: []
