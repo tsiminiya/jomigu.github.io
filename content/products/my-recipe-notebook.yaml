@@ -98,7 +98,7 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
       actual-stock: 4
       stock:
-        lazada: 11
+        lazada: 33
         shopee: 44
         tiktok: 0
       floating:
