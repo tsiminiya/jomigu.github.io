@@ -9,11 +9,11 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       actual-stock: 0
       stock:
-        lazada: 34
+        lazada: 33
         shopee: 21
         tiktok: 18
       floating:
-        lazada: 13
+        lazada: 14
         shopee: 0
         tiktok: 0
       sold:
@@ -28,13 +28,13 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 3
+      actual-stock: 2
       stock:
-        lazada: 34
+        lazada: 33
         shopee: 31
         tiktok: 20
       floating:
-        lazada: 4
+        lazada: 5
         shopee: 1
         tiktok: 0
       sold:
@@ -45,14 +45,14 @@ variations:
     - name: Piggy Bank
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
-      actual-stock: 9
+      actual-stock: 8
       stock:
         lazada: 24
-        shopee: 30
+        shopee: 29
         tiktok: 20
       floating:
         lazada: 4
-        shopee: 1
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 22
