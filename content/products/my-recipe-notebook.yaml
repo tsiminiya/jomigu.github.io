@@ -28,13 +28,13 @@ variations:
     - name: Original with 65 Sheets
       price: 239
       image: my-recipe-notebook/my-recipe-notebook_original-65-sheets.png
-      actual-stock: 0
+      actual-stock: 4
       stock:
-        lazada: 18
+        lazada: 17
         shopee: 25
         tiktok: 20
       floating:
-        lazada: 7
+        lazada: 8
         shopee: 4
         tiktok: 0
       sold:
@@ -62,13 +62,13 @@ variations:
     - name: Baking with 65 Sheets
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
-      actual-stock: 5
+      actual-stock: 7
       stock:
-        lazada: 33
+        lazada: 32
         shopee: 43
         tiktok: 0
       floating:
-        lazada: 6
+        lazada: 7
         shopee: 0
         tiktok: 0
       sold:
@@ -96,13 +96,13 @@ variations:
     - name: Cooking with 65 Sheets
       price: 175
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
-      actual-stock: 3
+      actual-stock: 4
       stock:
-        lazada: 32
+        lazada: 30
         shopee: 44
         tiktok: 0
       floating:
-        lazada: 9
+        lazada: 11
         shopee: 1
         tiktok: 0
       sold:

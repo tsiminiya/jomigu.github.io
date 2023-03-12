@@ -7,14 +7,14 @@ variations:
     - name: Floral
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
-      actual-stock: 0
+      actual-stock: 10
       stock:
-        lazada: 33
-        shopee: 21
+        lazada: 32
+        shopee: 20
         tiktok: 18
       floating:
-        lazada: 14
-        shopee: 0
+        lazada: 15
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 224
@@ -28,7 +28,7 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 2
+      actual-stock: 12
       stock:
         lazada: 33
         shopee: 31
