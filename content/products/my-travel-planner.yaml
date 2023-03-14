@@ -7,14 +7,14 @@ variations:
     - name: Planner and Stickers
       price: 346
       image: my-travel-planner/my-travel-planner_planner-and-stickers.png
-      actual-stock: 6
+      actual-stock: 5
       stock:
         lazada: 28
-        shopee: 25
+        shopee: 24
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 4
