@@ -14,11 +14,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 2
-        shopee: 3
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 35
-        shopee: 8
+        shopee: 9
         tiktok: 0
       promos: []
     - name: Maya
