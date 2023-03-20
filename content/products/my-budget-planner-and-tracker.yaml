@@ -35,11 +35,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 3
-        shopee: 4
+        shopee: 3
         tiktok: 0
       sold:
         lazada: 60
-        shopee: 13
+        shopee: 14
         tiktok: 1
       promos: []
     - name: Piggy Bank
