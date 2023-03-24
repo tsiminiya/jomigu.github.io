@@ -24,10 +24,10 @@ variations:
     - name: Mini Planner and Stickers
       price: 180
       image: my-travel-planner/my-travel-planner_mini-planner-and-stickers.png
-      actual-stock: 1
+      actual-stock: 0
       stock:
         lazada: 27
-        shopee: 25
+        shopee: 26
         tiktok: 20
       floating:
         lazada: 0
