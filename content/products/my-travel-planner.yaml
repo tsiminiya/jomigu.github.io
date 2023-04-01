@@ -26,11 +26,11 @@ variations:
       image: my-travel-planner/my-travel-planner_mini-planner-and-stickers.png
       actual-stock: 0
       stock:
-        lazada: 27
+        lazada: 26
         shopee: 26
         tiktok: 20
       floating:
-        lazada: 0
+        lazada: 1
         shopee: 1
         tiktok: 0
       sold:

@@ -64,11 +64,11 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
       actual-stock: 0
       stock:
-        lazada: 25
+        lazada: 23
         shopee: 35
         tiktok: 0
       floating:
-        lazada: 1
+        lazada: 3
         shopee: 1
         tiktok: 0
       sold:
@@ -98,11 +98,11 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
       actual-stock: 0
       stock:
-        lazada: 24
+        lazada: 21
         shopee: 40
         tiktok: 0
       floating:
-        lazada: 2
+        lazada: 5
         shopee: 1
         tiktok: 0
       sold:
