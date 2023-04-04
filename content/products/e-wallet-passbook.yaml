@@ -17,8 +17,8 @@ variations:
         shopee: 2
         tiktok: 0
       sold:
-        lazada: 38
-        shopee: 9
+        lazada: 40
+        shopee: 12
         tiktok: 0
       promos: []
     - name: Maya
@@ -26,7 +26,7 @@ variations:
       image: e-wallet-passbook/e-wallet-passbook_maya.png
       actual-stock: 0
       stock:
-        lazada: 21
+        lazada: 20
         shopee: 43
         tiktok: 20
       floating:
@@ -34,7 +34,7 @@ variations:
         shopee: 0
         tiktok: 0
       sold:
-        lazada: 21
+        lazada: 22
         shopee: 7
         tiktok: 0
       promos: []

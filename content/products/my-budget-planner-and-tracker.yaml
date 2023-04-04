@@ -9,16 +9,16 @@ variations:
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_floral.png
       actual-stock: 0
       stock:
-        lazada: 22
-        shopee: 36
+        lazada: 20
+        shopee: 35
         tiktok: 18
       floating:
-        lazada: 6
+        lazada: 2
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 241
-        shopee: 48
+        lazada: 248
+        shopee: 49
         tiktok: 4
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -28,35 +28,35 @@ variations:
     - name: Pie Graph
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_pie-graph.png
-      actual-stock: 9
+      actual-stock: 8
       stock:
-        lazada: 30
+        lazada: 29
         shopee: 28
         tiktok: 20
       floating:
-        lazada: 1
-        shopee: 3
+        lazada: 2
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 62
-        shopee: 14
+        shopee: 15
         tiktok: 1
       promos: []
     - name: Piggy Bank
       price: 348
       image: my-budget-planner-and-tracker/my-budget-planner-and-tracker_piggy-bank.png
-      actual-stock: 4
+      actual-stock: 2
       stock:
         lazada: 21
-        shopee: 28
+        shopee: 26
         tiktok: 20
       floating:
         lazada: 4
-        shopee: 1
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 25
-        shopee: 6
+        shopee: 8
         tiktok: 0
       promos: []
 link:
@@ -90,7 +90,7 @@ description: |+
   * Flexible - You may plan your budget per month, bi-weekly, or weekly.
   * Elegant Design
 
-  Around 84 A5-size leaves at 70gsm each with 230gsm glossy photo paper cover
+  Around 84 A5-size leaves at 70gsm each with 230gsm matte photo paper cover
   Twin Loop wire-bound
 
   24 x Budget Pages

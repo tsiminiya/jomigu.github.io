@@ -49,15 +49,15 @@ variations:
               image: alphabet-lore-fanart-stickers/alphabet-lore-fanart-stickers_uppercase-scratch-proof.png
               actual-stock: 0
               stock:
-                lazada: 25
+                lazada: 22
                 shopee: 20
                 tiktok: 20
               floating:
-                lazada: 4
+                lazada: 5
                 shopee: 0
                 tiktok: 0
               sold:
-                lazada: 43
+                lazada: 45
                 shopee: 0
                 tiktok: 0
               promos: []
