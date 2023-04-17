@@ -10,11 +10,11 @@ variations:
       actual-stock: 0
       stock:
         lazada: 30
-        shopee: 30
+        shopee: 29
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 0
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 89
@@ -31,11 +31,11 @@ variations:
       actual-stock: 0
       stock:
         lazada: 11
-        shopee: 17
+        shopee: 16
         tiktok: 20
       floating:
         lazada: 2
-        shopee: 0
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 87
@@ -47,12 +47,12 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       actual-stock: 0
       stock:
-        lazada: 30
-        shopee: 30
+        lazada: 29
+        shopee: 29
         tiktok: 16
       floating:
-        lazada: 0
-        shopee: 0
+        lazada: 1
+        shopee: 1
         tiktok: 1
       sold:
         lazada: 99
@@ -64,12 +64,12 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking-65-sheets.png
       actual-stock: 0
       stock:
-        lazada: 23
-        shopee: 33
+        lazada: 20
+        shopee: 31
         tiktok: 0
       floating:
-        lazada: 0
-        shopee: 2
+        lazada: 3
+        shopee: 4
         tiktok: 0
       sold:
         lazada: 60
@@ -82,11 +82,11 @@ variations:
       actual-stock: 0
       stock:
         lazada: 30
-        shopee: 30
+        shopee: 29
         tiktok: 19
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 2
         tiktok: 1
       sold:
         lazada: 59
@@ -98,12 +98,12 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_cooking-65-sheets.png
       actual-stock: 0
       stock:
-        lazada: 21
-        shopee: 39
+        lazada: 17
+        shopee: 36
         tiktok: 0
       floating:
-        lazada: 0
-        shopee: 0
+        lazada: 4
+        shopee: 3
         tiktok: 0
       sold:
         lazada: 58
