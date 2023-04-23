@@ -14,11 +14,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 1
+        shopee: 0
         tiktok: 0
       sold:
         lazada: 89
-        shopee: 37
+        shopee: 38
         tiktok: 2
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -35,11 +35,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 2
-        shopee: 1
+        shopee: 0
         tiktok: 0
       sold:
         lazada: 87
-        shopee: 57
+        shopee: 58
         tiktok: 0
       promos: []
     - name: Baking
@@ -52,12 +52,12 @@ variations:
         tiktok: 16
       floating:
         lazada: 1
-        shopee: 1
-        tiktok: 1
+        shopee: 0
+        tiktok: 0
       sold:
         lazada: 99
-        shopee: 22
-        tiktok: 6
+        shopee: 23
+        tiktok: 7
       promos: []
     - name: Baking with 65 Sheets
       price: 175
@@ -69,11 +69,11 @@ variations:
         tiktok: 0
       floating:
         lazada: 1
-        shopee: 1
+        shopee: 0
         tiktok: 0
       sold:
         lazada: 62
-        shopee: 34
+        shopee: 35
         tiktok: 0
       promos: []
     - name: Cooking
@@ -86,11 +86,11 @@ variations:
         tiktok: 19
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 1
         tiktok: 1
       sold:
         lazada: 59
-        shopee: 13
+        shopee: 14
         tiktok: 2
       promos: []
     - name: Cooking with 65 Sheets
@@ -103,11 +103,11 @@ variations:
         tiktok: 0
       floating:
         lazada: 3
-        shopee: 3
+        shopee: 2
         tiktok: 0
       sold:
         lazada: 59
-        shopee: 12
+        shopee: 13
         tiktok: 0
       promos: []
 link:
