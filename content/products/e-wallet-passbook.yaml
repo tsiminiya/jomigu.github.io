@@ -9,7 +9,7 @@ variations:
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
       actual-stock: 0
       stock:
-        lazada: 9
+        lazada: 20
         shopee: 32
         tiktok: 20
       floating:
