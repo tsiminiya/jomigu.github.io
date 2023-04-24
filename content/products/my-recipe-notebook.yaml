@@ -47,11 +47,11 @@ variations:
       image: my-recipe-notebook/my-recipe-notebook_baking.png
       actual-stock: 0
       stock:
-        lazada: 29
+        lazada: 28
         shopee: 29
         tiktok: 16
       floating:
-        lazada: 1
+        lazada: 2
         shopee: 0
         tiktok: 0
       sold:
