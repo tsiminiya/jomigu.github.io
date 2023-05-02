@@ -50,11 +50,11 @@ variations:
               actual-stock: 0
               stock:
                 lazada: 21
-                shopee: 20
+                shopee: 18
                 tiktok: 20
               floating:
                 lazada: 2
-                shopee: 0
+                shopee: 2
                 tiktok: 0
               sold:
                 lazada: 49
@@ -67,11 +67,11 @@ variations:
               actual-stock: 0
               stock:
                 lazada: 30
-                shopee: 20
+                shopee: 18
                 tiktok: 20
               floating:
                 lazada: 6
-                shopee: 0
+                shopee: 2
                 tiktok: 0
               sold:
                 lazada: 14
