@@ -9,12 +9,12 @@ variations:
       image: e-wallet-passbook/e-wallet-passbook_gcash.png
       actual-stock: 0
       stock:
-        lazada: 37
-        shopee: 26
+        lazada: 35
+        shopee: 23
         tiktok: 20
       floating:
-        lazada: 0
-        shopee: 4
+        lazada: 2
+        shopee: 7
         tiktok: 0
       sold:
         lazada: 68
@@ -26,12 +26,12 @@ variations:
       image: e-wallet-passbook/e-wallet-passbook_maya.png
       actual-stock: 0
       stock:
-        lazada: 20
-        shopee: 41
+        lazada: 19
+        shopee: 40
         tiktok: 20
       floating:
-        lazada: 0
-        shopee: 2
+        lazada: 1
+        shopee: 3
         tiktok: 0
       sold:
         lazada: 25
