@@ -4,10 +4,10 @@ featured: 'false'
 price: 160
 actual-stock: 0
 stock:
-  lazada: 38
+  lazada: 37
   shopee: 45
 floating:
-  lazada: 0
+  lazada: 1
   shopee: 0
 sold:
   lazada: 34
