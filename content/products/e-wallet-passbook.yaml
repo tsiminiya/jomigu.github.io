@@ -31,11 +31,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 3
-        shopee: 3
+        shopee: 0
         tiktok: 0
       sold:
         lazada: 25
-        shopee: 7
+        shopee: 11
         tiktok: 0
       promos: []
 link:
