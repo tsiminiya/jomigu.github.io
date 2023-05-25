@@ -31,11 +31,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 4
-        shopee: 6
+        shopee: 7
         tiktok: 0
       promos: []
     - name: Stickers

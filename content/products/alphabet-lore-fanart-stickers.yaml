@@ -53,12 +53,12 @@ variations:
                 shopee: 18
                 tiktok: 20
               floating:
-                lazada: 2
-                shopee: 2
+                lazada: 0
+                shopee: 1
                 tiktok: 0
               sold:
-                lazada: 49
-                shopee: 0
+                lazada: 55
+                shopee: 1
                 tiktok: 0
               promos: []
             - name: Lowercase
@@ -70,12 +70,12 @@ variations:
                 shopee: 18
                 tiktok: 20
               floating:
-                lazada: 8
-                shopee: 2
+                lazada: 7
+                shopee: 1
                 tiktok: 0
               sold:
-                lazada: 14
-                shopee: 0
+                lazada: 15
+                shopee: 1
                 tiktok: 0
               promos: []
 link:

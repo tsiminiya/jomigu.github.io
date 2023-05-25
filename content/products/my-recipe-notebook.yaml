@@ -18,7 +18,7 @@ variations:
         tiktok: 0
       sold:
         lazada: 89
-        shopee: 38
+        shopee: 39
         tiktok: 2
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -34,12 +34,12 @@ variations:
         shopee: 15
         tiktok: 20
       floating:
-        lazada: 2
-        shopee: 1
+        lazada: 1
+        shopee: 0
         tiktok: 0
       sold:
-        lazada: 87
-        shopee: 58
+        lazada: 88
+        shopee: 59
         tiktok: 0
       promos: []
     - name: Baking
@@ -51,11 +51,11 @@ variations:
         shopee: 28
         tiktok: 16
       floating:
-        lazada: 3
+        lazada: 0
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 101
+        lazada: 105
         shopee: 23
         tiktok: 7
       promos: []
@@ -68,13 +68,13 @@ variations:
         shopee: 29
         tiktok: 19
       floating:
-        lazada: 3
-        shopee: 1
-        tiktok: 1
-      sold:
-        lazada: 65
-        shopee: 37
+        lazada: 0
+        shopee: 0
         tiktok: 0
+      sold:
+        lazada: 72
+        shopee: 38
+        tiktok: 1
       promos: []
     - name: Cooking
       price: 175
@@ -102,11 +102,11 @@ variations:
         shopee: 36
         tiktok: 20
       floating:
-        lazada: 1
+        lazada: 0
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 64
+        lazada: 67
         shopee: 14
         tiktok: 0
       promos: []
