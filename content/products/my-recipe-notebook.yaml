@@ -39,7 +39,7 @@ variations:
         tiktok: 0
       sold:
         lazada: 88
-        shopee: 61
+        shopee: 62
         tiktok: 0
       promos: []
     - name: Baking
@@ -90,7 +90,7 @@ variations:
         tiktok: 1
       sold:
         lazada: 59
-        shopee: 15
+        shopee: 16
         tiktok: 2
       promos: []
     - name: Cooking with 65 Sheets
