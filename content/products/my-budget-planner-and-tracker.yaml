@@ -17,8 +17,8 @@ variations:
         shopee: 0
         tiktok: 0
       sold:
-        lazada: 264
-        shopee: 62
+        lazada: 267
+        shopee: 64
         tiktok: 4
       promos:
         - id: c22d0d17-f8a6-4a99-92fa-cda96fa1d5d6
@@ -35,11 +35,11 @@ variations:
         tiktok: 20
       floating:
         lazada: 0
-        shopee: 2
+        shopee: 1
         tiktok: 0
       sold:
         lazada: 67
-        shopee: 19
+        shopee: 20
         tiktok: 1
       promos: []
     - name: Piggy Bank
@@ -51,11 +51,11 @@ variations:
         shopee: 25
         tiktok: 20
       floating:
-        lazada: 2
+        lazada: 1
         shopee: 1
         tiktok: 0
       sold:
-        lazada: 29
+        lazada: 30
         shopee: 10
         tiktok: 0
       promos: []

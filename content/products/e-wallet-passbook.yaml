@@ -17,9 +17,9 @@ variations:
         shopee: 0
         tiktok: 0
       sold:
-        lazada: 80
+        lazada: 81
         shopee: 28
-        tiktok: 0
+        tiktok: 1
       promos: []
     - name: Maya
       price: 110
@@ -34,9 +34,9 @@ variations:
         shopee: 0
         tiktok: 0
       sold:
-        lazada: 29
+        lazada: 30
         shopee: 12
-        tiktok: 0
+        tiktok: 1
       promos: []
 link:
   lazada: https://s.lazada.com.ph/s.gFRxV
